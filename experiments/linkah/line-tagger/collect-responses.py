@@ -52,5 +52,6 @@ def main(work_dir):
         json.dump(output_dict, f, indent=4)
 
 if __name__ == "__main__":
-    work_dir = argv[1]
+    # work_dir = argv[1]
+    work_dir = "work"
     main(work_dir)

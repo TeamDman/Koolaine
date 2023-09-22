@@ -35,5 +35,6 @@ def main(work_dir):
         run_request(request_payload, n, work_dir)
 
 if __name__ == "__main__":
-    work_dir = sys.argv[1]
+    # work_dir = sys.argv[1]
+    work_dir = "work"
     main(work_dir)

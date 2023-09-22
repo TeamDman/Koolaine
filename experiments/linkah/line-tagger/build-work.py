@@ -35,6 +35,9 @@ def write_to_rest_file(requests_list, rest_file_path):
             rest_file.write("###\n")
 
 def process_line(line, n, work_dir):
+    url, notes = line.split(",", 1)
+
+
     request_payload = {
         "method": "POST",
         "url": "http://127.0.0.1:5000/api/v1/generate",
@@ -48,7 +51,6 @@ def process_line(line, n, work_dir):
     }
 
     import jinja2
-    url, notes = line.split(",", 1)
     prompt = jinja2.Template(open('prompt-template.jinja').read()).render(
         url=url,
         notes=notes
@@ -103,6 +105,6 @@ def main(input_file_path, work_dir):
             f.write("###\n")
 
 if __name__ == "__main__":
-    input_file_path = sys.argv[1]
-    work_dir = sys.argv[2]
+    input_file_path = "links.txt" #sys.argv[1]
+    work_dir = "work" # sys.argv[2]
     main(input_file_path, work_dir)
