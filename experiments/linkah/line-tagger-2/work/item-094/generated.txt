@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://map.greenfieldmc.net/
+Notes: GreenfieldMC
+
+### Response:
+{"tags":["GreenfieldMC", "Map", "Interesting Links"]}

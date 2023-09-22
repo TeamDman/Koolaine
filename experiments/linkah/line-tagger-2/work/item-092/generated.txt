@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://www.readthemaple.com/provincial-landlords/
+Notes: Find out if your provincial rep is invested in real estate
+
+### Response:
+{"tags":["real estate", "investment property", "property developer", "landlord", "mortgage", "rental income", "appraisal", "home inspection", "home appraisal"]}

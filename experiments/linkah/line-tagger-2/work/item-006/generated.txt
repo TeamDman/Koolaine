@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://larsjung.de/h5ai/
+Notes: https://larsjung.de/h5ai/
+
+### Response:
+{"tags":["interest", "finance", "bank", "money", "loan", "credit", "debt", "savings", "accounting", "investment"]}

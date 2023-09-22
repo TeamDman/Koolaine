@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: javascript:var i
+Notes: s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);,Katamari (save as bookmark)
+
+### Response:
+{"tags":["javascript", "var", "html", "css", "ajax", "bookmark", "link", "source"]}

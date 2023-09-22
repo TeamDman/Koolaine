@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://samy.pl/slipstream/
+Notes: https://samy.pl/slipstream/
+
+### Response:
+{"tags":["slipstream", "bank", "interest", "links", "investment", "stocks", "banking", "financial", "finance"]}

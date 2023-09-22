@@ -1,0 +1,8 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://wordshake.com/boggle
+Notes: Boggle
+
+### Response:
+{"tags":["wordplay", "crosswords", "anagrams", "haikus", "riddles", "scrabble", "wordplay", "crosswords", "anagrams", "haikus"],
+"links": [{"

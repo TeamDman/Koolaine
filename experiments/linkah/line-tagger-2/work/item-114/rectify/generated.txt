@@ -1,0 +1,6 @@
+### Instruction:
+Make the following valid JSON by fixing any errors and removing all keys except for "tags":
+{"tags":["anime", "animals", "adventure", "action", "athletics", "award-winning", "animals/animals", "adventure/adventure", "adventure/adventure"], 
+"an
+### Response:
+{"tags":["animal", "adventure"]}

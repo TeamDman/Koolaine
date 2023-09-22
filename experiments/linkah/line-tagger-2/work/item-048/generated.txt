@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://www.ionos.com/
+Notes: ionos
+
+### Response:
+{"tags":["bank", "interests", "links", "bank-website", "bank-about", "bank-homepage", "bank-portfolio", "bank-news", "bank-products"]}

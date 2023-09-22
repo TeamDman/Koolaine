@@ -1,0 +1,5 @@
+### Instruction:
+Make the following valid JSON by fixing any errors and removing all keys except for "tags":
+{"tags":["mosaic", "streaming", "game", "games", "streaming-mosaic", "streaming-game", "streaming-streamers", "streaming-streaming-game", "streaming-streamers
+### Response:
+{"tags":["mosaic", "streaming", "game", "games"]}

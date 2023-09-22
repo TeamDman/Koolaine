@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/
+Notes: Cloud adoption will fail because of the skills gap
+
+### Response:
+{"tags":["cloud","skillsgap"]}

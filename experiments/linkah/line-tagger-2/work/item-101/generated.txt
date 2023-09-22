@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://alogs.space/robowaifu/res/15630.html
+Notes: Community working on robot waifus
+
+### Response:
+{"tags":["community", "working", "on", "robot", "waifus"]}

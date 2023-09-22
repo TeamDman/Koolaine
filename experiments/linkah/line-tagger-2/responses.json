@@ -1,0 +1,1444 @@
+[
+    {
+        "url": "http://localhost:5173/",
+        "tags": [
+            "home"
+        ]
+    },
+    {
+        "url": "https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/",
+        "tags": [
+            "cloud",
+            "skillsgap"
+        ]
+    },
+    {
+        "url": "https://www.conventionalcommits.org/en/v1.0.0-beta.2/",
+        "tags": [
+            "investment",
+            "finance",
+            "stocks",
+            "bonds",
+            "real estate",
+            "cryptocurrency",
+            "merger and acquisition",
+            "calendar",
+            "calendar events"
+        ]
+    },
+    {
+        "url": "https://elements-demo.stoplight.io/#/operations/get-todos",
+        "tags": [
+            "openapi",
+            "user",
+            "search",
+            "tag",
+            "url",
+            "location",
+            "date"
+        ]
+    },
+    {
+        "url": "https://www.cs.columbia.edu/~hgs/etc/writing-bugs.html",
+        "tags": [
+            "bug",
+            "error",
+            "issue",
+            "procedure",
+            "task",
+            "process",
+            "problem",
+            "resolution"
+        ]
+    },
+    {
+        "url": "https://larsjung.de/h5ai/",
+        "tags": [
+            "interest",
+            "finance",
+            "bank",
+            "money",
+            "loan",
+            "credit",
+            "debt",
+            "savings",
+            "accounting",
+            "investment"
+        ]
+    },
+    {
+        "url": "https://swagitda.com/blog/posts/the-security-obstructionism-secobs-market/",
+        "tags": [
+            "security",
+            "obstructionism",
+            "secobs"
+        ]
+    },
+    {
+        "url": "https://caf-shib2ops.ca/CoreServices/",
+        "tags": [
+            "bank",
+            "core",
+            "services",
+            "xml"
+        ]
+    },
+    {
+        "url": "http://sol.gfxile.net/dontask.html",
+        "tags": [
+            "bank",
+            "notes"
+        ]
+    },
+    {
+        "url": "https://www.devever.net/~hl/xml",
+        "tags": [
+            "article",
+            "div",
+            "img",
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "p",
+            "ul"
+        ]
+    },
+    {
+        "url": "https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/",
+        "tags": [
+            "python",
+            "java",
+            "javascript",
+            "ruby",
+            "php",
+            "c#",
+            "swift",
+            "fortran",
+            "fortran77",
+            "lisp"
+        ]
+    },
+    {
+        "url": "https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/",
+        "tags": [
+            "Python",
+            "Programming",
+            "Code",
+            "Software Development",
+            "Web Development",
+            "Coding",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "url": "https://whythefuckwasibreached.com/",
+        "tags": [
+            "bank",
+            "links",
+            "interesting",
+            "website",
+            "article",
+            "post",
+            "story",
+            "article",
+            "blog",
+            "article"
+        ]
+    },
+    {
+        "url": "https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects",
+        "tags": [
+            "inspect-objects",
+            "win32"
+        ]
+    },
+    {
+        "url": "http://www.drpetter.se/project_sfxr.html",
+        "tags": [
+            "search",
+            "category",
+            "product",
+            "review",
+            "user-generated"
+        ]
+    },
+    {
+        "url": "https://rete.js.org/#/examples/minimap",
+        "tags": [
+            "minimap",
+            "minimap-ui"
+        ]
+    },
+    {
+        "url": "https://twitter.com/Oracle/status/658433772904423424?s=19&fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q",
+        "tags": [
+            "user",
+            "interest",
+            "followers",
+            "follower",
+            "following",
+            "likes",
+            "shares",
+            "retweets",
+            "comments"
+        ]
+    },
+    {
+        "url": "https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276",
+        "tags": [
+            "article",
+            "aside",
+            "blockquote",
+            "nav",
+            "ul",
+            "table",
+            "tr",
+            "td",
+            "th"
+        ]
+    },
+    {
+        "url": "https://samy.pl/slipstream/",
+        "tags": [
+            "slipstream",
+            "bank",
+            "interest",
+            "links",
+            "investment",
+            "stocks",
+            "banking",
+            "financial",
+            "finance"
+        ]
+    },
+    {
+        "url": "https://github.com/samyk/drawio",
+        "tags": [
+            "github",
+            "github.com",
+            "samyk"
+        ]
+    },
+    {
+        "url": "https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js",
+        "tags": [
+            "github",
+            "javascript",
+            "react",
+            "nodejs",
+            "angular",
+            "jquery",
+            "vue",
+            "scripting",
+            "dragonbones"
+        ]
+    },
+    {
+        "url": "https://gitlab.com/kokubunji",
+        "tags": [
+            "github",
+            "github.io"
+        ]
+    },
+    {
+        "url": "https://gitlab.com/robowaifudev/TalkToGPT2",
+        "tags": [
+            "github",
+            "python",
+            "numpy",
+            "pandas",
+            "tensorflow",
+            "keras",
+            "pytorch",
+            "scikit-learn",
+            "openai"
+        ]
+    },
+    {
+        "url": "https://www.google.com/search?q=sankey+diagram",
+        "tags": [
+            "Sankey Diagram"
+        ]
+    },
+    {
+        "url": "http://www.catb.org/~esr/faqs/smart-questions.html",
+        "tags": [
+            "Category",
+            "Question",
+            "Answer"
+        ]
+    },
+    {
+        "url": "http://tppidev.github.io/secret/",
+        "tags": [
+            "audio",
+            "secret"
+        ]
+    },
+    {
+        "url": "https://caf-shib2ops.ca/CoreServices/",
+        "tags": [
+            "interests",
+            "core_services"
+        ]
+    },
+    {
+        "url": "https://louisabraham.github.io/articles/hack-fb-messenger-1.html",
+        "tags": [
+            "article",
+            "hack",
+            "fb",
+            "messenger",
+            "fb",
+            "messenger",
+            "hack",
+            "fb",
+            "messenger",
+            "hack"
+        ]
+    },
+    {
+        "url": "https://developer.roblox.com/en-us/articles/BrickColor-Codes",
+        "tags": [
+            "article",
+            "article",
+            "article",
+            "article",
+            "article",
+            "article",
+            "article",
+            "article",
+            "article",
+            "article"
+        ]
+    },
+    {
+        "url": "http://www.shadyurl.com/",
+        "tags": [
+            "minify",
+            "shady"
+        ]
+    },
+    {
+        "url": "https://ruffle.rs/",
+        "tags": [
+            "bank",
+            "links",
+            "interest",
+            "flashplayer"
+        ]
+    },
+    {
+        "url": "http://sigbovik.org/",
+        "tags": [
+            "link",
+            "search",
+            "interest",
+            "articles",
+            "news",
+            "business",
+            "economy",
+            "stocks",
+            "stocks and finance",
+            "investment"
+        ]
+    },
+    {
+        "url": "https://huggingface.co/",
+        "tags": [
+            "AI",
+            "ML",
+            "Natural Language Processing",
+            "Machine Learning",
+            "Deep Learning",
+            "Neural Networks",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "url": "https://www.artbreeder.com/",
+        "tags": [
+            "Art",
+            "Artwork",
+            "Artistic",
+            "Artful",
+            "Artistic",
+            "Artistic",
+            "Art",
+            "Art",
+            "Art",
+            "Art"
+        ]
+    },
+    {
+        "url": "https://sizeof.cat/",
+        "tags": [
+            "tech blog",
+            "sizeof cat"
+        ]
+    },
+    {
+        "url": "https://syncthing.net/",
+        "tags": [
+            "interest",
+            "borrow",
+            "loan",
+            "mortgage",
+            "credit",
+            "debt",
+            "finance",
+            "savings",
+            "investment",
+            "bank"
+        ]
+    },
+    {
+        "url": "https://cubic-bezier.com/",
+        "tags": [
+            "bounds",
+            "intersection",
+            "curve",
+            "bezier",
+            "bezier curve",
+            "curve bezier",
+            "curve-point",
+            "curve-line",
+            "curve-polygon"
+        ]
+    },
+    {
+        "url": "https://www.mythic-beasts.com/servers/virtual/",
+        "tags": [
+            "mythics",
+            "beast"
+        ]
+    },
+    {
+        "url": "https://www.reddit.com/r/selfhosted/comments/zujp7u/should_i_switch_from_1password_to_the_self_hosted/j1l83ed/",
+        "tags": [
+            "selfhosted",
+            "1password",
+            "password",
+            "security",
+            "privacy",
+            "protection",
+            "safeguard",
+            "convenience",
+            "efficiency"
+        ]
+    },
+    {
+        "url": "https://www.racknerd.com/BlackFriday/",
+        "tags": [
+            "BlackFriday",
+            "Racknerd"
+        ]
+    },
+    {
+        "url": "https://tailscale.com/kb/1077/secure-server-ubuntu-18-04/",
+        "tags": [
+            "Tailscale",
+            "Ubuntu 18.04"
+        ]
+    },
+    {
+        "url": "https://www.digitalocean.com/",
+        "tags": [
+            "bank",
+            "financial",
+            "investment",
+            "saving",
+            "loan",
+            "mortgage",
+            "credit",
+            "debt",
+            "banking"
+        ]
+    },
+    {
+        "url": "https://www.vultr.com/",
+        "tags": [
+            "interest",
+            "vultr",
+            "links",
+            "search",
+            "paypal",
+            "e-commerce",
+            "social media",
+            "email",
+            "paypal_checkout"
+        ]
+    },
+    {
+        "url": "https://www.linode.com/",
+        "tags": [
+            "bank",
+            "interests",
+            "links",
+            "articles",
+            "posts",
+            "tweets",
+            "comments",
+            "feedback",
+            "reviews"
+        ]
+    },
+    {
+        "url": "https://www.ovh.com/ca/en/",
+        "tags": [
+            "bank",
+            "interests",
+            "links",
+            "articles",
+            "posts",
+            "ads",
+            "website",
+            "social media",
+            "news"
+        ]
+    },
+    {
+        "url": "https://www.namecheap.com/",
+        "tags": [
+            "bank",
+            "interests",
+            "links",
+            "search",
+            "products",
+            "affordable",
+            "discounts",
+            "deals",
+            "prices",
+            "reviews"
+        ]
+    },
+    {
+        "url": "https://www.gandi.net/en",
+        "tags": [
+            "bank",
+            "links",
+            "interests",
+            "articles",
+            "posts",
+            "website",
+            "portfolio",
+            "about",
+            "contact"
+        ]
+    },
+    {
+        "url": "https://www.ionos.com/",
+        "tags": [
+            "bank",
+            "interests",
+            "links",
+            "bank-website",
+            "bank-about",
+            "bank-homepage",
+            "bank-portfolio",
+            "bank-news",
+            "bank-products"
+        ]
+    },
+    {
+        "url": "https://www.hostinger.com/",
+        "tags": [
+            "interest",
+            "bank",
+            "link",
+            "financial",
+            "investment",
+            "credit",
+            "loan",
+            "mortgage",
+            "savings",
+            "account"
+        ]
+    },
+    {
+        "url": "https://www.hostgator.com/",
+        "tags": [
+            "interest",
+            "bank"
+        ]
+    },
+    {
+        "url": "https://www.hostwinds.com/",
+        "tags": [
+            "interest",
+            "financial news",
+            "stocks and markets",
+            "technology",
+            "entrepreneurship",
+            "startups",
+            "venture capital",
+            "funding",
+            "investment advice",
+            "banks"
+        ]
+    },
+    {
+        "url": "https://www.hostpapa.com/",
+        "tags": [
+            "user",
+            "search",
+            "link",
+            "interest",
+            "banking"
+        ]
+    },
+    {
+        "url": "https://www.bluehost.com/",
+        "tags": [
+            "users",
+            "bank",
+            "links",
+            "interests"
+        ]
+    },
+    {
+        "url": "https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A",
+        "tags": [
+            "reinforcement",
+            "learning",
+            "cs285"
+        ]
+    },
+    {
+        "url": "https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZCRwoyGxvQkqVrZgDQi4m-5&index=26",
+        "tags": [
+            "reinforcement_learning",
+            "deep_learning",
+            "neural_networks",
+            "machine_learning",
+            "artificial_intelligence",
+            "data_science",
+            "statistics",
+            "pattern_recognition",
+            "computer_vision"
+        ]
+    },
+    {
+        "url": "https://comeonandsl.am/",
+        "tags": [
+            "interest",
+            "clickbait",
+            "funny",
+            "entertaining",
+            "awesome",
+            "exciting",
+            "amazing",
+            "cool",
+            "awesome",
+            "interesting"
+        ]
+    },
+    {
+        "url": "https://musicforprogramming.net/latest/",
+        "tags": [
+            "links",
+            "music",
+            "programming"
+        ]
+    },
+    {
+        "url": "https://hypermammut.sourceforge.net/paulstretch/",
+        "tags": [
+            "sound",
+            "music",
+            "harmony",
+            "rhythms",
+            "instruments",
+            "sounds",
+            "melodies",
+            "chords",
+            "notes"
+        ]
+    },
+    {
+        "url": "https://favoritemusic.guru/",
+        "tags": [
+            "short",
+            "medium",
+            "long"
+        ]
+    },
+    {
+        "url": "https://eternalbox.dev/jukebox_go.html?id=1nS12P1Ely8F4tzeXPMsYr",
+        "tags": [
+            "bank",
+            "links"
+        ]
+    },
+    {
+        "url": "https://soundcloud.com/flandre-sdm",
+        "tags": [
+            "sound",
+            "music",
+            "playlist",
+            "radio",
+            "streaming",
+            "songs",
+            "artists",
+            "albums",
+            "lists"
+        ]
+    },
+    {
+        "url": "https://www.reddit.com/r/norulesmusic2/",
+        "tags": [
+            "music",
+            "norulessong"
+        ]
+    },
+    {
+        "url": "https://www.reddit.com/r/progmetal/comments/bdlv9q/a_small_guide_to_get_into_prog_metal/",
+        "tags": [
+            "progmetal",
+            "technology",
+            "computer science",
+            "programming",
+            "coding",
+            "software development",
+            "game design",
+            "web development",
+            "UI/UX design"
+        ]
+    },
+    {
+        "url": "http://miya.nipah.moe:81/public/",
+        "tags": [
+            "user",
+            "search",
+            "filter",
+            "tag"
+        ]
+    },
+    {
+        "url": "https://ciechanow.ski/sound/",
+        "tags": [
+            "nature",
+            "sound",
+            "interests",
+            "music",
+            "playlist",
+            "audio",
+            "streaming",
+            "podcast"
+        ]
+    },
+    {
+        "url": "https://lostfrog.net/",
+        "tags": [
+            "bank",
+            "interests",
+            "links",
+            "search",
+            "website",
+            "portfolio",
+            "accounting",
+            "investment",
+            "stocks",
+            "stocks and shares"
+        ]
+    },
+    {
+        "url": "https://lolicore.net/",
+        "tags": [
+            "Python",
+            "C++",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Web Development",
+            "Programming Languages",
+            "Technology",
+            "Loan Offering"
+        ]
+    },
+    {
+        "url": "https://www.youtube.com/@BreadMemes",
+        "tags": [
+            "Interesting",
+            "Lolocore",
+            "Reuploader"
+        ]
+    },
+    {
+        "url": "https://suricrasia.online/iceberg/",
+        "tags": [
+            "computer",
+            "iceberg",
+            "suricasia",
+            "links"
+        ]
+    },
+    {
+        "url": "https://www.goodreads.com/series/266949-shadow-sun",
+        "tags": [
+            "user",
+            "shadow",
+            "sun"
+        ]
+    },
+    {
+        "url": "https://witchculttranslation.com/table-of-content/",
+        "tags": [
+            "zero",
+            "WN"
+        ]
+    },
+    {
+        "url": "https://draculadaily.substack.com/about",
+        "tags": [
+            "about",
+            "daily"
+        ]
+    },
+    {
+        "url": "https://www.openttd.org/",
+        "tags": [
+            "bank",
+            "interest",
+            "finance",
+            "money",
+            "credit",
+            "loan",
+            "savings",
+            "accounting",
+            "banking",
+            "investment"
+        ]
+    },
+    {
+        "url": "https://oimo.io/works/blob/",
+        "tags": [
+            "bank",
+            "links",
+            "toy"
+        ]
+    },
+    {
+        "url": "https://type.method.ac/#",
+        "tags": [
+            "bank",
+            "interests"
+        ]
+    },
+    {
+        "url": "https://slowroads.io/",
+        "tags": [
+            "slowroad",
+            "road trip",
+            "long drive"
+        ]
+    },
+    {
+        "url": "https://bruno-simon.com/",
+        "tags": [
+            "interest",
+            "money",
+            "bank",
+            "loan",
+            "account",
+            "savings",
+            "mortgage",
+            "credit",
+            "debt"
+        ]
+    },
+    {
+        "url": "javascript:var i",
+        "tags": [
+            "javascript",
+            "var",
+            "html",
+            "css",
+            "ajax",
+            "bookmark",
+            "link",
+            "source"
+        ]
+    },
+    {
+        "url": "https://shifthappens.site/typewriter/",
+        "tags": [
+            "simulator",
+            "typewriter"
+        ]
+    },
+    {
+        "url": "https://www.linerider.com/",
+        "tags": [
+            "line rider",
+            "bank",
+            "investment",
+            "saving",
+            "loan",
+            "credit score",
+            "interest rate",
+            "mortgage",
+            "finance",
+            "savings account"
+        ]
+    },
+    {
+        "url": "http://mininggames.net/marsminer.html",
+        "tags": [
+            "Mining",
+            "Game",
+            "Virtual Reality",
+            "Cryptocurrency",
+            "Blockchain",
+            "AI",
+            "Machine Learning",
+            "Data Science",
+            "Gamification",
+            "E-Sports"
+        ]
+    },
+    {
+        "url": "http://www.stickpage.com/haplandgameplay.shtml",
+        "tags": [
+            "hapland",
+            "gameplay"
+        ]
+    },
+    {
+        "url": "http://www.freeonlinegames.com/racing-games/planet-racer.html",
+        "tags": [
+            "planet racer",
+            "racing games",
+            "free online games",
+            "free download",
+            "downloadable game",
+            "game download",
+            "download link",
+            "game free",
+            "free download"
+        ]
+    },
+    {
+        "url": "http://www.gamesfreak.net/games/Planet-Racer_3084.html",
+        "tags": [
+            "planet",
+            "racer",
+            "game",
+            "console",
+            "PC",
+            "console2",
+            "console3",
+            "console4",
+            "console5"
+        ]
+    },
+    {
+        "url": "http://www.stickpage.com/haplandgameplay.shtml",
+        "tags": [
+            "bank",
+            "interest",
+            "links"
+        ]
+    },
+    {
+        "url": "http://www.kongregate.com/games/FunCrow/dude-and-zombies",
+        "tags": [
+            "funcrow",
+            "dude",
+            "zombies"
+        ]
+    },
+    {
+        "url": "http://www.addictinggames.com/puzzle-games/superstacker2.jsp",
+        "tags": [
+            "superstacker",
+            "puzzle",
+            "game",
+            "funny",
+            "challenging",
+            "mind-bending",
+            "adventure",
+            "exciting",
+            "fantastic"
+        ]
+    },
+    {
+        "url": "http://biomediaproject.com/bmp/files/LEGO/gms/download/ClubGames/",
+        "tags": [
+            "biomedicine",
+            "healthcare",
+            "medicine",
+            "pharmaceuticals",
+            "drugs",
+            "medications",
+            "diseases",
+            "conditions",
+            "illnesses"
+        ]
+    },
+    {
+        "url": "https://dood.al/pinktrombone/",
+        "tags": [
+            "Interesting",
+            "Pink Trombone"
+        ]
+    },
+    {
+        "url": "https://wordshake.com/boggle",
+        "tags": [
+            "wordplay",
+            "crosswords",
+            "anagrams",
+            "haikus",
+            "riddles",
+            "scrabble"
+        ]
+    },
+    {
+        "url": "https://app.crackingthecryptic.com/sudoku/j3m76TrmfD",
+        "tags": [
+            "bank",
+            "links",
+            "sudoku"
+        ]
+    },
+    {
+        "url": "https://www.readthemaple.com/provincial-landlords/",
+        "tags": [
+            "real estate",
+            "investment property",
+            "property developer",
+            "landlord",
+            "mortgage",
+            "rental income",
+            "appraisal",
+            "home inspection",
+            "home appraisal"
+        ]
+    },
+    {
+        "url": "https://git.lavender.software/lavender/watch-party",
+        "tags": [
+            "user",
+            "watchparty",
+            "issueprob"
+        ]
+    },
+    {
+        "url": "https://map.greenfieldmc.net/",
+        "tags": [
+            "GreenfieldMC",
+            "Map",
+            "Interesting Links"
+        ]
+    },
+    {
+        "url": "https://yourmom.zip/",
+        "tags": [
+            "interest",
+            "moms",
+            "family",
+            "love",
+            "care",
+            "support",
+            "adore",
+            "hugging",
+            "treasure"
+        ]
+    },
+    {
+        "url": "https://youtubetranscript.com/",
+        "tags": [
+            "coding",
+            "web development",
+            "programming languages",
+            "data analysis",
+            "machine learning",
+            "AI and machine learning",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Python"
+        ]
+    },
+    {
+        "url": "https://app.posemy.art/",
+        "tags": [
+            "bank",
+            "online-pose-editor"
+        ]
+    },
+    {
+        "url": "https://ephtracy.github.io/",
+        "tags": [
+            "bank",
+            "interests",
+            "links",
+            "voxel editor"
+        ]
+    },
+    {
+        "url": "https://www.myanonamouse.net/inviteapp.php",
+        "tags": [
+            "book",
+            "reviews",
+            "books",
+            "bookshelf",
+            "read",
+            "recommendation",
+            "recommendations",
+            "filters",
+            "search"
+        ]
+    },
+    {
+        "url": "https://www.emilydamstra.com/please-enough-dead-butterflies/",
+        "tags": [
+            "dead",
+            "butterflies"
+        ]
+    },
+    {
+        "url": "https://alogs.space/robowaifu/res/15630.html",
+        "tags": [
+            "community",
+            "working",
+            "on",
+            "robot",
+            "waifus"
+        ]
+    },
+    {
+        "url": "https://www.dictionaryofobscuresorrows.com/",
+        "tags": [
+            "obscure sorrows",
+            "dictionary of obscure sorrows"
+        ]
+    },
+    {
+        "url": "https://excalidraw.com/",
+        "tags": [
+            "bank",
+            "links",
+            "interest",
+            "articles",
+            "posts",
+            "websites",
+            "blogs",
+            "social media",
+            "content"
+        ]
+    },
+    {
+        "url": "https://steamosaic.com/",
+        "tags": [
+            "mosaic",
+            "streaming",
+            "game",
+            "games"
+        ]
+    },
+    {
+        "url": "https://supertools.therundown.ai/",
+        "tags": [
+            "ai",
+            "tools",
+            "search",
+            "explore",
+            "analytics",
+            "data",
+            "machinelearning",
+            "nlp",
+            "computing",
+            "automation"
+        ]
+    },
+    {
+        "url": "https://www.phind.com/",
+        "tags": [
+            "search",
+            "technology",
+            "artificial intelligence",
+            "machine learning",
+            "data science",
+            "digital marketing",
+            "social media",
+            "content creation",
+            "web development",
+            "user experience"
+        ]
+    },
+    {
+        "url": "https://meaningness.com/modes-chart",
+        "tags": [
+            "society",
+            "culture",
+            "history",
+            "politics",
+            "theory",
+            "ideology",
+            "ethics",
+            "religion",
+            "beliefs"
+        ]
+    },
+    {
+        "url": "https://neal.fun/space-elevator/",
+        "tags": [
+            "Space Elevator",
+            "Science Fiction",
+            "Technology",
+            "Environment",
+            "Travel",
+            "Entertainment",
+            "History",
+            "Art",
+            "Design"
+        ]
+    },
+    {
+        "url": "https://typst.app/",
+        "tags": [
+            "html",
+            "markdown"
+        ]
+    },
+    {
+        "url": "https://www.deviantart.com/rhads/art/Forest-Spirit-548894017",
+        "tags": [
+            "forest",
+            "spirit",
+            "nature",
+            "wildlife",
+            "countryside",
+            "outdoor",
+            "landscape",
+            "mountains",
+            "hiking"
+        ]
+    },
+    {
+        "url": "https://www.studiorayyan.com/",
+        "tags": [
+            "bank",
+            "links",
+            "interesting"
+        ]
+    },
+    {
+        "url": "https://danbooru.donmai.us/posts?page=2&tags=ruu_%28tksymkw%29",
+        "tags": [
+            "ruu",
+            "tksym",
+            "uk"
+        ]
+    },
+    {
+        "url": "https://randomc.net/2012/10/03/shin-sekai-yori-01/",
+        "tags": [
+            "bank",
+            "links",
+            "interest",
+            "article",
+            "review",
+            "famous",
+            "celebrity",
+            "movie",
+            "song"
+        ]
+    },
+    {
+        "url": "https://themes.moe/?u=TeamDman&l=mal",
+        "tags": [
+            "animal",
+            "adventure"
+        ]
+    },
+    {
+        "url": "https://animemusicquiz.com/",
+        "tags": [
+            "anime",
+            "musician",
+            "songwriter",
+            "actor",
+            "director",
+            "actress",
+            "vocalist",
+            "choreographer",
+            "composer",
+            "singer"
+        ]
+    },
+    {
+        "url": "https://vndb.org/v12392",
+        "tags": [
+            "monobeno",
+            "bank"
+        ]
+    },
+    {
+        "url": "https://junji-ito-index.tumblr.com/the-index",
+        "tags": [
+            "index",
+            "blog",
+            "technology",
+            "culture",
+            "media",
+            "art",
+            "film",
+            "music",
+            "fashion",
+            "travel"
+        ]
+    },
+    {
+        "url": "https://www.katawa-shoujo.com/",
+        "tags": [
+            "bank",
+            "links",
+            "interest",
+            "money",
+            "finance",
+            "accounts",
+            "savings",
+            "loans",
+            "credit",
+            "banking"
+        ]
+    },
+    {
+        "url": "https://www.shanaproject.com/",
+        "tags": [
+            "user",
+            "streaming",
+            "torrent",
+            "downloads",
+            "file",
+            "filesize",
+            "filesizehuman",
+            "filesizehumanpercentage"
+        ]
+    },
+    {
+        "url": "https://vndb.org/v335",
+        "tags": [
+            "Interesting",
+            "VNDB",
+            "Garden"
+        ]
+    },
+    {
+        "url": "https://vndb.org/v6438",
+        "tags": [
+            "DC-III"
+        ]
+    },
+    {
+        "url": "https://www.baka-tsuki.org/project/index.php?title=Baka-Tsuki:About",
+        "tags": [
+            "bank",
+            "filters",
+            "user",
+            "interests"
+        ]
+    },
+    {
+        "url": "http://151.80.40.155/#",
+        "tags": [
+            "music",
+            "touhou"
+        ]
+    },
+    {
+        "url": "https://touhou.kuukunen.net/",
+        "tags": [
+            "music",
+            "touhou"
+        ]
+    },
+    {
+        "url": "http://genki.japantimes.co.jp/about_en",
+        "tags": [
+            "article",
+            "article-body",
+            "article-header",
+            "article-subtitle",
+            "article-summary",
+            "article-content",
+            "article-image",
+            "article-video"
+        ]
+    },
+    {
+        "url": "https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide",
+        "tags": [
+            "article",
+            "anchor",
+            "a",
+            "abbr",
+            "acronym",
+            "article_link",
+            "aside",
+            "audio",
+            "b",
+            "blockquote",
+            "base64",
+            "button"
+        ]
+    },
+    {
+        "url": "http://guidetojapanese.org/learn/",
+        "tags": [
+            "Interesting",
+            "related",
+            "educational",
+            "funny",
+            "engaging",
+            "useful",
+            "appealing",
+            "exciting",
+            "interesting"
+        ]
+    },
+    {
+        "url": "https://www.imabi.net/",
+        "tags": [
+            "interests",
+            "finance",
+            "stocks and bonds",
+            "cryptocurrency",
+            "investing",
+            "saving money",
+            "credit cards",
+            "debt consolidation",
+            "mortgage loans"
+        ]
+    },
+    {
+        "url": "https://floatoverblow.com/",
+        "tags": [
+            "bank",
+            "interesting"
+        ]
+    },
+    {
+        "url": "https://www.s-config.com/cellar-door/",
+        "tags": [
+            "floatoverblow",
+            "bank",
+            "linked",
+            "outlinks"
+        ]
+    },
+    {
+        "url": "https://emreed.net/LowTech_Directory",
+        "tags": [
+            "apple",
+            "banana",
+            "orange"
+        ]
+    }
+]

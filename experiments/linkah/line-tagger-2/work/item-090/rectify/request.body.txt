@@ -1,0 +1,6 @@
+### Instruction:
+Make the following valid JSON by fixing any errors and removing all keys except for "tags":
+{"tags":["wordplay", "crosswords", "anagrams", "haikus", "riddles", "scrabble", "wordplay", "crosswords", "anagrams", "haikus"],
+"links": [{"
+### Response:
+{"tags":["

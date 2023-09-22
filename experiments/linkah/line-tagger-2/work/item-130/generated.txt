@@ -1,0 +1,7 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://www.s-config.com/cellar-door/
+Notes: s-config, linked to by floatoverblow, lots of outlinks here
+
+### Response:
+{"tags":["floatoverblow", "bank", "linked", "outlinks"]}
