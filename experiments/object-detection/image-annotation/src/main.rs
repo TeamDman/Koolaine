@@ -2,36 +2,39 @@ use sdl2::event::Event;
 use sdl2::keyboard::Keycode;
 use sdl2::pixels::Color;
 use sdl2::rect::Rect;
-use std::cmp::{min, max};
+use sdl2::image::LoadTexture;
 use std::path::Path;
 use structopt::StructOpt;
-use sdl2::image::LoadTexture;
-#[derive(StructOpt)]
+
+#[derive(StructOpt, Debug)]
+#[structopt(name = "image-annotation")]
 struct Opt {
-    /// Path to the image to annotate
-    image_path: String,
+    /// Path to the image
+    #[structopt(short, long)]
+    image: String,
 }
 
 fn main() {
     let opt = Opt::from_args();
-    let image_path = opt.image_path;
+    let image_path = opt.image;
 
     let sdl_context = sdl2::init().unwrap();
     let video_subsystem = sdl_context.video().unwrap();
-    
-    let window = video_subsystem.window("image-annotation", 800, 600)
+
+    let window = video_subsystem.window("image annotation", 800, 600)
         .position_centered()
         .build()
         .unwrap();
-    
+
     let mut canvas = window.into_canvas().build().unwrap();
+
     let texture_creator = canvas.texture_creator();
     let texture = texture_creator.load_texture(Path::new(&image_path)).unwrap();
-    
+
     let mut event_pump = sdl_context.event_pump().unwrap();
 
-    let mut drawing_box = None;
-    let mut boxes = vec![];
+    let mut permanent_boxes = Vec::new();
+    let mut current_box = None;
 
     'running: loop {
         canvas.clear();
@@ -44,38 +47,40 @@ fn main() {
                     break 'running
                 },
                 Event::MouseButtonDown { x, y, .. } => {
-                    println!("Mouse button down at x: {}, y: {}", x, y);
-                    drawing_box = Some(Rect::new(x, y, 0, 0));
+                    current_box = Some((x, y, x, y));
                 },
                 Event::MouseMotion { x, y, .. } => {
-                    if let Some(rect) = drawing_box.as_mut() {
-                        rect.set_width((x - rect.x()).abs() as u32);
-                        rect.set_height((y - rect.y()).abs() as u32);
+                    if let Some((x1, y1, _, _)) = current_box {
+                        current_box = Some((x1, y1, x, y));
                     }
                 },
-                Event::MouseButtonUp { x, y, .. } => {
-                    println!("Mouse button up at x: {}, y: {}", x, y);
-                    if let Some(mut rect) = drawing_box.take() {
-                        rect.set_width((x - rect.x()).abs() as u32);
-                        rect.set_height((y - rect.y()).abs() as u32);
-                        boxes.push(rect);
+                Event::MouseButtonUp { .. } => {
+                    if let Some(box_coords) = current_box {
+                        permanent_boxes.push(box_coords);
                     }
+                    current_box = None;
                 },
                 _ => {}
             }
         }
 
-        // Render the boxes
-        for box_rect in &boxes {
-            println!("Drawing box at x: {}, y: {}, w: {}, h: {}", box_rect.x(), box_rect.y(), box_rect.width(), box_rect.height());
-            canvas.set_draw_color(Color::RGB(0, 255, 0)); // Lime green
-            canvas.fill_rect(*box_rect).unwrap();
+        for &(x1, y1, x2, y2) in &permanent_boxes {
+            let min_x = x1.min(x2);
+            let min_y = y1.min(y2);
+            let max_x = x1.max(x2);
+            let max_y = y1.max(y2);
+            canvas.set_draw_color(Color::RGB(0, 255, 0));
+            canvas.fill_rect(Rect::new(min_x, min_y, (max_x - min_x) as u32, (max_y - min_y) as u32)).unwrap();
         }
 
-        if let Some(box_rect) = drawing_box {
-            println!("Drawing temporary box at x: {}, y: {}, w: {}, h: {}", box_rect.x(), box_rect.y(), box_rect.width(), box_rect.height());
-            canvas.set_draw_color(Color::RGB(0, 255, 0)); // Lime green
-            canvas.fill_rect(box_rect).unwrap();
+        if let Some((x1, y1, x2, y2)) = current_box {
+            let min_x = x1.min(x2);
+            let min_y = y1.min(y2);
+            let max_x = x1.max(x2);
+            let max_y = y1.max(y2);
+            canvas.set_draw_color(Color::RGB(0, 255, 0));
+            canvas.fill_rect(Rect::new(min_x, min_y, (max_x - min_x) as u32, (max_y - min_y) as u32)).unwrap();
+            println!("Current box: x: {}, y: {}, width: {}, height: {}", min_x, min_y, max_x - min_x, max_y - min_y);
         }
 
         canvas.present();
