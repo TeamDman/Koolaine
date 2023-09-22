@@ -10,8 +10,6 @@ templates = {f.name: f.read_text(encoding="utf-8") for f in Path("templates/rect
 work_dir = Path("work")
 for item in tqdm(list(work_dir.glob("item-*"))):
     generated = (item/"generated.txt").read_text(encoding="utf-8").splitlines()
-    # url = generated[2][len("URL: "):]
-    # assert url.startswith("htt"), url
     response = "\n".join(generated[6:])
     try:
         json.loads(response)

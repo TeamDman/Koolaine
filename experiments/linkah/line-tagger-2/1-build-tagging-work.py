@@ -3,7 +3,7 @@ from pathlib import Path
 import jinja2
 
 # Read link.txt
-with open("resources/links.txt", "r", encoding="utf-8") as f:
+with open("input.txt", "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 # Count lines and calculate padding for zero filling
