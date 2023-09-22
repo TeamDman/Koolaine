@@ -1,0 +1,6 @@
+### Instruction:
+Provide a list of 10 tags for users to filter the following from a bank of interesting links.
+URL: https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276
+Notes: https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276
+### Response:
+{tags:["

@@ -1,0 +1,6 @@
+{
+    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://rete.js.org/#/examples/minimap\nNotes: https://rete.js.org/#/examples/minimap\n### Response:\n{tags:[\"",
+    "max_new_tokens": 50,
+    "_url": "https://rete.js.org/#/examples/minimap",
+    "_notes": "https://rete.js.org/#/examples/minimap"
+}

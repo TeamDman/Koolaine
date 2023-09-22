@@ -1,0 +1,6 @@
+{
+    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://randomc.net/2012/10/03/shin-sekai-yori-01/\nNotes: Review of shinsekai yori\n### Response:\n{tags:[\"",
+    "max_new_tokens": 50,
+    "_url": "https://randomc.net/2012/10/03/shin-sekai-yori-01/",
+    "_notes": "Review of shinsekai yori"
+}

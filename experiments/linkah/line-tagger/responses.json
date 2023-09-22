@@ -1,0 +1,4063 @@
+{
+    "request-0": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://localhost:5173/\nNotes: Home\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://localhost:5173/",
+            "_notes": "Home"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:23 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "home\", \"interests\", \"files\", \"about\", \"accounts\", \"transactions\", \"services\", \"feedback\", \"news\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-1": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/\nNotes: Cloud adoption will fail because of the skills gap\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/",
+            "_notes": "Cloud adoption will fail because of the skills gap"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:25 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "cloud\", \"adoption\", \"failure\", \"skills\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-10": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/\nNotes: https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/",
+            "_notes": "https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:32 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "falsehoods\", \"programmers\", \"believe\", \"names\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-100": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://alogs.space/robowaifu/res/15630.html\nNotes: Community working on robot waifus\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://alogs.space/robowaifu/res/15630.html",
+            "_notes": "Community working on robot waifus"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:41 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "community\", \"working\", \"on\", \"robot\", \"waifus\", \"res\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-101": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.dictionaryofobscuresorrows.com/\nNotes: Dictionary of obscure sorrows\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.dictionaryofobscuresorrows.com/",
+            "_notes": "Dictionary of obscure sorrows"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:42 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "obscure\",\"sorrow\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-102": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://excalidraw.com/\nNotes: Excalidraw\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://excalidraw.com/",
+            "_notes": "Excalidraw"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:43 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "banking\", \"financials\", \"investment\", \"credit\", \"loans\", \"mortgage\", \"debt\", \"savings\", \"finance\", \"stocks\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-103": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://steamosaic.com/\nNotes: Steam mosaic\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://steamosaic.com/",
+            "_notes": "Steam mosaic"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:44 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"steampanels\", \"mosaics\", \"art\", \"history\", \"culture\", \"travel\", \"photography\", \"fashion\"],}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-104": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://supertools.therundown.ai/\nNotes: ai tools\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://supertools.therundown.ai/",
+            "_notes": "ai tools"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:45 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "AI\", \"Machine Learning\",\"Data Science\",\"Deep Learning\",\"Neural Networks\",\"Natural Language Processing\",\"Computer Vision\",\"Computer Graphics\",\"Robotics\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-105": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.phind.com/\nNotes: Phind - AI search engine\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.phind.com/",
+            "_notes": "Phind - AI search engine"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:46 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "search\", \"link\", \"article\", \"video\", \"image\", \"map\", \"quiz\", \"poll\", \"recipe\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-106": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://meaningness.com/modes-chart\nNotes: We live in a society\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://meaningness.com/modes-chart",
+            "_notes": "We live in a society"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:47 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interesting\", \"engaging\", \"insightful\", \"thought-provoking\", \n\"eye-opening\", \"deepening\", \"revealing\", \"challenging\", \"controversial\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-107": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://neal.fun/space-elevator/\nNotes: Space elevator\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://neal.fun/space-elevator/",
+            "_notes": "Space elevator"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:48 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "space\", \"elevator\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-108": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://typst.app/\nNotes: Typst - markdown ish for academic papers\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://typst.app/",
+            "_notes": "Typst - markdown ish for academic papers"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:49 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "html\", \"css\", \"markdown\", \"javascript\", \"php\", \"ruby\", \"python\", \"java\", \"sql\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-109": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.deviantart.com/rhads/art/Forest-Spirit-548894017\nNotes: rhads\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.deviantart.com/rhads/art/Forest-Spirit-548894017",
+            "_notes": "rhads"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:50 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "forest\", \"spirit\", \"luxury\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-11": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/\nNotes: https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/",
+            "_notes": "https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:32 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "python\", \"javascript\", \"html\", \"css\", \"regex\", \"json\", \"php\", \"ruby\", \"ruby_jquery\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-110": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.studiorayyan.com/\nNotes: Omar Rayyan\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.studiorayyan.com/",
+            "_notes": "Omar Rayyan"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:50 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Interesting\", \"Discoverable\", \"Unique\", \"Innovative\", \"Trendy\", \n\"Life-changing\", \"Thought-provoking\", \"Revolutionary\", \"Empowering\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-111": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://danbooru.donmai.us/posts?page=2&tags=ruu_%28tksymkw%29\nNotes: Ruu art\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://danbooru.donmai.us/posts?page=2&tags=ruu_%28tksymkw%29",
+            "_notes": "Ruu art"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:52 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "ruu_%28tksymkw%29\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-112": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://randomc.net/2012/10/03/shin-sekai-yori-01/\nNotes: Review of shinsekai yori\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://randomc.net/2012/10/03/shin-sekai-yori-01/",
+            "_notes": "Review of shinsekai yori"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:52 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\", \"interesting\", \"banklisting\", \"shinskai\", \"yori\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-113": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://themes.moe/?u=TeamDman&l=mal\nNotes: Anime theme opening crossreference\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://themes.moe/?u=TeamDman&l=mal",
+            "_notes": "Anime theme opening crossreference"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:53 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "anime\", \"animals\", \"adventure\", \"action\", \"awards\", \"alliance\", \"animals\", \"anime\", \"antiques\", \"art\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-114": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://animemusicquiz.com/\nNotes: Anime music quiz\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://animemusicquiz.com/",
+            "_notes": "Anime music quiz"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:54 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "anime\", \"music\", \"quiz\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-115": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://vndb.org/v12392\nNotes: Monobeno\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://vndb.org/v12392",
+            "_notes": "Monobeno"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:55 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "monobenos\", \"bankaccounts\", \"interestrates\", \"loans\", \"mortgage\", \"credit\", \"debt\", \"savings\", \"checking\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-116": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://junji-ito-index.tumblr.com/the-index\nNotes: Junji ito\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://junji-ito-index.tumblr.com/the-index",
+            "_notes": "Junji ito"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:56 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"interesting\", \"links\", \"filters\", \"search\", \"articles\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-117": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.katawa-shoujo.com/\nNotes: Katawa shoujo\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.katawa-shoujo.com/",
+            "_notes": "Katawa shoujo"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:57 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\", \"interests\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-118": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.shanaproject.com/\nNotes: Shana project torrent RSS\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.shanaproject.com/",
+            "_notes": "Shana project torrent RSS"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:57 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "torrent\", \"streaming\", \"shanaproject\", \"news\", \"technology\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-119": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://vndb.org/v335\nNotes: Garden\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://vndb.org/v335",
+            "_notes": "Garden"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:58 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "user\", \"bank\", \"interests\", \"links\", \"search\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-12": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://whythefuckwasibreached.com/\nNotes: https://whythefuckwasibreached.com/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://whythefuckwasibreached.com/",
+            "_notes": "https://whythefuckwasibreached.com/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:33 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Interesting\", \"Factual\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-120": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://vndb.org/v6438\nNotes: D.C III\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://vndb.org/v6438",
+            "_notes": "D.C III"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:58 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "DC-III\", \"banknotes\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-121": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.baka-tsuki.org/project/index.php?title=Baka-Tsuki:About\nNotes: Baka tsuki, LN translations\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.baka-tsuki.org/project/index.php?title=Baka-Tsuki:About",
+            "_notes": "Baka tsuki, LN translations"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:59 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "about\", \"translations\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-122": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://151.80.40.155/#\nNotes: Touhou music\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://151.80.40.155/#",
+            "_notes": "Touhou music"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:59 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "url\", \"music\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-123": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://touhou.kuukunen.net/\nNotes: More touhou music\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://touhou.kuukunen.net/",
+            "_notes": "More touhou music"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:59 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "music\", \"touhou\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-124": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://genki.japantimes.co.jp/about_en\nNotes: http://genki.japantimes.co.jp/about_en\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://genki.japantimes.co.jp/about_en",
+            "_notes": "http://genki.japantimes.co.jp/about_en"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:45:00 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "financial news\", \"investment tips\", \"saving money\", \"credit scores\", \n\"bank accounts\", \"loans and mortgages\", \"debt management\", \"stock market\", \n\"real estate\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-125": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide\nNotes: https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide",
+            "_notes": "https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:45:01 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "learnjapan\", \"startnerguides\", \"starter\", \"tips\", \"examples\", \"crap\", \"math\", \"funny\", \"advice\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-126": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://guidetojapanese.org/learn/\nNotes: http://guidetojapanese.org/learn/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://guidetojapanese.org/learn/",
+            "_notes": "http://guidetojapanese.org/learn/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:45:02 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"interest\", \"learning\", \"language\", \"culture\", \"history\", \"education\", \"technology\", \"business\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-127": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.imabi.net/\nNotes: https://www.imabi.net/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.imabi.net/",
+            "_notes": "https://www.imabi.net/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:45:03 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Interesting Links\", \"Bank\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-128": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://floatoverblow.com/\nNotes: floatoverblow - they have nice music\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://floatoverblow.com/",
+            "_notes": "floatoverblow - they have nice music"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:45:04 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"music\", \"funny\", \"cool\", \"upbeat\", \"romantic\", \"sporty\", \"relaxing\", \"energetic\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-129": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.s-config.com/cellar-door/\nNotes: s-config, linked to by floatoverblow, lots of outlinks here\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.s-config.com/cellar-door/",
+            "_notes": "s-config, linked to by floatoverblow, lots of outlinks here"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:45:05 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "floatoverblow\", \"bank\", \"config\", \"door\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-13": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects\nNotes: https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects",
+            "_notes": "https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:34 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "inspect-objects\", \"win32\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-130": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://emreed.net/LowTech_Directory\nNotes: LowTech_Directory - more outlinks\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://emreed.net/LowTech_Directory",
+            "_notes": "LowTech_Directory - more outlinks"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:45:05 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "lowtech\", \"directory\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-14": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.drpetter.se/project_sfxr.html\nNotes: http://www.drpetter.se/project_sfxr.html\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.drpetter.se/project_sfxr.html",
+            "_notes": "http://www.drpetter.se/project_sfxr.html"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:34 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "user\", \"link\", \"search\", \"filter\", \"category\", \"product\", \"image\", \"video\", \"document\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-15": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://rete.js.org/#/examples/minimap\nNotes: https://rete.js.org/#/examples/minimap\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://rete.js.org/#/examples/minimap",
+            "_notes": "https://rete.js.org/#/examples/minimap"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:35 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "javascript\", \"minimap\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-16": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://twitter.com/Oracle/status/658433772904423424?s=19&fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q\nNotes: https://twitter.com/Oracle/status/658433772904423424?s=19&amp;fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://twitter.com/Oracle/status/658433772904423424?s=19&fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q",
+            "_notes": "https://twitter.com/Oracle/status/658433772904423424?s=19&amp;fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:35 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "user\", \"account\", \"following\", \"follower\", \"friend\", \"fan\", \"loyalty_member\", \"contributor\", \"subscriber\", \"consumer\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-17": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276\nNotes: https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276",
+            "_notes": "https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:37 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "java\", \"jni\", \"specs\", \"docstring\", \"synthetic\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-18": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://samy.pl/slipstream/\nNotes: https://samy.pl/slipstream/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://samy.pl/slipstream/",
+            "_notes": "https://samy.pl/slipstream/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:38 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interesting\", \"links\", \"bank\", \"slipstream\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-19": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://github.com/samyk/drawio\nNotes: https://github.com/samyk/drawio\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://github.com/samyk/drawio",
+            "_notes": "https://github.com/samyk/drawio"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:39 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "github\", \"github-repository\", \"github-user\", \"github-commit\", \"github-issue\", \"github-review\", \"github-pullrequest\", \"github-pull\", \"github-branch\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-2": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.conventionalcommits.org/en/v1.0.0-beta.2/\nNotes: Conventional commits\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.conventionalcommits.org/en/v1.0.0-beta.2/",
+            "_notes": "Conventional commits"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:25 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"Interesting Links\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-20": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js\nNotes: https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js",
+            "_notes": "https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:40 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "dragonbones\", \"eyetracking\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-21": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://gitlab.com/kokubunji\nNotes: https://gitlab.com/kokubunji\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://gitlab.com/kokubunji",
+            "_notes": "https://gitlab.com/kokubunji"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:41 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "github\", \"gitlab\", \"python\", \"java\", \"javascript\", \"ruby\", \"php\", \"css\", \"sql\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-22": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://gitlab.com/robowaifudev/TalkToGPT2\nNotes: https://gitlab.com/robowaifudev/TalkToGPT2\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://gitlab.com/robowaifudev/TalkToGPT2",
+            "_notes": "https://gitlab.com/robowaifudev/TalkToGPT2"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:42 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "github\", \"GitHub\", \"GitLab\", \"GitHub-Repository\", \n\"GitLab-Repository\", \"GitHub-Commits\", \"GitLab-Commits\", \n\"G"
+                    }
+                ]
+            }
+        }
+    },
+    "request-23": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.google.com/search?q=sankey+diagram\nNotes: Sankey diagram\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.google.com/search?q=sankey+diagram",
+            "_notes": "Sankey diagram"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:43 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "search\", \"diagram\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-24": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.catb.org/~esr/faqs/smart-questions.html\nNotes: How to ask questions the right way\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.catb.org/~esr/faqs/smart-questions.html",
+            "_notes": "How to ask questions the right way"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:44 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"faqs\", \"smart-questions\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-25": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://tppidev.github.io/secret/\nNotes: secret (audio broken)\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://tppidev.github.io/secret/",
+            "_notes": "secret (audio broken)"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:44 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "audio\", \"secret\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-26": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://caf-shib2ops.ca/CoreServices/\nNotes: https://caf-shib2ops.ca/CoreServices/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://caf-shib2ops.ca/CoreServices/",
+            "_notes": "https://caf-shib2ops.ca/CoreServices/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:44 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"bank\", \"accounts\", \"loans\", \"savings\", \"credit\", \"mortgage\", \"investments\", \"debt\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-27": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://louisabraham.github.io/articles/hack-fb-messenger-1.html\nNotes: Facebook messenger game hack\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://louisabraham.github.io/articles/hack-fb-messenger-1.html",
+            "_notes": "Facebook messenger game hack"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:46 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "article\", \"hack\", \"fb messenger\", \"hack fb messenger\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-28": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://developer.roblox.com/en-us/articles/BrickColor-Codes\nNotes: Brick color codes\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://developer.roblox.com/en-us/articles/BrickColor-Codes",
+            "_notes": "Brick color codes"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:46 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "article\", \"article-content\", \"article-title\", \"article-description\", \"article-author\", \"article-date\", \"article-link\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-29": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.shadyurl.com/\nNotes: Shady url minifier\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.shadyurl.com/",
+            "_notes": "Shady url minifier"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:47 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "minify\", \"shadyurl\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-3": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://elements-demo.stoplight.io/#/operations/get-todos\nNotes: OpenAPI Elements demo\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://elements-demo.stoplight.io/#/operations/get-todos",
+            "_notes": "OpenAPI Elements demo"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:26 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "GET\", \"POST\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-30": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://ruffle.rs/\nNotes: desktop flash player\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://ruffle.rs/",
+            "_notes": "desktop flash player"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:48 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"bank\", \"flash_player\", \"financial\", \"accounting\", \"investment\", \"saving\", \"budgeting\", \"credit\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-31": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://sigbovik.org/\nNotes: Sigbovik\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://sigbovik.org/",
+            "_notes": "Sigbovik"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:49 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Interesting\", \"News\", \"Technology\", \"Health\", \"Sports\", \"Entertainment\", \"Business\", \"Travel\", \"Politics\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-32": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://huggingface.co/\nNotes: AI ML models\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://huggingface.co/",
+            "_notes": "AI ML models"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:50 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "AI\", \"ML\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-33": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.artbreeder.com/\nNotes: Artbreeder\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.artbreeder.com/",
+            "_notes": "Artbreeder"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:50 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Art\", \"Artwork\", \"Artistic\", \"Artificial Intelligence\", \"Artificial\", \"Artificial Intelligence and Machine Learning\", \"Artificial Intelligence and Robotics\", \"Artificial Intelligence in Banking\", \"Artificial Intelligence in Marketing\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-34": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://sizeof.cat/\nNotes: tech blog\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://sizeof.cat/",
+            "_notes": "tech blog"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:52 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "tech\", \"article\", \"blog\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-35": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://syncthing.net/\nNotes: syncthing\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://syncthing.net/",
+            "_notes": "syncthing"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:52 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "syncthing\", \"link\", \"search\", \"find\", \"results\", \"article\", \"post\", \"website\", \"blog\", \"social media\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-36": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://cubic-bezier.com/\nNotes: cubic-bezier\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://cubic-bezier.com/",
+            "_notes": "cubic-bezier"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:54 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "cubic-bezier\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-37": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.mythic-beasts.com/servers/virtual/\nNotes: Mythic beasts\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.mythic-beasts.com/servers/virtual/",
+            "_notes": "Mythic beasts"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:54 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "url\", \"server\", \"virtual\", \"mysite\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-38": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.reddit.com/r/selfhosted/comments/zujp7u/should_i_switch_from_1password_to_the_self_hosted/j1l83ed/\nNotes: This reddit thread\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.reddit.com/r/selfhosted/comments/zujp7u/should_i_switch_from_1password_to_the_self_hosted/j1l83ed/",
+            "_notes": "This reddit thread"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:55 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "selfhosted\", \"bank\", \"selfhosting\", \"selfhosted comments\", \"selfhosted threads\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-39": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.racknerd.com/BlackFriday/\nNotes: Racknerd\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.racknerd.com/BlackFriday/",
+            "_notes": "Racknerd"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:56 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "BlackFriday\", \"Racknerd\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-4": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.cs.columbia.edu/~hgs/etc/writing-bugs.html\nNotes: Common bugs in writing\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.cs.columbia.edu/~hgs/etc/writing-bugs.html",
+            "_notes": "Common bugs in writing"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:26 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bug\", \"error\", \"issue\", \"procedure\", \"process\", \"task\", \"documentation\", \"example\", \"case\", \"explanation\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-40": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://tailscale.com/kb/1077/secure-server-ubuntu-18-04/\nNotes: Tailscale\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://tailscale.com/kb/1077/secure-server-ubuntu-18-04/",
+            "_notes": "Tailscale"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:56 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\",\"security\",\"server\", \"ubuntu\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-41": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.digitalocean.com/\nNotes: Digital Ocean\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.digitalocean.com/",
+            "_notes": "Digital Ocean"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:57 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Interesting Link\", \"E-commerce\", \"Technology\", \"Social Media\", \"Small Business\", \"Marketing\", \"Product Reviews\", \"Online Shopping\", \"Digital Marketing\", \"Web Design\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-42": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.vultr.com/\nNotes: Vultr\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.vultr.com/",
+            "_notes": "Vultr"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:58 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"banking\", \"financial\", \"investment\", \"loans\", \"credit\", \"mortgage\", \"debt\", \"savings\", \"checking\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-43": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.linode.com/\nNotes: Linode\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.linode.com/",
+            "_notes": "Linode"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:59 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\", \"interests\", \"articles\", \"websites\", \"books\", \"apps\", \"games\", \"social media\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-44": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.ovh.com/ca/en/\nNotes: OVH\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.ovh.com/ca/en/",
+            "_notes": "OVH"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:00 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"interest\", \"links\", \"articles\", \"articles-article\", \n\"articles-article-about\", \"articles-article-by\", \"articles-article-for\", \n\"articles-article-in\", \"articles"
+                    }
+                ]
+            }
+        }
+    },
+    "request-45": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.namecheap.com/\nNotes: Namecheap\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.namecheap.com/",
+            "_notes": "Namecheap"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:02 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-46": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.gandi.net/en\nNotes: Gandi\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.gandi.net/en",
+            "_notes": "Gandi"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:02 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Gandi\", \"bank\", \"links\", \"interests\", \"news\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-47": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.ionos.com/\nNotes: ionos\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.ionos.com/",
+            "_notes": "ionos"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:03 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interests\", \"financial news\", \"cryptocurrency\", \"stocks\", \"technology\", \"finance\", \"real estate\", \"economy\", \"business\", \"startup\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-48": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.hostinger.com/\nNotes: hostinger\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.hostinger.com/",
+            "_notes": "hostinger"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:04 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interests\", \"finance\", \"savings\", \"investing\", \"credit\", \"loans\", \"debt\", \"mortgage\", \"bank\", \"checking\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-49": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.hostgator.com/\nNotes: hostgator\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.hostgator.com/",
+            "_notes": "hostgator"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:05 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\", \"interests\", \"articles\", \n\"posts\", \"websites\", \"forums\", \"blogs\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-5": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://larsjung.de/h5ai/\nNotes: https://larsjung.de/h5ai/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://larsjung.de/h5ai/",
+            "_notes": "https://larsjung.de/h5ai/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:27 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "html\", \"css\", \"javascript\", \"php\", \"python\", \"ruby\", \"java\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-50": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.hostwinds.com/\nNotes: hostwinds\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.hostwinds.com/",
+            "_notes": "hostwinds"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:06 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"financial\", \"investment\", \"saving\", \"credit\", \"loan\", \"mortgage\", \"debt\", \"finance\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-51": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.hostpapa.com/\nNotes: hostpapa\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.hostpapa.com/",
+            "_notes": "hostpapa"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:07 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"bank\", \"links\", \"accounts\", \"transactions\", \"savings\", \"loans\", \"credit\", \"finance\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-52": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.bluehost.com/\nNotes: bluehost\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.bluehost.com/",
+            "_notes": "bluehost"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:08 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\", \"interesting\", \"search\", \"website\", \"contentment\", \"social media\", \"email\", \"search engine optimization\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-53": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A\nNotes: CS285 Fall 2019 Berkeley University - Reinforcement Learning\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A",
+            "_notes": "CS285 Fall 2019 Berkeley University - Reinforcement Learning"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:09 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "cs285\", \"fall2019\", \"reinforcement-learning\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-54": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZCRwoyGxvQkqVrZgDQi4m-5&index=26\nNotes: David Silver DeepMind - Reinforcement Learning\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZCRwoyGxvQkqVrZgDQi4m-5&index=26",
+            "_notes": "David Silver DeepMind - Reinforcement Learning"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:10 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "David Silver\", \"Reinforcement Learning\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-55": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://comeonandsl.am/\nNotes: come on and slam\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://comeonandsl.am/",
+            "_notes": "come on and slam"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:10 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "comeonandslam\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-56": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://musicforprogramming.net/latest/\nNotes: Music for programming\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://musicforprogramming.net/latest/",
+            "_notes": "Music for programming"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:10 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "music\", \"programming\", \"latest\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-57": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://hypermammut.sourceforge.net/paulstretch/\nNotes: Paul's Extreme Sound Stretch\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://hypermammut.sourceforge.net/paulstretch/",
+            "_notes": "Paul's Extreme Sound Stretch"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:11 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "paul stretch\", \"sound stretch\", \"musical composition\", \"harmony\", \"melody\", \"rhythm\", \"intonation\", \"timbre\", \"percussion\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-58": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://favoritemusic.guru/\nNotes: Favoritemusic.guru spotify short-medium-long term stats\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://favoritemusic.guru/",
+            "_notes": "Favoritemusic.guru spotify short-medium-long term stats"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:12 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "spotify\", \"short-medium-long term\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-59": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://eternalbox.dev/jukebox_go.html?id=1nS12P1Ely8F4tzeXPMsYr\nNotes: Eternal jukebox\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://eternalbox.dev/jukebox_go.html?id=1nS12P1Ely8F4tzeXPMsYr",
+            "_notes": "Eternal jukebox"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:13 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"link\", \"interest\", \"user\", \"search\", \"playlist\", \"recommendation\", \"song\", \"track\", \"radio\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-6": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://swagitda.com/blog/posts/the-security-obstructionism-secobs-market/\nNotes: SecObs\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://swagitda.com/blog/posts/the-security-obstructionism-secobs-market/",
+            "_notes": "SecObs"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:28 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "security\", \"obstructionism\", \"secobs\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-60": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://soundcloud.com/flandre-sdm\nNotes: https://soundcloud.com/flandre-sdm\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://soundcloud.com/flandre-sdm",
+            "_notes": "https://soundcloud.com/flandre-sdm"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:14 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "soundcloud\", \"music\", \"playlist\", \"recommendation\", \"sounds\", \"podcast\", \"streaming\", \"lists\", \"watch\", \"play\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-61": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.reddit.com/r/norulesmusic2/\nNotes: https://www.reddit.com/r/norulesmusic2/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.reddit.com/r/norulesmusic2/",
+            "_notes": "https://www.reddit.com/r/norulesmusic2/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:15 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "music\", \"norule\", \"songs\", \"rap\", \"catchy\", \"funny\", \"upbeat\", \"blues\", \"jazz\", \"electronic\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-62": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.reddit.com/r/progmetal/comments/bdlv9q/a_small_guide_to_get_into_prog_metal/\nNotes: prog metal\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.reddit.com/r/progmetal/comments/bdlv9q/a_small_guide_to_get_into_prog_metal/",
+            "_notes": "prog metal"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:16 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "progmetal\", \"technology\", \"programming\", \"code\", \"computer science\", \"coding\", \"web development\", \"software engineering\", \"IT\", \"tech\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-63": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://miya.nipah.moe:81/public/\nNotes: http://miya.nipah.moe:81/public/\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://miya.nipah.moe:81/public/",
+            "_notes": "http://miya.nipah.moe:81/public/"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:17 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"bank\", \"articles\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-64": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://ciechanow.ski/sound/\nNotes: Nature of sound\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://ciechanow.ski/sound/",
+            "_notes": "Nature of sound"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:18 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "nature\", \"sound\", \"music\", \"audio\", \"sounds\", \"scents\", \"phonetics\", \"acoustics\", \"tones\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-65": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://lostfrog.net/\nNotes: Lost Frog (lolicore)\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://lostfrog.net/",
+            "_notes": "Lost Frog (lolicore)"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:19 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"interesting\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-66": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://lolicore.net/\nNotes: Lolicore.net (content warning)\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://lolicore.net/",
+            "_notes": "Lolicore.net (content warning)"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:19 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "username\", \"password\", \"bank_account\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-67": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.youtube.com/@BreadMemes\nNotes: BreadMemes (lolicore) [re]uploader\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.youtube.com/@BreadMemes",
+            "_notes": "BreadMemes (lolicore) [re]uploader"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:20 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"filters\", \"interests\", \"links\", \"media\", \"streaming\", \"video\", \"content\", \"browsers\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-68": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://suricrasia.online/iceberg/\nNotes: The computer iceburg\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://suricrasia.online/iceberg/",
+            "_notes": "The computer iceburg"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:21 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "user\", \"search\", \"filter\", \"category\", \"interest\", \"blog\", \"article\", \"review\", \"product\", \"recipe\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-69": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.goodreads.com/series/266949-shadow-sun\nNotes: Shadows Sun\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.goodreads.com/series/266949-shadow-sun",
+            "_notes": "Shadows Sun"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:22 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interesting\", \"shadows\", \"sun\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-7": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://caf-shib2ops.ca/CoreServices/\nNotes: Canarie CAF Shibboleth institution XML\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://caf-shib2ops.ca/CoreServices/",
+            "_notes": "Canarie CAF Shibboleth institution XML"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:28 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"core-services\", \"xml\", \"Caf-Shib\", \"CAF\", \" Shibboleth\", \"institution\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-70": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://witchculttranslation.com/table-of-content/\nNotes: Re:Zero WN\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://witchculttranslation.com/table-of-content/",
+            "_notes": "Re:Zero WN"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:22 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "user\", \"search\", \"filters\", \"filter\", \n\"page_number\", \"page_size\", \"sort\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-71": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://draculadaily.substack.com/about\nNotes: Dracula daily\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://draculadaily.substack.com/about",
+            "_notes": "Dracula daily"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:23 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "about\", \"daily\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-72": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.openttd.org/\nNotes: openttd\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.openttd.org/",
+            "_notes": "openttd"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:24 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"interest\", \"loans\", \"credit\", \"finance\", \"savings\", \"mortgage\", \"debt\", \"accounting\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-73": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://oimo.io/works/blob/\nNotes: Blob toy\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://oimo.io/works/blob/",
+            "_notes": "Blob toy"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:25 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"interests\", \"toy\", \"links\", \"articles\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-74": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://type.method.ac/#\nNotes: Kerning\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://type.method.ac/#",
+            "_notes": "Kerning"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:25 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"interests\", \"links\", \"search\", \"accounting\", \"finance\", \"loans\", \"credit\", \"debt\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-75": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://slowroads.io/\nNotes: Slow roads\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://slowroads.io/",
+            "_notes": "Slow roads"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:26 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"slow roads\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-76": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://bruno-simon.com/\nNotes: Bruno Simon\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://bruno-simon.com/",
+            "_notes": "Bruno Simon"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:27 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\", \"interests\", \"articles\", \"news\", \"portfolio\", \"stocks\", \"investments\", \"finance\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-77": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: javascript:var i\nNotes: s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);,Katamari (save as bookmark)\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "javascript:var i",
+            "_notes": "s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);,Katamari (save as bookmark)"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:28 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "javascript\", \"bookmark\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-78": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://shifthappens.site/typewriter/\nNotes: Typewriter simulator\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://shifthappens.site/typewriter/",
+            "_notes": "Typewriter simulator"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:28 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "typewriter\", \"simulator\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-79": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.linerider.com/\nNotes: Line Rider\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.linerider.com/",
+            "_notes": "Line Rider"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:29 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "line rider\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-8": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://sol.gfxile.net/dontask.html\nNotes: http://sol.gfxile.net/dontask.html\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://sol.gfxile.net/dontask.html",
+            "_notes": "http://sol.gfxile.net/dontask.html"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:29 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "user\", \"search\", \"filter\", \"sort\", \"category\", \"page\", \"header\", \"footer\", \"addtag\", \"addlink\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-80": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://mininggames.net/marsminer.html\nNotes: Mars Miner\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://mininggames.net/marsminer.html",
+            "_notes": "Mars Miner"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:29 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Mining Game\", \"Virtual Mining\", \"Digital Mining\", \"Cryptocurrency Mining\", \"BTC Mining\", \"ETH Mining\", \"XRP Mining\", \"BITCOIN Mining\", \"Litecoin Mining\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-81": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.stickpage.com/haplandgameplay.shtml\nNotes: Hapland\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.stickpage.com/haplandgameplay.shtml",
+            "_notes": "Hapland"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:30 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\",\"interests\",\"links\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-82": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.freeonlinegames.com/racing-games/planet-racer.html\nNotes: Planet Racer\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.freeonlinegames.com/racing-games/planet-racer.html",
+            "_notes": "Planet Racer"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:31 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "game\", \"racing\", \"planet\", \"racer\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-83": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.gamesfreak.net/games/Planet-Racer_3084.html\nNotes: Planet Racer\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.gamesfreak.net/games/Planet-Racer_3084.html",
+            "_notes": "Planet Racer"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:31 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "planet racer\", \"sports\", \"video games\", \"competitive racing\", \"technology\", \"adventure\", \"game reviews\", \"console gaming\", \"console accessories\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-84": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.stickpage.com/haplandgameplay.shtml\nNotes: Hapland\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.stickpage.com/haplandgameplay.shtml",
+            "_notes": "Hapland"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:32 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "hapland\", \"gameplay\", \"bank\", \"interest\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-85": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.kongregate.com/games/FunCrow/dude-and-zombies\nNotes: Dude and Zombies\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.kongregate.com/games/FunCrow/dude-and-zombies",
+            "_notes": "Dude and Zombies"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:33 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "funcrow\", \"dudesandzombies\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-86": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.addictinggames.com/puzzle-games/superstacker2.jsp\nNotes: Superstacker2\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://www.addictinggames.com/puzzle-games/superstacker2.jsp",
+            "_notes": "Superstacker2"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:33 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"filtering\", \"interests\", \"links\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-87": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://biomediaproject.com/bmp/files/LEGO/gms/download/ClubGames/\nNotes: Lego games\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "http://biomediaproject.com/bmp/files/LEGO/gms/download/ClubGames/",
+            "_notes": "Lego games"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:34 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "Interesting Links\", \"Biomedical Engineering\", \"Lego Games\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-88": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://dood.al/pinktrombone/\nNotes: Mouth sound pink trombone\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://dood.al/pinktrombone/",
+            "_notes": "Mouth sound pink trombone"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:34 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\", \"dood.al\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-89": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://wordshake.com/boggle\nNotes: Boggle\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://wordshake.com/boggle",
+            "_notes": "Boggle"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:35 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "boggle\", \"words\", \"crossword\", \"anagrams\", \"wordplay\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-9": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.devever.net/~hl/xml\nNotes: https://www.devever.net/~hl/xml\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.devever.net/~hl/xml",
+            "_notes": "https://www.devever.net/~hl/xml"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:43:30 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "banking\", \"financial services\", \"credit cards\", \"loans\", \"debt consolidation\", \"mortgage\", \"savings accounts\", \"checking accounts\", \"finance news\", \"interest rates\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-90": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://app.crackingthecryptic.com/sudoku/j3m76TrmfD\nNotes: Sudoku\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://app.crackingthecryptic.com/sudoku/j3m76TrmfD",
+            "_notes": "Sudoku"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:36 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "sudoku\", \"cryptic\", \"bank\", \"links\", \"funny\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-91": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.readthemaple.com/provincial-landlords/\nNotes: Find out if your provincial rep is invested in real estate\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.readthemaple.com/provincial-landlords/",
+            "_notes": "Find out if your provincial rep is invested in real estate"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:37 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "real estate\", \"investment\", \"property\", \"landlord\", \"mortgage\", \"renting\", \"appreciation\", \"tax benefits\", \"interest\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-92": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://git.lavender.software/lavender/watch-party\nNotes: watch party - couldn't compile myself, skill issue prob\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://git.lavender.software/lavender/watch-party",
+            "_notes": "watch party - couldn't compile myself, skill issue prob"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:38 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "watch party\", \"skill issues\", \"compile\", \"problems\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-93": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://map.greenfieldmc.net/\nNotes: GreenfieldMC\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://map.greenfieldmc.net/",
+            "_notes": "GreenfieldMC"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:38 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "bank\", \"links\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-94": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://yourmom.zip/\nNotes: Your mom\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://yourmom.zip/",
+            "_notes": "Your mom"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:39 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"bank\", \"links\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-95": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://youtubetranscript.com/\nNotes: Youtube transcript fetcher\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://youtubetranscript.com/",
+            "_notes": "Youtube transcript fetcher"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:39 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "transcript\", \"youtube\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-96": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://app.posemy.art/\nNotes: online pose editor\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://app.posemy.art/",
+            "_notes": "online pose editor"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:40 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "online\", \"pose\", \"editor\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-97": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://ephtracy.github.io/\nNotes: voxel editor\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://ephtracy.github.io/",
+            "_notes": "voxel editor"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:40 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "voxel\",\"editing\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-98": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.myanonamouse.net/inviteapp.php\nNotes: Book tracker\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.myanonamouse.net/inviteapp.php",
+            "_notes": "Book tracker"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:40 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "book\", \"anonymity\", \"inviteapp\", \"tracker\"]}"
+                    }
+                ]
+            }
+        }
+    },
+    "request-99": {
+        "request_body": {
+            "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.emilydamstra.com/please-enough-dead-butterflies/\nNotes: Dead butterflies\n### Response:\n{tags:[\"",
+            "max_new_tokens": 50,
+            "_url": "https://www.emilydamstra.com/please-enough-dead-butterflies/",
+            "_notes": "Dead butterflies"
+        },
+        "response": {
+            "HTTP_Version": "HTTP/1.0",
+            "Status": {
+                "Code": "200",
+                "Message": "OK"
+            },
+            "Headers": {
+                "Server": "BaseHTTP/0.6 Python/3.10.9",
+                "Date": "Thu, 21 Sep 2023 21:44:41 GMT",
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+                "Access-Control-Allow-Methods": "*",
+                "Access-Control-Allow-Headers": "*",
+                "Cache-Control": "no-store, no-cache, must-revalidate"
+            },
+            "Body": {
+                "results": [
+                    {
+                        "text": "interest\", \"butterflies\"]}"
+                    }
+                ]
+            }
+        }
+    }
+}

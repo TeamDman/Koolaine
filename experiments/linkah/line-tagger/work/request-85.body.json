@@ -1,0 +1,6 @@
+{
+    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://www.kongregate.com/games/FunCrow/dude-and-zombies\nNotes: Dude and Zombies\n### Response:\n{tags:[\"",
+    "max_new_tokens": 50,
+    "_url": "http://www.kongregate.com/games/FunCrow/dude-and-zombies",
+    "_notes": "Dude and Zombies"
+}

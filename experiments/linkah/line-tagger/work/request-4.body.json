@@ -1,0 +1,6 @@
+{
+    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.cs.columbia.edu/~hgs/etc/writing-bugs.html\nNotes: Common bugs in writing\n### Response:\n{tags:[\"",
+    "max_new_tokens": 50,
+    "_url": "https://www.cs.columbia.edu/~hgs/etc/writing-bugs.html",
+    "_notes": "Common bugs in writing"
+}

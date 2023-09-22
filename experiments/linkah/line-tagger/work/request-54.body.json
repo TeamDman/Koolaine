@@ -1,0 +1,6 @@
+{
+    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZCRwoyGxvQkqVrZgDQi4m-5&index=26\nNotes: David Silver DeepMind - Reinforcement Learning\n### Response:\n{tags:[\"",
+    "max_new_tokens": 50,
+    "_url": "https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZCRwoyGxvQkqVrZgDQi4m-5&index=26",
+    "_notes": "David Silver DeepMind - Reinforcement Learning"
+}

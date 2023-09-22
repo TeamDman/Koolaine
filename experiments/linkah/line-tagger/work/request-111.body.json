@@ -1,0 +1,6 @@
+{
+    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://danbooru.donmai.us/posts?page=2&tags=ruu_%28tksymkw%29\nNotes: Ruu art\n### Response:\n{tags:[\"",
+    "max_new_tokens": 50,
+    "_url": "https://danbooru.donmai.us/posts?page=2&tags=ruu_%28tksymkw%29",
+    "_notes": "Ruu art"
+}

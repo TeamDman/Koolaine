@@ -1,0 +1,6 @@
+{
+    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/\nNotes: https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/\n### Response:\n{tags:[\"",
+    "max_new_tokens": 50,
+    "_url": "https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/",
+    "_notes": "https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/"
+}

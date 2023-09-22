@@ -1,0 +1,6 @@
+{
+    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.reddit.com/r/selfhosted/comments/zujp7u/should_i_switch_from_1password_to_the_self_hosted/j1l83ed/\nNotes: This reddit thread\n### Response:\n{tags:[\"",
+    "max_new_tokens": 50,
+    "_url": "https://www.reddit.com/r/selfhosted/comments/zujp7u/should_i_switch_from_1password_to_the_self_hosted/j1l83ed/",
+    "_notes": "This reddit thread"
+}
