@@ -1,131 +1,129 @@
-http://localhost:5173/,Home
-https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/,Cloud adoption will fail because of the skills gap
-https://www.conventionalcommits.org/en/v1.0.0-beta.2/,Conventional commits
-https://elements-demo.stoplight.io/#/operations/get-todos,OpenAPI Elements demo
-https://www.cs.columbia.edu/~hgs/etc/writing-bugs.html,Common bugs in writing
-https://larsjung.de/h5ai/,https://larsjung.de/h5ai/
-https://swagitda.com/blog/posts/the-security-obstructionism-secobs-market/,SecObs
-https://caf-shib2ops.ca/CoreServices/,Canarie CAF Shibboleth institution XML
-http://sol.gfxile.net/dontask.html,http://sol.gfxile.net/dontask.html
-https://www.devever.net/~hl/xml,https://www.devever.net/~hl/xml
-https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/,https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
-https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/,https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/
-https://whythefuckwasibreached.com/,https://whythefuckwasibreached.com/
-https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects,https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects
-http://www.drpetter.se/project_sfxr.html,http://www.drpetter.se/project_sfxr.html
-https://rete.js.org/#/examples/minimap,https://rete.js.org/#/examples/minimap
-https://twitter.com/Oracle/status/658433772904423424?s=19&fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q,https://twitter.com/Oracle/status/658433772904423424?s=19&amp;fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q
-https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276,https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276
-https://samy.pl/slipstream/,https://samy.pl/slipstream/
-https://github.com/samyk/drawio,https://github.com/samyk/drawio
-https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js,https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js
-https://gitlab.com/kokubunji,https://gitlab.com/kokubunji
-https://gitlab.com/robowaifudev/TalkToGPT2,https://gitlab.com/robowaifudev/TalkToGPT2
-https://www.google.com/search?q=sankey+diagram,Sankey diagram
-http://www.catb.org/~esr/faqs/smart-questions.html,How to ask questions the right way
-http://tppidev.github.io/secret/,secret (audio broken)
-https://caf-shib2ops.ca/CoreServices/,https://caf-shib2ops.ca/CoreServices/
-https://louisabraham.github.io/articles/hack-fb-messenger-1.html,Facebook messenger game hack
-https://developer.roblox.com/en-us/articles/BrickColor-Codes,Brick color codes
-http://www.shadyurl.com/,Shady url minifier
-https://ruffle.rs/,desktop flash player
-http://sigbovik.org/,Sigbovik
-https://huggingface.co/,AI ML models
-https://www.artbreeder.com/,Artbreeder
-https://sizeof.cat/,tech blog
-https://syncthing.net/,syncthing
-https://cubic-bezier.com/,cubic-bezier
-https://www.mythic-beasts.com/servers/virtual/,Mythic beasts
-https://www.reddit.com/r/selfhosted/comments/zujp7u/should_i_switch_from_1password_to_the_self_hosted/j1l83ed/,This reddit thread
-https://www.racknerd.com/BlackFriday/,Racknerd
-https://tailscale.com/kb/1077/secure-server-ubuntu-18-04/,Tailscale
-https://www.digitalocean.com/,Digital Ocean
-https://www.vultr.com/,Vultr
-https://www.linode.com/,Linode
-https://www.ovh.com/ca/en/,OVH
-https://www.namecheap.com/,Namecheap
-https://www.gandi.net/en,Gandi
-https://www.ionos.com/,ionos
-https://www.hostinger.com/,hostinger
-https://www.hostgator.com/,hostgator
-https://www.hostwinds.com/,hostwinds
-https://www.hostpapa.com/,hostpapa
-https://www.bluehost.com/,bluehost
-https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A,CS285 Fall 2019 Berkeley University - Reinforcement Learning
-https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZCRwoyGxvQkqVrZgDQi4m-5&index=26,David Silver DeepMind - Reinforcement Learning
-https://comeonandsl.am/,come on and slam
-https://musicforprogramming.net/latest/,Music for programming
-https://hypermammut.sourceforge.net/paulstretch/,Paul's Extreme Sound Stretch
-https://favoritemusic.guru/,Favoritemusic.guru spotify short-medium-long term stats
-https://eternalbox.dev/jukebox_go.html?id=1nS12P1Ely8F4tzeXPMsYr,Eternal jukebox
-https://soundcloud.com/flandre-sdm,https://soundcloud.com/flandre-sdm
-https://www.reddit.com/r/norulesmusic2/,https://www.reddit.com/r/norulesmusic2/
-https://www.reddit.com/r/progmetal/comments/bdlv9q/a_small_guide_to_get_into_prog_metal/,prog metal
-http://miya.nipah.moe:81/public/,http://miya.nipah.moe:81/public/
-https://ciechanow.ski/sound/,Nature of sound
-https://lostfrog.net/,Lost Frog (lolicore)
-https://lolicore.net/,Lolicore.net (content warning)
-https://www.youtube.com/@BreadMemes,BreadMemes (lolicore) [re]uploader
-https://suricrasia.online/iceberg/,The computer iceburg
-https://www.goodreads.com/series/266949-shadow-sun,Shadows Sun
-https://witchculttranslation.com/table-of-content/,Re:Zero WN
-https://draculadaily.substack.com/about,Dracula daily
-https://www.openttd.org/,openttd
-https://oimo.io/works/blob/,Blob toy
-https://type.method.ac/#,Kerning
-https://slowroads.io/,Slow roads
-https://bruno-simon.com/,Bruno Simon
-javascript:var i,s,ss=['http://kathack.com/js/kh.js','http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js'];for(i=0;i!=ss.length;i++){s=document.createElement('script');s.src=ss[i];document.body.appendChild(s);}void(0);,Katamari (save as bookmark)
-https://shifthappens.site/typewriter/,Typewriter simulator
-https://www.linerider.com/,Line Rider
-http://mininggames.net/marsminer.html,Mars Miner
-http://www.stickpage.com/haplandgameplay.shtml,Hapland
-http://www.freeonlinegames.com/racing-games/planet-racer.html,Planet Racer
-http://www.gamesfreak.net/games/Planet-Racer_3084.html,Planet Racer
-http://www.stickpage.com/haplandgameplay.shtml,Hapland
-http://www.kongregate.com/games/FunCrow/dude-and-zombies,Dude and Zombies
-http://www.addictinggames.com/puzzle-games/superstacker2.jsp,Superstacker2
-http://biomediaproject.com/bmp/files/LEGO/gms/download/ClubGames/,Lego games
-https://dood.al/pinktrombone/,Mouth sound pink trombone
-https://wordshake.com/boggle,Boggle
-https://app.crackingthecryptic.com/sudoku/j3m76TrmfD,Sudoku
-https://www.readthemaple.com/provincial-landlords/,Find out if your provincial rep is invested in real estate
-https://git.lavender.software/lavender/watch-party,watch party - couldn't compile myself, skill issue prob
-https://map.greenfieldmc.net/,GreenfieldMC
-https://yourmom.zip/,Your mom
-https://youtubetranscript.com/,Youtube transcript fetcher
-https://app.posemy.art/,online pose editor
-https://ephtracy.github.io/,voxel editor
-https://www.myanonamouse.net/inviteapp.php,Book tracker
-https://www.emilydamstra.com/please-enough-dead-butterflies/,Dead butterflies
-https://alogs.space/robowaifu/res/15630.html,Community working on robot waifus
-https://www.dictionaryofobscuresorrows.com/,Dictionary of obscure sorrows
-https://excalidraw.com/,Excalidraw
-https://steamosaic.com/,Steam mosaic
-https://supertools.therundown.ai/,ai tools
-https://www.phind.com/,Phind - AI search engine
-https://meaningness.com/modes-chart,We live in a society
-https://neal.fun/space-elevator/,Space elevator
-https://typst.app/,Typst - markdown ish for academic papers
-https://www.deviantart.com/rhads/art/Forest-Spirit-548894017,rhads
-https://www.studiorayyan.com/,Omar Rayyan
-https://danbooru.donmai.us/posts?page=2&tags=ruu_%28tksymkw%29,Ruu art
-https://randomc.net/2012/10/03/shin-sekai-yori-01/,Review of shinsekai yori
-https://themes.moe/?u=TeamDman&l=mal,Anime theme opening crossreference
-https://animemusicquiz.com/,Anime music quiz
-https://vndb.org/v12392,Monobeno
-https://junji-ito-index.tumblr.com/the-index,Junji ito
-https://www.katawa-shoujo.com/,Katawa shoujo
-https://www.shanaproject.com/,Shana project torrent RSS
-https://vndb.org/v335,Garden
-https://vndb.org/v6438,D.C III
-https://www.baka-tsuki.org/project/index.php?title=Baka-Tsuki:About,Baka tsuki, LN translations
-http://151.80.40.155/#,Touhou music
-https://touhou.kuukunen.net/,More touhou music
-http://genki.japantimes.co.jp/about_en,http://genki.japantimes.co.jp/about_en
-https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide,https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide
-http://guidetojapanese.org/learn/,http://guidetojapanese.org/learn/
-https://www.imabi.net/,https://www.imabi.net/
-https://floatoverblow.com/,floatoverblow - they have nice music
-https://www.s-config.com/cellar-door/,s-config, linked to by floatoverblow, lots of outlinks here
-https://emreed.net/LowTech_Directory,LowTech_Directory - more outlinks
+https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/  ,Cloud adoption will fail because of the skills gap
+https://www.conventionalcommits.org/en/v1.0.0-beta.2/   ,Conventional commits
+https://elements-demo.stoplight.io/#/operations/get-todos   ,OpenAPI Elements demo
+https://www.cs.columbia.edu/~hgs/etc/writing-bugs.html  ,Common bugs in writing
+https://larsjung.de/h5ai/   ,https://larsjung.de/h5ai/
+https://swagitda.com/blog/posts/the-security-obstructionism-secobs-market/  ,SecObs
+https://caf-shib2ops.ca/CoreServices/   ,Canarie CAF Shibboleth institution XML
+http://sol.gfxile.net/dontask.html  ,http://sol.gfxile.net/dontask.html
+https://www.devever.net/~hl/xml ,https://www.devever.net/~hl/xml
+https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/    ,https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/
+https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/ ,https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/
+https://whythefuckwasibreached.com/ ,https://whythefuckwasibreached.com/
+https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects  ,https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects
+http://www.drpetter.se/project_sfxr.html    ,http://www.drpetter.se/project_sfxr.html
+https://rete.js.org/#/examples/minimap  ,https://rete.js.org/#/examples/minimap
+https://twitter.com/Oracle/status/658433772904423424?s=19&fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q  ,how many devices run java
+https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276   ,https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276
+https://samy.pl/slipstream/ ,https://samy.pl/slipstream/
+https://github.com/samyk/drawio ,https://github.com/samyk/drawio
+https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js  ,https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js
+https://gitlab.com/kokubunji    ,https://gitlab.com/kokubunji
+https://gitlab.com/robowaifudev/TalkToGPT2  ,https://gitlab.com/robowaifudev/TalkToGPT2
+https://en.wikipedia.org/wiki/Sankey_diagram    ,sankey diagram
+http://www.catb.org/~esr/faqs/smart-questions.html  ,How to ask questions the right way
+http://tppidev.github.io/secret/    ,secret (audio broken)
+https://caf-shib2ops.ca/CoreServices/   ,https://caf-shib2ops.ca/CoreServices/
+https://louisabraham.github.io/articles/hack-fb-messenger-1.html    ,Facebook messenger game hack
+https://developer.roblox.com/en-us/articles/BrickColor-Codes    ,Brick color codes
+http://www.shadyurl.com/    ,Shady url minifier
+https://ruffle.rs/  ,desktop flash player
+http://sigbovik.org/    ,Sigbovik
+https://huggingface.co/ ,AI ML models
+https://www.artbreeder.com/ ,Artbreeder
+https://sizeof.cat/ ,tech blog
+https://syncthing.net/  ,syncthing
+https://cubic-bezier.com/   ,cubic-bezier
+https://www.mythic-beasts.com/servers/virtual/  ,Mythic beasts
+https://www.reddit.com/r/selfhosted/comments/zujp7u/should_i_switch_from_1password_to_the_self_hosted/j1l83ed/  ,This reddit thread
+https://www.racknerd.com/BlackFriday/   ,Racknerd
+https://tailscale.com/kb/1077/secure-server-ubuntu-18-04/   ,Tailscale
+https://www.digitalocean.com/   ,Digital Ocean
+https://www.vultr.com/  ,Vultr
+https://www.linode.com/ ,Linode
+https://www.ovh.com/ca/en/  ,OVH
+https://www.namecheap.com/  ,Namecheap
+https://www.gandi.net/en    ,Gandi
+https://www.ionos.com/  ,ionos
+https://www.hostinger.com/  ,hostinger
+https://www.hostgator.com/  ,hostgator
+https://www.hostwinds.com/  ,hostwinds
+https://www.hostpapa.com/   ,hostpapa
+https://www.bluehost.com/   ,bluehost
+https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A    ,CS285 Fall 2019 Berkeley University - Reinforcement Learning
+https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZCRwoyGxvQkqVrZgDQi4m-5&index=26    ,David Silver DeepMind - Reinforcement Learning
+https://comeonandsl.am/ ,come on and slam
+https://musicforprogramming.net/latest/ ,Music for programming
+https://hypermammut.sourceforge.net/paulstretch/    ,Paul's Extreme Sound Stretch
+https://favoritemusic.guru/ ,Favoritemusic.guru spotify short-medium-long term stats
+https://eternalbox.dev/jukebox_go.html?id=1nS12P1Ely8F4tzeXPMsYr    ,Eternal jukebox
+https://soundcloud.com/flandre-sdm  ,https://soundcloud.com/flandre-sdm
+https://www.reddit.com/r/norulesmusic2/ ,https://www.reddit.com/r/norulesmusic2/
+https://www.reddit.com/r/progmetal/comments/bdlv9q/a_small_guide_to_get_into_prog_metal/    ,prog metal
+http://miya.nipah.moe:81/public/    ,http://miya.nipah.moe:81/public/
+https://ciechanow.ski/sound/    ,Nature of sound
+https://lostfrog.net/   ,Lost Frog (lolicore)
+https://lolicore.net/   ,Lolicore.net (content warning)
+https://www.youtube.com/@BreadMemes ,BreadMemes (lolicore) [re]uploader
+https://suricrasia.online/iceberg/  ,The computer iceburg
+https://www.goodreads.com/series/266949-shadow-sun  ,Shadows Sun
+https://witchculttranslation.com/table-of-content/  ,Re:Zero WN
+https://draculadaily.substack.com/about ,Dracula daily
+https://www.openttd.org/    ,openttd
+https://oimo.io/works/blob/ ,Blob toy
+https://type.method.ac/#    ,Kerning
+https://slowroads.io/   ,Slow roads
+https://bruno-simon.com/    ,Bruno Simon
+https://shifthappens.site/typewriter/   ,Typewriter simulator
+https://www.linerider.com/  ,Line Rider
+http://mininggames.net/marsminer.html   ,Mars Miner
+http://www.stickpage.com/haplandgameplay.shtml  ,Hapland
+http://www.freeonlinegames.com/racing-games/planet-racer.html   ,Planet Racer
+http://www.gamesfreak.net/games/Planet-Racer_3084.html  ,Planet Racer
+http://www.stickpage.com/haplandgameplay.shtml  ,Hapland
+http://www.kongregate.com/games/FunCrow/dude-and-zombies    ,Dude and Zombies
+http://www.addictinggames.com/puzzle-games/superstacker2.jsp    ,Superstacker2
+http://biomediaproject.com/bmp/files/LEGO/gms/download/ClubGames/   ,Lego games
+https://dood.al/pinktrombone/   ,Mouth sound pink trombone
+https://wordshake.com/boggle    ,Boggle
+https://app.crackingthecryptic.com/sudoku/j3m76TrmfD    ,Sudoku
+https://www.readthemaple.com/provincial-landlords/  ,Find out if your provincial rep is invested in real estate
+https://git.lavender.software/lavender/watch-party  ,watch party - couldn't compile myself    , skill issue prob
+https://map.greenfieldmc.net/   ,GreenfieldMC
+https://yourmom.zip/    ,Your mom
+https://youtubetranscript.com/  ,Youtube transcript fetcher
+https://app.posemy.art/ ,online pose editor
+https://ephtracy.github.io/ ,voxel editor
+https://www.myanonamouse.net/inviteapp.php  ,Book tracker
+https://www.emilydamstra.com/please-enough-dead-butterflies/    ,Dead butterflies
+https://alogs.space/robowaifu/res/15630.html    ,Community working on robot waifus
+https://www.dictionaryofobscuresorrows.com/ ,Dictionary of obscure sorrows
+https://excalidraw.com/ ,Excalidraw
+https://steamosaic.com/ ,Steam mosaic
+https://supertools.therundown.ai/   ,ai tools
+https://www.phind.com/  ,Phind - AI search engine
+https://meaningness.com/modes-chart ,We live in a society
+https://neal.fun/space-elevator/    ,Space elevator
+https://typst.app/  ,Typst - markdown ish for academic papers
+https://www.deviantart.com/rhads/art/Forest-Spirit-548894017    ,rhads
+https://www.studiorayyan.com/   ,Omar Rayyan
+https://danbooru.donmai.us/posts?page=2&tags=ruu_%28tksymkw%29  ,Ruu art
+https://randomc.net/2012/10/03/shin-sekai-yori-01/  ,Review of shinsekai yori
+https://themes.moe/?u=TeamDman&l=mal    ,Anime theme opening crossreference
+https://animemusicquiz.com/ ,Anime music quiz
+https://vndb.org/v12392 ,Monobeno
+https://junji-ito-index.tumblr.com/the-index    ,Junji ito
+https://www.katawa-shoujo.com/  ,Katawa shoujo
+https://www.shanaproject.com/   ,Shana project torrent RSS
+https://vndb.org/v335   ,Garden
+https://vndb.org/v6438  ,D.C III
+https://www.baka-tsuki.org/project/index.php?title=Baka-Tsuki:About ,Baka tsuki  , LN translations
+http://151.80.40.155/#  ,Touhou music
+https://touhou.kuukunen.net/    ,More touhou music
+http://genki.japantimes.co.jp/about_en  ,http://genki.japantimes.co.jp/about_en
+https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide ,https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide
+http://guidetojapanese.org/learn/   ,http://guidetojapanese.org/learn/
+https://www.imabi.net/  ,https://www.imabi.net/
+https://floatoverblow.com/  ,floatoverblow - they have nice music
+https://www.s-config.com/cellar-door/   ,s-config  , linked to by floatoverblow  , lots of outlinks here
+https://emreed.net/LowTech_Directory    ,LowTech_Directory - more outlinks

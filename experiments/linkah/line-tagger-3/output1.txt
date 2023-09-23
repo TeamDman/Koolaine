@@ -1,0 +1,2251 @@
+https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/########
+
+
+
+
+
+
+
+
+Cloud adoption will fail because of the skills gap | CloudPundit: Massive-Scale Computing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+  
+
+
+
+
+
+
+
+Skip to navigation
+Skip to main content
+Skip to primary sidebar
+Skip to secondary sidebar
+Skip to footer
+
+
+
+
+CloudPundit: Massive-Scale Computing
+the business of Internet infrastructure, cloud computing, and data centers
+
+
+
+
+HomeAbout Me
+Coverage
+For Investors
+My Team
+
+
+Twitter
+RSS Feed
+
+
+
+
+
+
+
+
+← Cloud self-service doesn’t need to invite the orc apocalypse 
+
+The road to cloud purgatory → 
+
+
+Cloud adoption will fail because of the skills gap
+
+Sep 12
+
+
+Posted by Lydia Leong
+
+
+In order to adopt cloud IaaS and PaaS successfully (and arguably, to adopt SaaS optimally), an organization needs skills. Most of all, it needs technical skills for the whole application lifecycle in the cloud — the ability to architect applications (and their underlying stacks) for the cloud, develop for the cloud, secure the cloud, run and manage and govern the cloud environments and the applications in those environments. The more cloud-natively you can do these things, the better.
+If you can’t do these things in cloud-native patterns (often because you’re migrating your legacy), you at least want to try to modernize and cloud-optimize — to leverage PaaS rather than IaaS, to automate everything you reasonably can, and otherwise exploit the cloud capabilities to maximum effectiveness. This, too, requires skills.
+Cloud skills needs — and associated “soft skills” and mindset — are needed in infrastructure and operations (I&O) teams and security and risk management (SRM) teams. They’re needed in application teams, data science teams, and other technical end-user teams that exploit cloud services, along with enterprise architecture and other architecture teams. There are also nontechnical skills that have to be built in the appropriate teams — effective cloud sourcing, effective cloud financial management, and so on.
+My colleagues and I have previously written that the cloud skills gap has reached a crisis level in many organizations. Organizational timelines for cloud adoption, cloud migration and cloud maturity are being impacted by the inability to hire and retain the people with the necessary qualifications.
+There are lots of reasons for the skills gap — insufficient number of trained and experienced people to meet demand, escalating salaries plus a globalized market for talent that results in NYC banks nabbing skilled cloud architects working for enterprises in Iowa or Missouri (or Poland) for NYC banking salaries, and the quality of the opportunities available.
+For instance, an increasing number of the technical professionals I talk to care more about good executive support for the cloud program, a cloud team that’s executing well and doing smart things, an opportunity to bring their best selves to work (excellent team management, great colleagues, feeling valued, etc.), and strong belief in the organization’s mission, than they do about pay per se. It isn’t just about pay — but at a lot of slow-moving enterprises where the pay isn’t great, there are also cultural issues that make highly-skilled cloud professionals feel out of place and not valued.
+While many organizations are trying to retrain existing I&O personnel especially, these efforts can fail because the DevOps emphasis of successful cloud-optimized or cloud-native adoption results in fundamentally different jobs. Not only does this require the development of strong automation (and thus coding) skills, but it also results in a more project-driven workday,  greater autonomy (but also more self-starting and self-motivation), and more communication and collaboration with application teams and other cloud users. Those who prefer “IT factory work”, solitarily executing repetitive ClickOps tasks driven by service requests, generally don’t enjoy the change in the nature of a job.
+Organizations that can’t retain cloud-trained staff often react by leaning more heavily on the people that remain, which jacks up stress levels, leads to resentment, and often turns into a spiral of departures. Contractors can help fill the gap — if the organization is willing to spend the money to hire them.
+Many organizations are successfully bridging the gap with consulting (professional services) and managed services (a Gartner survey showed about three-quarters of organizations use such services for at least a portion of their cloud IaaS+PaaS adoption). Many cloud managed services deals include explicit training and gradual handover to the customer’s personnel, allowing the customer to take over bit by bit as their team gets comfortable. However, MSPs, SIs, and other outsourcers are also struggling to fulfill the demand, which leads to both project delays as well as throwing less-qualified bodies into the mix in order to try to meet contractual obligations and grow revenues.
+I believe that we are rapidly reaching the point where the skills gap is not only endangering the ability of individual organizations to fulfill their cloud computing ambitions, but where we may begin to see systemic back-off from cloud ambitions, resulting most notably in cancelled or substantially scaled-back cloud migrations as a common market pattern. (Disclaimer: This is a personal statement scribbled while eating lunch. It is not a peer-reviewed Gartner position.) Also, note that in no way am I claiming that this is likely to lead to repatriation!
+Organizations that are late cloud adopters were already more hesitant about going to the cloud in the first place. They tend to have less of a belief that IT can help drive business success, have more technical debt, and tend to have lesser-skilled people (with less up-to-date skills). They may have been the recipient of many people who fled early cloud-adopting organizations because those people didn’t want to re-skill, so they face significantly harder internal pushback and potentially internal sandbagging of cloud projects. When they do manage to successfully train people, those people often leave within a year for both better pay and a more congenial, faster-moving environment.  Late adopters may simply not be able to generate enough internal competence to even safely and successfully use outsourced assistance.
+However, even organizations that are not late adopters often have different parts of the business at different paces of adoption. Notably, they may have digital business divisions, or more ambitious fast-moving business units in general, that have substantial cloud adoption, while other parts of the organization lag behind. Those that are charging ahead may remain successful and continue to expand in the cloud, while the rest of the organization remains unable to beg borrow or steal enough skills from those other successful outposts to overcome the on-premises inertia.
+This may lead to an exacerbation of existing market patterns where the digitally ambitious have had outsized and potentially disruptive success… and where other organizations are unable to imitate those successes, leading not just to failures of IT projects, but also meaningful negative business impacts. This, in turn, has a follow-on effect on the cloud providers. As enterprise bets on the cloud grow bigger, one might begin to see these projects, especially mass migration and transformation, as gambles more so than realistically-executable plans. Any plan that is predicated on if we can get the people who can do this stuff is fraught with nontrivial probability of failure.
+(As always, my Gartner colleagues and I are happy to advise on inquiry, but there’s only so much we can help you with your skills gap if your organization has the deadly triplet of not offering good pay, not providing a good working environment, and and not making people feel like they’re doing something valuable with their lives. However, I also spend some significant percentage of my inquiry time listening to people vent, so I’m happy to sympathize with your tale of woe, too, and in most cases reassure you that what you’re trying to get your organization to do would be the right thing…)
+
+
+ 
+TweetMoreEmailPrintRedditLike this:Like Loading...
+
+Related
+ 
+
+
+
+								Posted on September 12, 2022, in Strategy and tagged cloud, IaaS, market, PaaS, skills. Bookmark the permalink.								22 Comments.															
+
+
+
+← Cloud self-service doesn’t need to invite the orc apocalypse 
+
+The road to cloud purgatory → 
+
+
+
+
+
+
+ Leave a comment
+
+
+
+
+Trackbacks 19
+
+
+
+
+Comments 3
+
+
+
+
+
+
+
+
+
+bobby tobby
+
+				|
+				
+				September 19, 2022 at 11:50 am
+
+
+
+no lies were told here.
+LikeLike
+
+
+
+
+
+
+
+
+
+Conrad Kimball
+
+				|
+				
+				September 19, 2022 at 1:23 pm
+
+
+
+I agree that cloud skills are inhibiting leveraging cloud.  One obvious way to try to address this is to increase cloud skills.  We should certainly do that, but it runs into a number of hurdles as you point out.
+Another, complementary approach is to find ways to reduce the cloud skills that are required – to find ways to make cloud easier to use, by lessening both the cognitive / skill burden as well as the toil burden required of application teams in order to reap the benefits of using cloud.  If effective use of cloud today requires a skills bar , we can certainly try to bring people up to that bar, but we can and should also try to lower that bar.
+Lessening the required skills can also make achieving that level accessible to a larger population.  Think of a bell-shaped curve of the intellectual capability of the developer population.  With the skills bar set at the current level, there is some vertical line through that curve, and the population to the left of that line are just not going to reach the required skills no matter how much training we do.  If we reduce the required skills, we can move that vertical line to the left so a larger population has the capability to learn to use cloud.
+So, how to make cloud easier to use – lessen cognitive / skill burden on the individual workload team, as well as lessen non-value-added toil?  My 2 cents: we need more platforms – platforms provided by the CSPs, for sure, but when that is insufficient, likely also platforms operated by your own company.  (I’m using “platform” in a more generic sense than the NIST definition of platform-as-a-service.)
+A basic example: rather than requiring every application team to operate their own Kubernetes environment – even if using CSP-provided Kubernetes such as AWS EKS, Azure AKS, GCP GKE – some centralized team of Kubernetes expertise operates shared, multi-tenant Kubernetes environment(s), so that application teams can focus on their application.  Big, highly-capable teams may choose to operate their own Kubernetes environments, but for small teams (think of simple workloads that may be supported by a fraction of an FTE), or those that simply don’t wish to bear the burden of self-sufficiency in operating Kubernetes, deploying and operating in such an operated-by-somebody-else Kubernetes environment becomes much easier.
+LikeLike
+
+
+
+
+
+
+
+
+
+Jo Bloggs
+
+				|
+				
+				October 18, 2022 at 2:46 am
+
+
+
+I don’t understand how Gartner can still be taken seriously. The tripe churned out by their so-called analysts is like a cross between the “Ministry of Stating the Obvious” and “The Emperor’s New Clothes”. The organisation reminds me of the many wasteful public sector organisations, employing countless people with “non-jobs” who don’t contribute anything useful to businesses other than serving to pull the wool over the eyes of clueless technophobe managers and CEOs, and fleecing them out of small fortunes for annual reports that resemble something from a newspaper’s astrology page.
+LikeLike
+
+
+
+
+
+
+
+
+
+Pingback: [FI] Tietoliikennealan katsaus 2022-09 – loopback1.net
+
+
+
+Pingback: The cloud has a individuals downside
+
+
+
+Pingback: The cloud has a other folks drawback - Firnco
+
+
+
+Pingback: The cloud has a people problem - InfoWorld - LUCID NEWS
+
+
+
+Pingback: The cloud has an individuals problem – The IT Business News
+
+
+
+Pingback: The cloud has a people problem - Onsite Computer Services and IT Support in Colorado
+
+
+
+Pingback: The cloud has a people problem - BB Tech
+
+
+
+Pingback: 云有一個人的問題 - News China 365
+
+
+
+Pingback: The cloud has a of us issue – LahbabiGuide
+
+
+
+Pingback: The cloud has a people problem - Techdigipro
+
+
+
+Pingback: The cloud has a people problem | Classy Tech News
+
+
+
+Pingback: The cloud has a people problem - Texas Network Solutions LLP
+
+
+
+Pingback: The cloud has a individuals downside - Digi-Pro
+
+
+
+Pingback: The cloud has a people problem – JWEasyTech
+
+
+
+Pingback: The cloud has a people problem – Cerebral LY IT
+
+
+
+Pingback: The cloud has a individuals drawback - Local San Francisco News
+
+
+
+Pingback: The cloud has a folks downside – informatify.net
+
+
+
+Pingback: The cloud has a humans difficulty - Proekty Muratordomv
+
+
+
+Pingback: The cloud has a folks drawback - Vidio Blog
+
+
+
+
+
+Leave a Reply
+
+
+Δ 
+
+
+
+
+
+About the Author Lydia Leong is an analyst at Gartner, where she covers cloud computing and related topics in infrastructure and operations, Internet services, and digital transformation. [Read more.]
+This is a personal blog, and as such, it should not be taken to express Gartner’s views. Coverage-related posts are, however, mirrored on the Gartner Blog Network.
+
+ 
+
+Tags
+Categories
+
+
+
+AKAM
+Amazon
+appdev
+Azure
+BC/DR
+book
+CDN
+cloud
+colocation
+conference
+contracts
+customers
+DNS
+EQIX
+FinOps
+Gartner
+Google
+hands-on
+hosting
+IaaS
+LLNW
+mmog
+MQ
+MSP
+multicloud
+net neutrality
+networking
+news
+open source
+operations
+P2P
+PaaS
+people
+process
+RAX
+regulatory
+research
+resilience
+risk
+science
+security
+software
+travel
+video
+VMware 
+
+
+Analyst Life (41)
+
+Applications (3)
+
+Gadgets (2)
+
+Gaming (6)
+
+Governance (10)
+
+Industry (110)
+
+Infrastructure (219)
+
+Marketing (13)
+
+Personal (3)
+
+Strategy (4)
+
+Uncategorized (4)
+
+
+
+
+
+Search
+
+
+Search for:
+
+
+
+CategoriesCategories
+Select Category
+Analyst Life  (41)
+Applications  (3)
+Gadgets  (2)
+Gaming  (6)
+Governance  (10)
+Industry  (110)
+Infrastructure  (219)
+Marketing  (13)
+Personal  (3)
+Strategy  (4)
+Uncategorized  (4)
+
+
+
+Archives
+
+March 2023
+September 2022
+March 2022
+February 2022
+December 2021
+November 2021
+October 2021
+September 2021
+March 2021
+January 2021
+October 2020
+September 2020
+August 2020
+July 2020
+July 2019
+June 2018
+December 2016
+September 2016
+August 2016
+June 2016
+April 2016
+January 2016
+January 2015
+October 2014
+September 2014
+August 2014
+July 2014
+May 2014
+February 2014
+January 2014
+December 2013
+November 2013
+October 2013
+September 2013
+August 2013
+June 2013
+May 2013
+April 2013
+March 2013
+December 2012
+November 2012
+October 2012
+August 2012
+July 2012
+May 2012
+April 2012
+March 2012
+December 2011
+November 2011
+October 2011
+August 2011
+July 2011
+June 2011
+May 2011
+April 2011
+March 2011
+February 2011
+January 2011
+December 2010
+November 2010
+October 2010
+September 2010
+August 2010
+July 2010
+June 2010
+May 2010
+April 2010
+March 2010
+January 2010
+November 2009
+October 2009
+August 2009
+July 2009
+June 2009
+May 2009
+April 2009
+March 2009
+February 2009
+January 2009
+December 2008
+November 2008
+October 2008
+September 2008
+
+
+
+Recent Posts
+
+
+FinOps can be a big waste of money
+
+
+GreenOps for sustainability must parallel FinOps for cost
+
+
+The road to cloud purgatory
+
+
+Cloud adoption will fail because of the skills gap
+
+
+Cloud self-service doesn’t need to invite the orc apocalypse
+
+
+Resilience: Cloudy without a chance of meatballs
+
+
+My Q1 2022 research agenda
+
+
+The cloud budget overrun rainbow of flavors
+
+
+Five-P factors for root cause analysis
+
+
+Don’t be surprised when “move fast and break things” results in broken stuff
+
+
+Group hugs for managing cloud economics
+
+
+Improving cloud resilience through stuff that works
+
+
+Cloud cost overruns may be a business leadership failure
+
+
+Multicloud failover is almost always a terrible idea
+
+
+Banks are accelerating their cloud journeys
+
+
+Recent Comments 
+
+							Lisa on FinOps can be a big waste of money 
+
+							Lisa on FinOps can be a big waste of money 
+
+							Lisa on FinOps can be a big waste of money 
+
+Space Pirate on Beware misleading marketing of “private clouds” 
+
+Bi-Modal IT As The Vehicle For Your Company’s Safe Migration To The Hybrid Cloud - Zephyr Networks on Bimodal IT, VMworld, and the future of VMware 
+
+Isaac on Reflections on the OpenStack Atlanta summit 
+
+Devs don’t want to do ops - MixedMug on Cloud self-service doesn’t need to invite the orc apocalypse 
+
+rePlay : la revue de presse Cloud - Mai 2023 Blog Devoteam Revolve on FinOps can be a big waste of money 
+
+rePlay : la revue de presse du Cloud – Avril 2023 Blog Devoteam Revolve on GreenOps for sustainability must parallel FinOps for cost 
+
+SRE Weekly Issue #366 – FDE on FinOps can be a big waste of money 
+
+ More CommentsAn error has occurred; the feed is probably down. Try again later.Top ClicksNoneMeta
+
+Register Log in
+Entries feed
+Comments feed
+WordPress.com
+
+Follow me on TwitterMy Tweets 
+
+
+
+
+
+
+
+Blog at WordPress.com.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Privacy & Cookies: This site uses cookies. By continuing to use this website, you agree to their use. 
+To find out more, including how to control cookies, see here:
+				
+			Cookie Policy		
+
+
+ 
+
+
+
+Follow
+
+
+Following
+
+
+
+
+
+
+
+				CloudPundit: Massive-Scale Computing			
+
+
+Join 174 other followers
+
+
+
+
+
+
+
+ 
+
+												Sign me up											
+
+
+
+
+											Already have a WordPress.com account? Log in now. 
+
+
+
+
+
+
+ 
+
+
+
+
+
+				CloudPundit: Massive-Scale Computing			
+
+
+
+ Customize
+
+
+
+
+Follow
+
+
+Following
+
+
+Sign up
+Log in
+Copy shortlink
+
+
+											Report this content										
+
+
+
+											View post in Reader										
+
+
+Manage subscriptions
+
+Collapse this bar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+%d bloggers like this:		
+
+
+ 
+
+
+
+
+
+
+
+########
+https://www.conventionalcommits.org/en/v1.0.0-beta.2/########
+
+
+
+
+
+Conventional Commits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Versions
+
+v1.0.0
+v1.0.0-beta.4
+v1.0.0-beta.3
+v1.0.0-beta.2
+v1.0.0-beta.1
+v1.0.0-beta
+
+
+
+Languages
+
+English
+Italian
+Polish
+简体中文
+繁體中文
+Spanish
+Русский
+日本語
+Français
+한국어
+Português Brasileiro
+Indonesia
+Հայերեն
+Deutsch
+ไทย
+Ukrainian - Українська
+Belarusian - Беларуская
+Türkçe
+Nederlands
+Malayalam - മലയാളം
+
+
+
+
+About
+
+
+
+
+
+
+
+Conventional Commits
+A specification for adding human and machine readable meaning to commit messages
+
+Quick Summary
+Full Specification
+Contribute
+
+
+
+
+
+
+
+
+Conventional Commits 1.0.0-beta.2
+Summary
+As an open-source maintainer, squash feature branches onto master and write
+a standardized commit message while doing so.
+The commit message should be structured as follows:
+
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer]
+
+
+The commit contains the following structural elements, to communicate intent to the
+consumers of your library:
+
+fix: a commit of the type fix patches a bug in your codebase (this correlates with PATCH in semantic versioning).
+feat: a commit of the type feat introduces a new feature to the codebase (this correlates
+with MINOR in semantic versioning).
+BREAKING CHANGE: a commit that has the text BREAKING CHANGE: at the beginning of its optional body or footer section introduces a breaking API change (correlating with MAJOR in semantic versioning). A breaking change can be
+part of commits of any type. e.g., a fix:, feat: & chore: types would all be valid, in addition to any other type.
+Others: commit types other than fix: and feat: are allowed, for example @commitlint/config-conventional (based on the the Angular convention) recommends chore:, docs:, style:, refactor:, perf:, test:, and others. We also recommend improvement for commits that improve a current implementation without adding a new feature or fixing a bug. Notice these types are not mandated by the conventional commits specification, and have no implicit effect in semantic versioning (unless they include a BREAKING CHANGE, which is NOT recommended).
+
+A scope may be provided to a commit’s type, to provide additional contextual information and
+is contained within parenthesis, e.g., feat(parser): add ability to parse arrays.
+
+Examples
+Commit message with description and breaking change in body
+feat: allow provided config object to extend other configs
+
+BREAKING CHANGE: `extends` key in config file is now used for extending other config files
+Commit message with no body
+docs: correct spelling of CHANGELOG
+Commit message with scope
+feat(lang): added polish language
+Commit message for a fix using an (optional) issue number.
+fix: minor typos in code
+
+see the issue for details on the typos fixed
+
+fixes issue #12
+Introduction
+In software development, it’s been my experience that bugs are most often introduced
+at the boundaries between applications. Unit testing works great for testing the interactions
+that an open-source maintainer knows about, but do a poor job of capturing all the
+interesting, often unexpected, ways that a community puts a library to use.
+Anyone who has upgraded to a new patch version of a dependency, only to watch their
+application start throwing a steady stream of 500 errors, knows how important
+a readable commit history (and ideally a well maintained CHANGELOG) is to the ensuing
+forensic process.
+The Conventional Commits specification proposes introducing a standardized lightweight
+convention on top of commit messages. This convention dovetails with SemVer,
+asking software developers to describe in commit messages, features, fixes, and breaking
+changes that they make.
+By introducing this convention, we create a common language that makes it easier to
+debug issues across project boundaries.
+Specification
+The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119.
+
+Commits MUST be prefixed with a type, which consists of a noun, feat, fix, etc.,
+followed by a colon and a space.
+The type feat MUST be used when a commit adds a new feature to your application
+or library.
+The type fix MUST be used when a commit represents a bug fix for your application.
+An optional scope MAY be provided after a type. A scope is a phrase describing
+a section of the codebase enclosed in parenthesis, e.g., fix(parser):
+A description MUST immediately follow the type/scope prefix.
+The description is a short description of the code changes, e.g.,
+fix: array parsing issue when multiple spaces were contained in string.
+A longer commit body MAY be provided after the short description, providing additional contextual information about the code changes. The body MUST begin one blank line after the description.
+A footer MAY be provided one blank line after the body (or after the description if body is missing).
+The footer SHOULD contain additional issue references about the code changes (such as the issues it fixes, e.g.,Fixes #13).
+Breaking changes MUST be indicated at the very beginning of the footer or body section of a commit. A breaking change MUST consist of the uppercase text BREAKING CHANGE, followed by a colon and a space.
+A description MUST be provided after the BREAKING CHANGE: , describing what
+has changed about the API, e.g., BREAKING CHANGE: environment variables now take precedence over config files.
+The footer MUST only contain BREAKING CHANGE, external links, issue references, and other meta-information.
+Types other than feat and fix MAY be used in your commit messages.
+
+Why Use Conventional Commits
+
+Automatically generating CHANGELOGs.
+Automatically determining a semantic version bump (based on the types of commits landed).
+Communicating the nature of changes to teammates, the public, and other stakeholders.
+Triggering build and publish processes.
+Making it easier for people to contribute to your projects, by allowing them to explore
+a more structured commit history.
+
+FAQ
+How should I deal with commit messages in the initial development phase?
+We recommend that you proceed as if you’ve an already released product. Typically somebody, even if its your fellow software developers, is using your software. They’ll want to know what’s fixed, what breaks etc.
+What do I do if the commit conforms to more than one of the commit types?
+Go back and make multiple commits whenever possible. Part of the benefit of Conventional Commits is its ability to drive us to make more organized commits and PRs.
+Doesn’t this discourage rapid development and fast iteration?
+It discourages moving fast in a disorganized way. It helps you be able to move fast long term across multiple projects with varied contributors.
+Might Conventional Commits lead developers to limit the type of commits they make because they’ll be thinking in the types provided?
+Conventional Commits encourages us to make more of certain types of commits such as fixes. Other than that, the flexibility of Conventional Commits allows your team to come up with their own types and change those types over time.
+How does this relate to SemVer?
+fix type commits should be translated to PATCH releases. feat type commits should be translated to MINOR releases. Commits with BREAKING CHANGE in the commits, regardless of type, should be translated to MAJOR releases.
+How should I version my extensions to the Conventional Commits Specification, e.g. @jameswomack/conventional-commit-spec?
+We recommend using SemVer to release your own extensions to this specification (and
+encourage you to make these extensions!)
+What do I do if I accidentally use the wrong commit type?
+When you used a type that’s of the spec but not the correct type, e.g. fix instead of feat
+Prior to merging or releasing the mistake, we recommend using git rebase -i to edit the commit history. After release, the cleanup will be different according to what tools and processes you use.
+When you used a type not of the spec, e.g. feet instead of feat
+In a worst case scenario, it’s not the end of the world if a commit lands that does not meet the conventional commit specification. It simply means that commit will be missed by tools that are based on the spec.
+Do all my contributors need to use the conventional commit specification?
+No! If you use a squash based workflow on Git lead maintainers can clean up the commit messages as they’re merged—adding no workload to casual committers. A common workflow for this is to have your git system automatically squash commits from a pull request and present a form for the lead maintainer to enter the proper git commit message for the merge.
+
+
+
+
+License
+Creative Commons - CC BY 3.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########
+https://elements-demo.stoplight.io/#/operations/get-todos########
+Stoplight Elements DemoYou need to enable JavaScript to run this app.
+
+########
+https://www.cs.columbia.edu/~hgs/etc/writing-bugs.html########
+
+
+
+Common Bugs in Writing
+
+
+
+
+Common Bugs in Writing
+Preface (suggested by Bob Briscoe)
+
+Be clear what you're trying to say before you write it.
+Don't get attached to words you have written; be prepared to scrap
+what you wrote while you were thrashing around trying to work out what
+you wanted to say, even if its a whole paper.
+
+Like almost all rules, there are cases where breaking them is a good
+idea and seasoned writers may well object with "but" responses for some
+of these.  Thus, consider the rules below as mental rumble strips - you
+should probably slow down and think if you encounter these cases.
+
+Avoid use of passive tense if at all possible.  Example:  "In each
+reservation request message, a refresh interval used by the sender is
+included." reads better and shorter as "Each ...  message includes ..."
+Use strong verbs instead of lots of nouns and simple terms
+rather than fancy-sounding ones. Examples:
+
+
+verbose, weak verbs, bad
+short, strong, good
+
+
+make assumption
+assume
+
+
+is a function of
+depends on
+
+
+is an illustration
+illustrates, shows
+
+
+is a requirement
+requires, need to
+
+
+utilizes
+uses
+
+
+had difference
+differed
+
+If you find yourself saying "In other words," it means you didn't say
+it clearly enough the first time.  Go back and rewrite the first
+attempt.
+Avoid filler words, e.g., by converting sentences into a simple
+actor-action-object phrasing.
+Check for missing articles, particularly if your native tongue
+doesn't have them.  Roughly, concepts and classes of things don't, most
+everything else more specific does.  ("Routers route packets.  The
+router architecture we consider uses small rodents.") Don't use articles
+in front of proper nouns and names ("Internet Explorer is a popular web
+browser.  The current version number is 5.0.  Bill Gates did not write
+Internet Explorer.") [NEED POINTER HERE]
+Each sentence in a paragraph must have some logical connection to
+the previous one.  For example, it may describe an exception ("but,"
+"however"), describe a causality ("thus," "therefore," "because of
+this"), indicate two facets of an argument ("on the one hand," "on the
+other hand"), enumerate sub-cases ("first," "secondly") or indicate a
+temporal relationship ("then," "afterwards").  If there are no such
+hints, check if your sentences are indeed part of the same thought.  A
+new thought should get its own paragraph, but still clearly needs some
+logical connection to the paragraphs that preceded it.
+Protocol abbreviations typically do not take an article, even if the
+expanded version does.  For example, "The Transmission Control Protocol
+delivers a byte stream" but "TCP delivers a byte stream," since it an
+abstract term. ("The TCP design has been successful." is correct since
+the article refers to the design, not TCP.)
+Note that abbreviations for organizations do take a definite article,
+as in "The IETF standardized TCP."
+Since the "P" in TCP, UDP and similar abbreviations already stands
+for "protocol," saying the "the TCP protocol" is redundant, albeit
+common.  (LCD, Liquid Crystal Display, is another common case where many
+are tempted to incorrectly write LCD display.  Indeed, Google references
+2,060,000 instances of that usage.)
+Use consistent tense - present, usually, unless reporting results
+achieved in earlier papers.
+None:  None can take either singular or plural verbs,
+depending on the intended meaning (or taste).  Both none of these
+mistakes are common and none of these mistakes is common are
+correct,
+although other sources only lists the
+singular and The Tongue
+untied makes finer distinctions based on whether it refers to a unit
+or a measure.
+Use hyphens for concatenated words:  "end-to-end architecture,"
+"real-time operating system" (but "the computer may analyze the results
+in real time"), "per-flow queueing," "flow-enabled," "back-to-back,"
+...
+In general, hyphens are used
+
+adding prefixes that would result in double vowels (except for co-,
+de-, pre-, pro-), e.g., supra-auditory;
+all-: all-around, all-embracing;
+
+half-: half-asleep, half-dollar (but halfhearted, halfway);
+
+quasi-: quasi-public
+
+self-: self-conscious, self-seeking (but selfhood, selfless)
+
+to distinguish from a solid homograph, e.g., re-act vs. react,
+re-pose vs. repose, re-sign vs. resign, re-solve vs. resolve, re-lease
+vs. release
+
+A compound adjective made up of an adjective and a noun in
+combination should usually be hyphenated.  (WiT, p.  230) Examples: 
+cold-storage vault, hot-air heating, short-term loan, real-time
+operating system, application-specific integrated circuit,
+Internet-based.
+
+words ending in -like when the preceding word ends in 'l', e.g.,
+shell-like
+
+
+Don't overuse dashes for separation, as they interrupt the flow of
+words.  Dashes may be appropriate where you want to contrast thoughts
+very strongly or the dash part is a surprise of some sort.  Think of it
+as a very long pause when speaking.  In many cases, a comma-separated
+phrase works better.  If you do use a dash, make sure it's not a hyphen
+(- in LaTeX), but an em-dash (--- in LaTeX).
+
+Avoid scare
+quotes, as they indicate that the writer is distancing himself
+from the term or the term is meant to be ironic.
+Numbers ten or less are spelled out: "It consists of three
+fields," not "3 fields".
+Use until instead of the colloquial till.
+Use. Eq. 7, not Equation (7), unless you need to fill
+empty pages.
+Optimal can't be improved - more optimally should be
+better or maybe more nearly optimal.
+Avoid in-line enumeration like:  "Packets can be (a) lost, (b)
+stolen, (c) get wet." The enumeration only interrupts the flow of
+thought.  (There are exceptions, e.g., when you later refer to these
+cases.)
+Avoid itemization (bullets) in most cases, as they take up extra
+space and make the paper read like PowerPoint slides.  Bullets can,
+however, be used effectively to emphasize key points, if used sparingly. 
+If you want to describe components or algorithms, often the LaTeX
+description environment works better, as it highlights the term,
+providing a low-level section delineation.
+Avoid bulleted lists of one-sentence paragraphs.  They make your
+paper look like a slide presentation and interfere with smooth
+reading.
+Instead of "Reference [1] shows" or "[1] shows," use "Smith [1]
+showed" or "Smith and Jones [1] showed" or "Smith et al. [1]
+showed" (if more than two authors).  "et
+al." is generally used for papers with more than two authors.  (Note
+that "et al." makes the subject plural if the authors are the subject of
+the sentence rather
+than the paper, so it is "Smith et al.  [1] show" not "shows".  Some
+authors prefer to treat the article as the, singular, subject, but this may
+sound peculiar to some readers, so the construction is probably best avoided
+or rephrased to make the article more clearly the subject. For example, "Section
+3 of Smith and Wesson [42] claims that..." or "Smith and Wesson claim that
+... [42]" or "In [42], Smith and Wesson claim that...".) Or,
+alternatively, "the foobar protocol [1] is an example ...".  This keeps
+the reader from having to flip back to the references, as they'll
+recognize many citations by either author name or project name.  No need
+to refer to RFC numbers in the text (except in RFCs and Internet
+Drafts).  Exception for very low-level presentation:  "RFC822-style
+addresses". While there is no firm rule, it seems preferable to include
+the reference immediately after the author name, rather than at the end
+of the material describing the citation. This keeps the reader from
+having to look ahead on encountering the reference and avoids
+inconsistent phrasing and guessing when multiple papers are cited for a single fact,
+as in "Hertz [1] and Marconi [2] worked on radio waves", rather than
+"Hertz and Marconi worked on radio waves [1,2]."
+Use normal capitalization in captions ("This is a caption," not
+"This is a Caption") unless your style guide requires heading-style
+capitalization.
+All headings must be capitalized consistently, either in heading
+style, capitalizing words, or sentence style, across all levels of
+headings.
+Parentheses or brackets are always surrounded by a space:  "The
+experiment(Fig.  7)shows" is wrong; "The experiment (Fig.  7) shows" is
+right.
+Avoid excessive parenthesized remarks as they make the text hard to
+read; fold into the main sentence.  Check whether the publication allows
+footnotes - some magazines frown upon them.  More than two footnotes per
+page or a handful per paper is a bad sign.  You probably should have
+applied to law school instead.
+The material should make just as much sense without the footnotes.
+If the reader constantly has to look at footnotes, they are likely to
+lose their original place in the text. As a matter of taste, I find URLs
+better placed in the references rather than as a footnote, as the
+reader will know that the footnote is just a reference, not material
+important for understanding the text.
+There is no space between the text and the superscript for the
+footnote.  I.e., in LaTeX, it's text\footnote{} rather than
+text \footnote{}.
+Check that abbreviations are always explained before use. 
+Exceptions, when addressed to the appropriate networking audience:  ATM,
+BGP, ftp, HTTP, IP, IPv6, RSVP, TCP, UDP, RTP, RIP, OSPF, BGP, SS7.  Be
+particularly aware of the net-head, bell-head perspective.  Even basic
+terms like PSTN and POTS aren't taught to CS students...  For other
+audiences, even terms like ATM are worth expanding, as your reader might
+wonder why ATM has anything to do with cells rather than little green
+pieces of paper.
+Never start a sentence with "and". (There are exceptions to this
+rule, but these are best left to English majors.)
+Don't use colons (:) in mid-sentence. For example, "This is possible
+because: somebody said so" is wrong - the part before the colon must be
+a complete sentence.
+Don't start sentences with "That's because".
+In formal writing, contractions like don't, doesn't,
+won't or it's are generally avoided.
+Be careful not to confuse its with it's
+(it is).
+Vary expressions of comparison:  "Flying is faster than driving" is
+much better than "Flying has the advantage of being faster" or "The
+advantage of flying is that it is faster.".
+Don't use slash-constructs such as "time/money".  This is acceptable
+for slides, but in formal prose, such expressions should be expanded
+into "time or money" or "time and money," depending on the meaning
+intended.
+Avoid cliches
+like "recent advances in ...," "exponential growth," and "paradigm". 
+You do not want readers of your work to play buzzword bingo.  Other
+words should be banished.
+Don't use symbols like "+" (for "and"), "%" (for "fraction" or
+"percentage") or "->" (for "follows" or "implies") in prose, outside of
+equations.  These are only acceptable in slides.
+Avoid capitalization of terms.  Your paper is not the U.S. 
+Constitution or Declaration of Independence. Technical terms are in
+lower-case, although some people use upper case when explaining an
+acronym, as in "Asynchronous Transfer Mode (ATM)".
+Expand all acronyms on first use, except acronyms that every reader
+is expected to know. (In a research paper on TCP, expanding TCP is
+probably not needed - somebody who doesn't know what TCP stands for
+isn't likely to appreciate the rest of the paper, either.)
+Each paragraph should have a lead sentence summarizing its content.
+If this doesn't work naturally, the paragraph is probably too short. Try
+reading just the first lines of each paragraph - the paper should still
+make sense. For example,
+
+There are two service models, integrated and differentiated service. 
+Integrated service follows the German approach that anything that isn't
+explicitly allowed is verboten.  It strictly regulates traffic, but also
+makes the trains run on time.  Differentiated service follows the Animal
+Farm appraoch, where some traffic is more equal than others.  It seems
+simpler, until one has to worry about proletariat traffic dressing up as
+the aristocracy.
+
+$i$th, not $i-th$.
+Units are always in roman font, never italics or LaTeX math
+mode.  Units are set off by one (thin) space from the number.  In LaTeX,
+use ~ to avoid splitting number and units across two lines.  \;
+or \, produces a thin space.
+For readability, powers of a 1,000 are divided by commas.
+Use "kb/s" or "Mb/s," not "kbps" or "Mbps" - the latter are not
+scientific units.  Be careful to distinguish "Mb" (Megabit) and "MB"
+(Megabytes), in particular "kb" (1,000 bits) and "KB" (1,024
+bytes).
+It's always kHz (lower-case k), not KHz or KHZ.
+It's Wi-Fi, not WiFi (or wifi), since this is a trademark.
+Operating systems such as Android, (Mac)OSX, Linux or Windows are
+typically capitalized.
+It is not common to use the trademark symbol ® (or its country cousins
+SM and TM) unless you are the owner of the mark
+and then only on first
+use.
+Units and
+Measurements, Taligent
+style guide
+Use "ms," not "msec," for milliseconds.
+Use "0.5" instead of ".5," i.e., do not omit the zero in front of
+the decimal point. (Words into Type recommends that "for
+quantities less than one, a zero should be set before the decimal point
+except for quantities that never exceed one.")
+Avoid "etc."; use "for example," "such as," "among others" or,
+better yet, try to give a complete list (unless citing, for example, a
+list of products known to be incomplete), even if abstract. See also
+Strunk and White:
+
+
+Etc.:  Not to be used of persons.  Equivalent to and the rest, and so
+forth, and hence not to be used if one of these would be
+insufficient, that is, if the reader would be left in doubt as to any
+important particulars.  Least open to objection when it represents the
+last terms of a list already given in full, or immaterial words at the
+end of a quotation. 
+
+At the end of a list introduced by such as, for example,
+or any similar expression, etc.  is incorrect. 
+
+If you say, "for example" or "like," do not follow this with "etc.".
+Thus, it's "fruit like apples, bananas and oranges". The "like" and "for
+example" already indicate that there are more such items.
+Avoid excessive use of "i.e.".  Vary your expression:  "such as,"
+"this means that," "because," ....  "I.e." is not the universal
+conjunction!
+Remember that "i.e." and "e.g." are always followed by a
+comma.
+Do not use ampersands (&) or slash-abbreviations (such as s/w or
+h/w) in formal writing; they are acceptable for slides.
+"respectively" is preceded by a comma, as in "The light bulbs lasted
+10 and 100 days, respectively."
+Therefore, however, hence and thus are
+usually followed by a comma, as in "Therefore, our idea should not be
+implemented."
+Never use "related works" unless you are talking about works
+of art.  It's "related work".
+Similarly, "codes" refer to encryption keys, not multiple
+programs. You would say "I modified multiple programs," not "multiple
+codes".
+Use "in Figure 1" instead of "following figure" since figures may
+get moved during the publication or typesetting process.  Don't assume
+that the LaTeX figure stays where you put it.
+Text columns in tables are left-aligned, numeric columns are aligned
+on the decimal or right-aligned.
+Section, Figure and Table are capitalized, as in "As discussed in
+Section 3".  Figure can be abbreviated as Fig., but the others are not
+usually abbreviated, but that's a matter of taste - just be consistent.
+Section titles are not followed by a period.
+In LaTeX, tie the figure number to the reference, so that it doesn't
+get broken across two lines:
+
+Fig.~\ref{fig:arch}
+
+Do not use GIF images for figures, as GIFs produce horrible print
+quality and are huge.  Export into PostScript.  At that stage, you'll
+learn to "appreciate" Microsoft products.  xfig and
+gnuplot generally produce PostScript that can be included
+without difficulties.
+Only use line graphs when you are trying to show a functional or
+causal relationship between variables.  When showing different
+experiments, for example, use bar graphs or scatter plots.
+Figures show, depict, indicate, illustrate. Avoid "(refer to Fig.
+17)". Often, it is enough to simply put the figure reference in
+parenthesis: "Packet droppers (Fig. 17) have a pipe to the bit bucket,
+which is emptied every night."
+If you quote something literally, enclose it in quotation marks or
+show it indented and in smaller type ("block quote").  A mere citation
+is not sufficient as it does not tell the reader whether you simply
+derived your material from the cited source or copied it verbatim.
+Do not refer to colors in graphs.  Many people will print the paper
+on a monochrome (black and white) printer and will have no idea what you
+are talking about when referring to the red or blue line.  Also, 1 in 12
+men and 1 in 200 women are color blind.  Thus, make sure that graph
+lines are easily distinguishable when printing on a monochrome printer. 
+"Use both color and shape to convey the same meaning; for example, solid
+and dashed lines or different fill patterns can help readers understand
+the figure without relying solely on color.  Each line of your line
+graph should be a thick line with a unique data point symbol.  Connect
+the data label to the data line rather than relying on a color key."
+(IEEE)
+Avoid numbers with artificial precision.  Unless you have done
+enough experiments to be sure that the value measured is indeed
+meaningful to five digits after the decimal point, you're overstating
+your results.
+Do not forget to acknowledge your funding support.  If you do
+forget, you may not have any to acknowledge in the future.
+All references must use consistent capitalization for the paper
+titles, i.e., either all title-case or all sentence-case.
+Technical report citations must have the name of the organization
+such as the university or company.  Conferences must cite the
+location.
+Check your references to make sure they are up to date. For example,
+Internet Drafts might have been replaced by RFCs and technical reports
+or workshop papers by conference or journal papers.
+References should be consistent: all authors should either be given
+with their full name (John Doe) or abbreviated (J. Doe), but not
+combinations.
+Conference references should contain the location of the conference,
+the month and some indication such as "Proc.  of" or "Conference". 
+Journal references always contain the volume, issue number and pages. It
+must be obvious from the citation whether an article was in a journal or
+in a conference.
+Only include the year of the publication once, rather than multiple
+times in different contexts.  For example, avoid something like "A. 
+Doe, "Performance of IEEE 802.11ac in a Rayleigh channel," in Proc. 
+2015 ACM Intern.  Conf.  on Mobile Computing, Rome, Italy, May
+2015.  ACM Press, 2015.
+
+See also University
+of Minnesota Style Manual.  Many of these issues are also described
+in more detail in the US Federal plain language guidelines, humorously,
+and, with a UK origin, The
+Complete Plain Words, dating back to 1954.  Similar points are
+made also by John
+Owens.
+Thanks to Christian Bettstetter for contributions.
+
+Last updated 
+
+by Henning Schulzrinne
+
+
+
+
+########
+https://larsjung.de/h5ai/########
+h5ai · modern HTTP web server index for Apache httpd, lighttpd, nginx and Cherokee · larsjung.debuzghorghuh5aijQ.fracsjQ.qrcodejQ.scrollpanelkjualololightmodulejsnode-cgipagemapscarimprint & disclaimerh5aimodern HTTP web server indexlicenseMITgithublrsjng/h5ai0.30.0h5ai is a modern file indexer for HTTP web servers with focus on your files. Directories are displayed in a appealing way and browsing them is enhanced by different views, a breadcrumb and a tree overview. Initially h5ai was an acronym for HTML5 Apache Index but now it supports other web servers too.See the demo directory with most features enabled. A reduced example and my actual use case is the release directory for the projects on this page.Requires PHP 7.0+ and works fine with Apache httpd, lighttpd and nginx. Best user experience with the latest versions of Chromium-based browsers, Firefox, Safari and Edge, but a static fallback is provided for older browsers or if JavaScript is disabled.FeaturesThere are lots of optional extensions and configuration options to customize the web appearance of your directory listings. All markup is valid HTML5 spiced up with CSS3 and finest JavaScript to build a fresh but minimal user interface and a user experience that focuses on your files.Some of the optional features are: file sorting, different view modes, localization, a breadcrumb, a tree view, custom headers and footers, file filter and search, folder sizes, auto refresh, packaged download, QR codes, thumbnails, file previewsInstallationCopy folder _h5ai to the document root directory of the web server: DOC_ROOT/_h5ai.DOC_ROOT
+ ├─ _h5ai
+ ├─ your files
+ └─ and folders
+Visit http://YOUR-DOMAIN.TLD/_h5ai/public/index.php, to check if h5ai is reachable. This page shows some hints on the server's capabilities.Add /_h5ai/public/index.php (note the leading slash!) to the end of the default index-file list. In this way h5ai will manage all directories in and below DOC_ROOT that don't have a index file.Apache httpd 2.2/2.4: in httpd.conf or in the root directory's .htaccess file set for example:DirectoryIndex  index.html  index.php  /_h5ai/public/index.phplighttpd 1.4: in lighttpd.conf set for example:index-file.names += ("index.html", "index.php", "/_h5ai/public/index.php")nginx 1.2: in nginx.conf set for example:index  index.html  index.php  /_h5ai/public/index.php;Cherokee 1.2: in cherokee.conf set for example:vserver!1!directory_index = index.html,index.php,/_h5ai/public/index.phpConfigurationThe main configuration file is _h5ai/private/conf/options.json. You might want to change some of the documented settings. But there are some more files in _h5ai/private/conf you might have a look at.HintsNo web server specific things are supported, that includes access restrictions! Best chance to make restricted areas work and secure might be to place folder _h5ai completely inside that resticted area. Use it at your own risk!Does not work with aliased folders in general (as available in Apache httpd). Aliased folders make it impossible to map URLs to file system folders.If no icons are displayed, chances are that you have to add the SVG MIME-type to your server.On Ubuntu servers you might need to install an additional package for PHP JSON support.To use optional features based on shell commands the PHP functions exec and passthru must not be disabled in php.ini (have a look for disable_functions).There was a security flaw in versions v0.22.0-v0.24.1 that was  fixed in v0.25.0 (summer 2014). If you are still using one of these versions you are advised to upgrade.Custom installationIt's possible to install h5ai into any sub directory of your web server's document root. This directory will then be considered the root directory when showing a breadcrumb etc.For example copy folder _h5ai to DOC_ROOT/some/folder/_h5ai:DOC_ROOT
+ └─ some
+     └─ folder
+         ├─ _h5ai
+         ├─ your files
+         └─ and foldersVisit http://YOUR-DOMAIN.TLD/some/folder/_h5ai/public/index.php to see if everything works fine. In this example you need to add /some/folder/_h5ai/public/index.php to your index-file list (as in step 3 above).Works best with JavaScript enabled!Works best in modern browsers!
+########
+https://swagitda.com/blog/posts/the-security-obstructionism-secobs-market/########
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    The Security Obstructionism (SecObs) Market | Kelly Shortridge 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>
+$ cd /kellyshortridge.com/
+
+
+
+
+
+BlogAbout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Security Obstructionism (SecObs) Market
+
+Obstruction is “a thing that impedes or prevents passage or progress; an obstacle or blockage.” Under this definition, I would include sabotage – deliberate obstruction or damage – as well as passivity, or what I like to term “aggressive passivity” – deliberate non-interference to actuate an undesirable outcome (the “sink or swim” approach).
+In security, obstructionism foments the dreaded Department of No, the begrudged gatekeeper, and the truculent Security Theatre1. Hence, I am introducing the term Security Obstructionism (SecObs)2, a category of tools, policies, and practices whose outcome is to impede or prevent progress for security’s (speculative) sake. I suspect the TAM (total addressable market) for SecObs is enormous and perhaps provides a more coherent understanding of security stacks than traditional market categories.
+But outputs aren’t outcomes3. The amount of activity performed by a team is not equivalent to productivity nor its ability to produce desirable outcomes4. The secret to the SecObs market is that this does not matter. The point of SecObs is not better security outcomes for the business or end users. The point is more security outputs as a proxy for progress and these outputs impart more control over the organization, transmogrifying into power and status. In essence, the point is a self-perpetuating organism5.
+How does the infosec organism self-perpetuate via SecObs? Here are some examples (which perhaps can be called “Indicators of Obstructionism” or IoOs6):
+
+Vulnerability management that creates long lists of things to triage (and outside of dev workflows)
+“Shadow” anything – shadow IT, shadow SaaS, shadow APIs…
+Manual security reviews, manual change approval – basically anything to block shipping new code unless security personally gives the go ahead
+Internal education programs that are not based on measurable security outcomes (the primary outcome is wasted time)
+“Gotchya” phishing simulations that primarily measure the efficacy of phishing copy rather than the efficacy of security strategy
+Password rotation, key rotation, access approval, and other policies that may leave internal users unable to work
+Corporate VPNs, whose most effective use in 2022 is perhaps as the entry point for Ransomware-as-a-Service operations
+Shutting down modernization initiatives (cloud, microservices, etc.), slowing adoption of new tech or tools7
+“Insider threat” detection that bears a remarkable resemblance to malware (such as using keyloggers8 and screen recording9…)
+Petulantly allowing “self-serve” security… but without providing recommended patterns or guidance
+As soon as a security property or feature is embraced by the rest of the organization, it no longer “counts” as security – like how I’ve heard SSO recently labeled somewhat pejoratively as “convenience” vs. security by some infosec professionals…
+
+As seems necessary to legitimize a market category, I plotted SecObs on a market “graph”10:
+
+Astute readers might have noted that some of these SecObs practices fall under the purview of “DevSecOps,” which is basically SecObs disguised in a hoodie, AllBirds, and Fjallraven backpack (carrying a Macbook). The typical definition of DevSecOps is that security is integrated across the software development lifecycle11 and it is an unobjectionable goal. The problematic part is that the goal is twisted from a thoughtful entwining of things that could promote systems resilience from design through to delivery into a goal of security reasserting itself as an authority.
+But even the typical definition of DevSecOps does not justify its existence as a term; we would also need DevTestOps, DevQAOps, DevComplianceOps, DevAccountingOps, DevGeneralCounselOps to ensure that their concerns are also considered or built-in throughout the SDLC (as they should be!). Ergo, DevSecOps is quite literally Security Obstructionism in the linguistic sense but lamentably in the living sense, too – inserting security into the equation to impede Dev from meeting Ops.
+The tragedy of SecObs echoes across hype cycles: bad security ideology mixed with bad incentives leads to bad implementation which leads to bad outcomes in all dimensions except the justification of status quo security people’s existence. Implementation is manipulable and can pervert even noble goals into SecObs. For instance, “shift left” is the purported mantra of DevSecOps12, but what it means too often in practice is shifting obstructionism earlier into the development process.
+There are arguably some psychological benefits of ensuring expectations of timely software releases are destroyed sooner rather than later13, but the more tangible outcomes are that the obsession with preventing failure happens in more places. As a result, there are more outputs and more opportunities for finger pointing and citing “you did not follow process at X, Y juncture” when something goes wrong. Because SecObs is a defense mechanism, perhaps the most effective one in status quo security’s arsenal.
+Obstruction is ultimately about preservation. Nobody obstructs something from happening if they want things to change. If security wanted things to go the DevOps way, they would understand that security, like resilience or reliability or maintainability14, is part of the outcomes that DevOps practices aim to achieve – and that there is immense value in ensuring all those qualities can be nurtured as a check against myopic organizational pressures15.
+The problem is, if security is already one of the qualities that orgs doing the DevOps are trying to achieve, then that means the status quo will change. Software engineers, architects, and SREs will identify where existing security programs are falling short of desired outcomes and pioneer new programs to solve these challenges using their expertise as builders.
+They will develop strategies to perform asset inventory, testing, and patching their own way – one that likely treats bugs as bugs, regardless of whether there are performance or security implications16. That means the security team is no longer performing these actions, which is one less thing to point to when proving the security strategy is “successful.” Never mind that security could absolutely still be essential by providing recommended patterns, serving as an expert sounding board, operating like a platform engineering team to build foundational systems to make security work easier, or leading security chaos engineering experiments17. Security professionals will be expected to design systems – a daunting shift that can catalyze existential panic about whether existing skill sets actually matter.
+I suspect the lizard brain18 origin of SecObs lurks within in-groups and out-groups19. The information security establishment has seen itself as a marginalized outsider, a scorned prophet, an unfairly resented authority figure who is just trying to keep the devs from sticking forks into electrical sockets. Humans like seeing members of their in-group succeed, but they love seeing members of the out-group fail (or at least suffer)20. Humans will sacrifice the greater good – or even more for themselves in a bigger but equally-divided pie – if it means the out-group gets less than they do21.
+
+Adopting SecObs is how infosec can ensure the out-group(s) receive less. I have long been perplexed why some security professionals are quite so resistant to my thinky thinky – how could they so detest and resent something that extirpates toil for them so that they may stretch out their strategic wings to soar on the zephyrs of innovation? I’ve felt like they must see me as K-2SO saying “Congratulations! You are being rescued! Please do not resist.”
+What I realized is that it does not matter if Security Chaos Engineering22 or all the other things23 I’ve proposed make these infosec traditionalists better off; what matters is that they feel that they are worse off on a relative basis24. SecObs makes everyone else in the organization miserable and puts them at least partially under infosec’s thumb. Therefore, even though it is a woefully inefficient use of the security team’s time, SecObs makes infosec better off on a relative basis – if not equals with engineering, at least able to directly impact their outcomes; if not fulfilled by their work, at least they aren’t the ones facing a Kafkaesque imposition on their workflows.
+SecObs depends on the definition of “secure” remaining nebulous and unquantifiable. The argument for DevSecOps is that “while DevOps applications have stormed ahead in terms of speed, scale and functionality, they are often lacking in robust security and compliance.”25 But what does “robust security” even mean? The justification for Sec being treated as an equal among Dev and Ops is based on wielding the abstract ideal of “security” as a Maginot Line. If you ask what a “secure” app means, you will rarely receive an actionable or consistent answer. Is it free of bugs? Does it never experience failure? Or is it something that only security teams and security teams alone can identify, akin to “I know it when I see it”26?
+Conceiving concrete security outcomes is not an arcane art, despite what the industry inculcates. An engineering team’s product is broken if they aren’t meeting relevant compliance standards. If they are addressing the retail industry, they can’t have a product if they aren’t PCI compliant; their customers quite literally cannot purchase it. The same is true for financial services or healthcare.
+And in my recent experience27, SREs think about impacts to availability more than security people, despite availability being the A in the classic C.I.A. triad (which just turned 44 years old a few months ago)28. A cryptominer can impact stability and reliability in production – which jeopardizes the organization’s ability to conduct its business. An attacker exploiting a web vuln and crashing the machine causes downtime. Exfil of customer data can cause latency and result in compliance sanctions.
+SecObs spends all its time fretting about preventing incidents and implementing tools and policies that impede business operations29 under the guise of collapsing the probabilistic wave function of failure to zero while spending very little time actually preparing for the inevitable incident.
+But if an attacker cuts down an application in a hosted container forest and it automatically disappears and grows again, who cares? The impact is negligible, just as it should be if security is done well – if security is focused on outcomes rather than outputs. All that prevention just doesn’t matter if you can’t recover quickly when something bad happens, which it will. And what was the point of holding up a release by a week because the security team wanted to personally inspect it first for bugs when the impact of exploiting those bugs is “autoprovision another container to replace the compromised one”?
+What is to be done?30 When you see or hear weasel words like “appropriate” or “sufficient” or “robust” to describe a “level” or “maturity model”31 of security, it is worth pausing to ponder whether SecObs abounds. If the security program evokes the on-prem monolith and waterfalls era – SAST, DAST, vulnerability management, security reviews and approvals – but is festooned with the words “continuous” or “automated”, then perhaps what is now automated and continuous is SecObs. When you hear “we need to bake security into [thing]”, it could be a boon – weaving security into workflows to make it consistent, repeatable, and scalable – but it could also be a leading indicator of SecObs; engineering teams will be left to sink or swim because when they fail, it’s an opportunity for SecObs to say, “See why you need us?”
+SecObs is pernicious; it is deeply rooted in the information security swamp and will be difficult to excise from the industry. DevSecOps may be its modern incarnation, but SecObs is a larger problem that existed before this trend and will continue to exist after it wanes. SecObs carries a massive TAM – at least $10 billion and likely much higher32 – which means there are legions of incumbents incentivized to actively fight against its removal.
+The strategies I have seen work are either to burn down the status quo (quite literally firing obstructionists and building anew) and / or to support motivated software engineers and architects building overarching security programs in parallel, which treats patches like other upgrades and attacks like other incidents. Security is treated as a facet of resilience, as it should be because it reflects reality33.
+What I have never seen work is attempting to modernize SecObs, which is what we are seeing with too much of the DevSecOps movement. Getting status quo security pros up to speed on the latest technology just means they’ll now be able to weaponize it and talk about the dangers of shadow APIs and shadow Infrastructure as Code and shadow functions.
+Because getting up to speed in the SecObs market isn’t about understanding the technology – how it works, its strengths, its potential, its deficiencies, its concerns – it’s about understanding the power dynamics of it and figuring out where security can best assert itself to maintain control in the organization. Find a vulnerability, exploit it, persist in the system… maybe the only difference between the “good actors” and the “bad actors” is that the bad ones make money for their organizations.
+
+Thanks to Camille Fournier, Ryan Petrich, Greg Poirier, Andrew Ruef, James Turnbull, and Leif Walsh for feedback on this post.
+
+Enjoy this post? Stay tuned for the full Security Chaos Engineering book later in 2022. In the meantime, you can read the Security Chaos Engineering report in the O’Reilly Learning Library.
+
+
+
+
+For a theatrical discussion of Security Theatre, I recommend my keynote Exit Stage Left: Eradicating Security Theatre: https://www.youtube.com/watch?v=kiunphALNKw ↩︎
+
+
+I will use SecObs throughout this post since pithy buzzwords seem to be infosec’s perpetual zeitgeist. ↩︎
+
+
+While I recommend reading her book in full, this lucid interview with Dr. Forsgren cites examples of outcomes vs. outputs in the context of software engineering: https://www.techrepublic.com/article/how-to-measure-outcomes-of-your-companys-devops-initiatives/ Book citation: Forsgren, PhD, N., Humble, J., & Kim, G. (2018). Accelerate: The science of lean software and devops: Building and scaling high performing technology organizations. IT Revolution. ↩︎
+
+
+Forsgren, N., Storey, M. A., Maddila, C., Zimmermann, T., Houck, B., & Butler, J. (2021). The SPACE of Developer Productivity: There’s more to it than you think. Queue, 19(1), 20-48. https://queue.acm.org/detail.cfm?id=3454124 ↩︎
+
+
+This could perhaps be called the Tumor Model of Information Security. ↩︎
+
+
+Perhaps later in 2022 we will see a YARA scanner for IoOs raise a $100 million Series A with a $1 billion post-money valuation on $1 million ARR. ↩︎
+
+
+New and not-quite-compliant on everything is much better than old and unmaintained but compliant. The inability to update a system should terrify security; alas, in many cases, it is an afterthought or worse, seen as a comfort. ↩︎
+
+
+Usually vendors won’t say “keylogging” explicitly but will use euphemisms like “keystroke dynamics”, “keystroke logging”, or “user behavior analytics”. As CISA explains in their Insider Threat Mitigation Guide about User Activity Monitoring (UAM), “In general, UAM software monitors the full range of a user’s cyber behavior. It can log keystrokes, capture screenshots, make video recordings of sessions, inspect network packets, monitor kernels, track web browsing and searching, record the uploading and downloading of files, and monitor system logs for a comprehensive picture of activity across the network.” See also the presentation Exploring keystroke dynamics for insider threat detection. ↩︎
+
+
+CISA’s description of UAM tools (see citation 8) also notes the ability to “make video recordings of sessions” as a general capability of insider threat tools. As an example of a vendor that isn’t quite as shy about it: https://www.proofpoint.com/us/blog/insider-threat-management/what-advanced-corporate-keylogging-definition-benefits-and-uses ↩︎
+
+
+Unlike other entities purporting to analyze markets, the Infernal Quadrant is actually a quadrant because it is a plane divided into four infinite regions. It is hard to imagine something less magical than constraining infinite regions by bounding them in a larger square, although this perhaps exposes the underlying principal problem: fitting everything into neat boxes and calling them something they’re not. ↩︎
+
+
+Each vendor defines DevSecOps in their own way, but this is the definition that stays constant across most of them. Some vendors additionally highlight automation, some focus more on shift left, some suggest security processes are handled by devs, and some talk about “enabling development of secure software at the speed of Agile and DevOps”. ↩︎
+
+
+Although IBM refers to “Shift Left” as a mantra rather than the mantra, suggesting that the collective noun for DevSecOps is a mantra of DevSecOpses. ↩︎
+
+
+Koyama, T., McHaffie, J. G., Laurienti, P. J., & Coghill, R. C. (2005). The subjective experience of pain: where expectations become reality. Proceedings of the National Academy of Sciences, 102(36), 12950-12955. https://www.pnas.org/content/pnas/102/36/12950.full.pdf ↩︎
+
+
+Kleppmann, M. (2017). Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems. “O’Reilly Media, Inc.”. ↩︎
+
+
+Rasmussen, J. (1997). Risk management in a dynamic society: a modelling problem. Safety science, 27(2-3), 183-213. http://sunnyday.mit.edu/16.863/rasmussen-safetyscience.pdf ↩︎
+
+
+This recalls Linus Torvalds’ remark in 2008: “I personally consider security bugs to be just ‘normal bugs.’ I don’t cover them up, but I also don’t have any reason what-so-ever to think it’s a good idea to track them and announce them as something special.” https://yarchive.net/comp/linux/security_bugs.html ↩︎
+
+
+For more on security chaos engineering experiments, either read the SCE ebook or watch my talk “The Scientific Method: Security Chaos Experimentation & Attacker Math” https://www.youtube.com/watch?v=oJ3iSyhWb5U ↩︎
+
+
+One of my finest achievements is being responsible for the term “lizard brain” making it into the Wall Street Journal. Mitchell, H. (2021, September 7). How Hackers Use Our Brains Against Us. The Wall Street Journal. https://www.wsj.com/articles/how-hackers-use-our-brains-against-us-11631044800 ↩︎
+
+
+I grazed the surface of in-groups and out-groups in my blog post “On YOLOsec and FOMOsec” but this particular insight had not yet coalesced in my mind at the time. /blog/posts/on-yolosec-and-fomosec/ ↩︎
+
+
+Molenberghs, P., & Louis, W. R. (2018). Insights from fMRI studies into ingroup bias. Frontiers in psychology, 9, 1868. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6174241/ ↩︎
+
+
+The OG paper on this dynamic is: Tajfel, H. (1970). Experiments in intergroup discrimination. Scientific American, 223(5), 96-103. https://faculty.ucmerced.edu/jvevea/classes/Spark/readings/tajfel-1970-experiments-in-intergroup-discrimination.pdf ↩︎
+
+
+Shortridge, K., Rinehart, A. (2020). Security Chaos Engineering. United States: O’Reilly Media, Incorporated. https://www.oreilly.com/library/view/security-chaos-engineering/9781492080350/ ↩︎
+
+
+My favorite of these things perhaps being Darth Jar Jar: A Model for Infosec Innovation: /blog/posts/darth-jar-jar-model-infosec-innovation/ followed by Lamboozling Attackers: A New Generation of Deception https://queue.acm.org/detail.cfm?id=3494836 ↩︎
+
+
+For a 101 about reference points in decision making (and about the OG behavioral economics theory, Prospect Theory) I recommend reading the Decision Lab’s guide on it: https://thedecisionlab.com/reference-guide/economics/reference-point/ ↩︎
+
+
+Quoted from https://www.forcepoint.com/cyber-edu/devsecops ↩︎
+
+
+I will spare y’all a diversion into epistemology and instead just cite this somewhat bizarre historical examination of the quote, which, incidentally, serves as another example of the potency of in-group vs. out-group framing: https://www.wsj.com/articles/BL-LB-4558 ↩︎
+
+
+By recent experience I mean reception to my talks, writings, and the Security Chaos Engineering e-book. But the SRE book provides additional supporting evidence by repeatedly underlining the importance of availability to SRE success: https://sre.google/sre-book/service-level-objectives/ ↩︎
+
+
+Ruthberg, Z. G., & McKenzie, R. G. (1977). Audit and Evaluation of Computer Security. https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication500-19.pdf ↩︎
+
+
+For instance, a recent infosec Twitter thread suggested people TAKE THEIR SHIT OFF THE INTERNET as a solution to problems like vulnerabilities in vCenter instances. Its popularity even lead to the creation of a site dedicated to this mindblowing advice: https://www.getyourshitofftheinternet.com/ ↩︎
+
+
+This reference to the title of Lenin’s pamphlet is a chance for me to shoehorn in my quip that status quo information security should adore Marx’s labor theory of value (originally David Ricardo’s) in which goods or services are valued based on the effort that went into producing them rather than based on the consumer’s preferences (I will avoid going down the rabbit hole of decision theory at this juncture). ↩︎
+
+
+I suggest reading Dr. Forsgren’s excellent takedown of maturity models for more on why they are “for chumps”: https://twitter.com/nicolefv/status/1130192402608664576 ↩︎
+
+
+The entire information security market is somewhere between ~$165 billion and ~$185 billion as of 2020. It feels reasonable that at least ~6% of that spending is in security obstructionism. To wit, the vulnerability management market is nearly $14 billion as of 2021, the VPN market is also around $14 billion, and the CASB market (which addresses “shadow IT”) was valued at just under $9 billion in 2020. Smaller categories include the cybersecurity awareness training market at $1 billion in 2021, SAST is less than a billion, and the insider threat market, which is still small enough that Gartner hasn’t sized it yet it seems. I strongly suspect that some percentage of each security market category includes tools that facilitate obstructionism, but that is difficult to quantify. ↩︎
+
+
+Connelly, E. B., Allen, C. R., Hatfield, K., Palma-Oliveira, J. M., Woods, D. D., & Linkov, I. (2017). Features of resilience. Environment systems and decisions, 37(1), 46-50. https://www.osti.gov/pages/servlets/purl/1346540 ↩︎
+
+
+
+
+
+
+
+
+InfoSecBehavioral InfoSecMarket Analysis
+
+3327 Words
+2022-01-12 07:55 -0500
+
+
+
+Read other posts
+
+
+
+
+
+←
+Infosec Startup Buzzword Bingo: 2022 Edition
+
+
+
+
+My 2021 Reading List
+→
+
+
+
+
+
+
+
+
+
+© 2023
+Kelly Shortridge
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+########
+https://caf-shib2ops.ca/CoreServices/########
+
+
+
+
+
+
+Canadian Access Federation Core Services
+
+
+Skip to main navigation
+Skip to content
+
+
+
+
+
+
+
+
+Home
+Metadata Verification
+Metadata Changes
+IdP Discovery
+
+
+
+
+Welcome to the new Canadian Access Federation Core Services website.
+This site provides technical information required by participants of the Canadian Access Federation. Please use the left hand menu to access specific information on metadata usage and IdP discovery. 
+				Signed SAML metadata is available from:
+SHA256 signed (recommended):https://caf-shib2ops.ca/CoreServices/caf_metadata_signed_sha256.xml
+The metadata verification certificate available below can be used by CAF participants to verify the authenticity and veracity of the above file.
+https://caf-shib2ops.ca/CoreServices/caf_metadata_verify.crt (simple PEM cert)
+https://caf-shib2ops.ca/CoreServices/caf_metadata_verify.crt.txt (with text details)
+CAF interfederation SAML metadata is available from:
+https://caf-shib2ops.ca/CoreServices/caf_interfed_signed.xml
+CAF participants in interfederation metadata:
+SHA256 signed:https://caf-shib2ops.ca/CoreServices/edugain_caf_metadata_signed_sha256.xml
+
+
+
+
+
+
+© 2012 The Canadian Access Federation / F&#233dération canadienne d'accès
+
+ 
+
+
+
+
+
+########
+http://sol.gfxile.net/dontask.html########
+
+
+
+www.iki.fi/sol - Stuff - Don't ask to ask, just ask
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News/Blog
+Who?
+Stories
+Tutorials
+Speccy
+Code
+Demos
+Breakdown
+Games
+Audio
+Misc files
+Links
+Stuff
+
+
+
+
+
+
+Sol::Stuff
+
+
+
+
+
+Don't ask to ask, just ask
+Every now and then, on channels I hang on IRC, someone pops in and says something in the lines of,
+
+  Foobar123: Any XNA experts around?
+
+This is bad form, for several reasons. What the person is actually asking here is,
+
+  Foobar123: Any XNA experts around who are willing to commit 
+             into looking into my problem, whatever that may
+             turn out to be, even if it's not actually related
+             to XNA or if someone who doesn't know antyhing
+             about XNA could actually answer my question?
+
+There are plenty of reasons why people who DO have the knowledge would not admit to it. By asking, you're asking for more than what you think you're asking.
+You're asking people to take responsibility. You're questioning people's confidence in their abilities. You're also unnecessarily walling other people out. I often answer questions related to languages or libraries I have never used, because the answers are (in a programmer kind of way) common sense.
+Alternatively, it can be seen as..
+
+  Foobar123: I have a question about XNA but I'm too lazy to
+             actually formalize it in words unless there's
+             someone on the channel who might be able to
+             answer it.
+
+..which is just lazy. If you're not willing to do the work to solve your problem, why should we?
+The solution is not to ask to ask, but just to ask. Someone who is idling on the channel and only every now and then glances what's going on is unlikely to answer to your "asking to ask" question, but your actual problem description may pique their interest and get them to answer.
+So, to repeat:
+Don't ask to ask. Just ask.
+Apologies for anyone using "Foobar123" as a nick. And I have no experience in XNA, just used as an example.
+Comments are appreciated.
+
+
+
+
+ 
+ 
+ 
+Site design & Copyright © 2022 Jari Komppa
+Possibly modified around: November 09 2012
+ 
+
+
+
+
+########
+https://www.devever.net/~hl/xml########
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+XML is almost always misused
+
+
+
+
+
+
+
+
+
+Home
+
+
+Narrow mode
+
+
+Wide mode
+
+
+
+
+
+
+
+XML is almost always misusedIn 1996, XML was invented. No sooner than it was created, it was adopted for
+all manner of misconceived applications for which it was a poor choice.
+It is no exaggeration to say that the vast majority of all XML schemas I have
+ever seen have constituted an inappropriate or misguided use of XML. Moreover,
+these misapplications of XML fundamentally fail to understand what XML is in
+the first place.
+XML is a markup language. It is not a data format. The majority of XML
+schemas fail to appreciate this distinction, confuse XML with a data format,
+and thus were mistaken to adopt XML in the first place because what they were
+really looking for is a data format.
+Broadly speaking, XML excels at annotating corpuses of text with structure and
+metadata. If what you have in the first place is not a corpus of text, XML is
+unlikely to be a good choice.
+This being in mind, there is a simple test for determining if an XML schema is
+well designed: Take an exemplary document in the proposed schema, and remove
+all tags and attributes from it. If what you have left over does not make sense
+(or is the empty string), either your schema is badly designed or you shouldn't
+be using XML at all.
+Here are some very frequently occurring examples of bad schema design:
+
+
+<root>
+  <item name="name" value="John" />
+  <item name="city" value="London" />
+</root> Here we have an example of a misguided and bizarre (yet frequently seen)
+ attempt to express a simple key-value dictionary in XML. If we remove all
+ tags and attributes, we have the empty string. Essentially, this document
+ is, nonsensically, the semantic annotation of the empty string.
+
+
+<root name="John" city="London" /> Even worse, now not only are we semantically annotating the empty string
+ as a bizarre way of expressing a dictionary, but the “dictionary” is now
+ directly encoded as the attributes of the root element. This makes the
+ defined set of attribute names on the element undefined and dynamic.
+ Moreover, it demonstrates that all the author really wanted was a simple
+ key-value syntax, but instead has completely bizarrely decided to use
+ XML, forcing them to use a single empty element just as a pretext to use
+ the attribute syntax. Yet I have seen such schemas far too often.
+
+
+<root>
+  <item key="name">John</item>
+  <item key="city">London</item>
+</root> This is a half-improvement, but now the keys are for some reason metadata
+ and the values aren't, which is a very strange position to take on the
+ nature of a dictionary. If we remove all tags and attributes, we lose
+ half of our information.
+
+
+The correct way to express a dictionary in XML is something like this:
+<root>
+  <item>
+    <key>Name</key>
+    <value>John</value>
+  </item>
+  <item>
+    <key>City</key>
+    <value>London</value>
+  </item>
+</root>But if the people who made the strange decision to use XML as a data format,
+and to then use it to serialize a dictionary chose this schema they might
+realise that what they're doing is unsuited to it and unergonomic. More often
+then when the designer mistakenly chooses XML for their application, they then
+double down with the nonsensical use of XML with one of the above forms so as
+to avoid confronting the fact that XML is a poor fit for their application.
+The worst XML schema ever? Incidentially, the award for the worst XML
+schema I have ever seen goes to the autoprovisioning configuration file format
+for Polycom IP phones. These demand XML files loaded over TFTP, which, well,
+here's an extract from one:
+<softkey
+        softkey.feature.directories="0"
+        softkey.feature.buddies="0"
+        softkey.feature.forward="0"
+        softkey.feature.meetnow="0"
+        softkey.feature.redial="1"
+        softkey.feature.search="1"
+
+        softkey.1.enable="1"
+        softkey.1.use.idle="1"
+        softkey.1.label="Foo"
+        softkey.1.insert="1"
+        softkey.1.action="..."
+
+        softkey.2.enable="1"
+        softkey.2.use.idle="1"
+        softkey.2.label="Bar"
+        softkey.2.insert="2"
+        softkey.2.action="..." />This is not a sick joke. This is not something I made up:
+
+Elements are just used as a pretext to attach attributes which themselves
+have hierarchical names.
+If multiple instances of a given kind of thing need to be instantiated, you
+have to do so by using attribute names with indices in them.
+Not only that, attributes beginning with softkey. need to
+be placed on an element <softkey/>, attributes beginning with feature.
+need to be placed on an element <feature/>, etc., despite this being
+completely redundant and serving no apparent purpose.
+Finally, just as an extra “fuck you”, if you were hoping that the first
+component of the attribute name always matches the element name, nope! For
+example, up. attributes must be attached to <userpreferences/>. The mapping
+from attribute names to what elements they must be attached to is more or less
+completely arbitrary.
+
+Documents vs. data. From time to time someone will do something really
+strange and compare XML and JSON, proving that they understand neither. XML is
+a document markup language; JSON is a structured data format, and to compare
+the two is to compare apples and oranges.
+The documents vs. data concept is useful for understanding this. XML can be
+roughly analogised to a machine-intelligible document; though machine-readable,
+it is still embedded in the document metaphor, and is in this regard actually
+comparable to the generally machine-unintelligible PDF. This is distinct from
+data, which is independent of any particular representation of that data in the
+document metaphor.
+To use an example, in XML the ordering of elements is significant. Whereas in
+JSON the ordering of the key-value pairs inside objects is meaningless and
+undefined. If you want an unordered dictionary of key-value pairs, the actual
+ordering of the physical representation in the file is meaningless; but you
+could produce many different documents from that data, because a document has
+a concrete order to it; it is metaphorical paper, though unlike a physical
+printed document or a PDF, it is one without physical dimensions.
+The example I gave of how to correctly represent a dictionary in XML
+necessarily gives an order to the elements in the dictionary, unlike a JSON
+representation. I can't choose not to express such an ordering; this linearity
+is inherent to the document metaphor and to XML. Some program interpreting this
+XML document might choose to disregard the ordering, but this is a moot point,
+as this is out of scope of the discussion of the format itself. Moreover,
+making the document viewable in a web browser by attaching a CSS stylesheet to
+it will show the elements of the dictionary in the given order, not in any
+other order.
+In other words, a dictionary (a piece of structured data) can be converted into
+n different possible documents (XML, PDF, paper or otherwise), where n is
+the number of possible permutations of the elements in the dictionary, and this
+is before we consider other possible variables.
+However, it also follows from this that if you want to convey pure data, a
+machine-intelligible document is an inefficient way to do it. It introduces a
+wholly unnecessary obfuscating metaphor and code must be written to extract the
+original data from this document. There is little reason to use XML for
+anything not intended at some point or another to be directly formatted for
+human consumption as a document (say, by CSS or XSLT or both), because this the
+primary (or only) reason to cling on to the document metaphor. Moreover, since
+XML has no notion of numbers (or booleans, or other data types), any numbers
+represented are just considered more text. The schema and its relation to the
+underlying data expressed must be known to recover the data, and to know when,
+contextually, some piece of text represents a number and should be converted to
+one, etc.
+The process of recovering data from XML documents is thus not wholly dissimilar
+to the process of recovering data by OCR'ing scanned printed documents, say for
+example containing tables forming pages and pages of numerical data. Yes, you
+can do it, but it's suboptimal and should only be done if there's absolutely no
+alternative. The sane solution is simply to obtain a digital copy of the
+original data, not embedded in a document metaphor which conflates the data
+with a specific textual representation of it.
+It doesn't, however, surprise me that businesses like XML, precisely because
+businesses understand the notion of (paper) documents and want to continue with
+a familiar metaphor that they understand — for the same reason businesses
+overuse PDFs instead of more machine-friendly formats because they remain
+attached to the notion of a printed page with a particular physical size, even
+for documents highly unlikely ever to be printed (e.g. 8000 page PDFs of
+register documentation). In this regard, business use of XML is essentially a
+skeuomorphism. People understand the metaphorical idea of a printed page, with
+finite size, and they understand how to craft business processes out of printed
+documents. If this is your baseline, documents without a finite physical size
+and which are machine-intelligible — XML documents — represent innovation
+relative to it, while retaining the comfortingly familiar document metaphor.
+However this remains an impure and needlessly skeuomorphic representation of
+data. To date, the only XML schemas I have seen which I would actually consider
+a good use of XML are XHTML and DocBook.
+
+
+
+
+HomeFeedbackPage last modified on 20191029 by Hugo Landau
+
+
+
+
+########
+https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/########
+
+
+
+
+
+
+
+
+
+
+
+
+
+Falsehoods Programmers Believe About Names
+      
+         | 
+        Kalzumeus Software
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kalzumeus
+
+
+
+Archive
+Greatest Hits
+Standing Invitation
+Start Here
+About me
+
+
+
+
+
+
+
+
+
+
+
+Falsehoods Programmers Believe About Names
+
+
+
+
+
+
+[Readers have translated this essay. You’re welcome to translate it into any language; I’d appreciate you sending me an email so I can link to it.
+
+プログラマの抱いている名前についての誤謬
+戳这里看中文翻译
+
+]
+John Graham-Cumming wrote an article today complaining about how a computer system he was working with described his last name as having invalid characters.  It of course does not, because anything someone tells you is their name is — by definition — an appropriate identifier for them.  John was understandably vexed about this situation, and he has every right to be, because names are central to our identities, virtually by definition.
+I have lived in Japan for several years, programming in a professional capacity, and I have broken many systems by the simple expedient of being introduced into them.  (Most people call me Patrick McKenzie, but I’ll acknowledge as correct any of six different “full” names, any many systems I deal with will accept precisely none of them.) Similarly, I’ve worked with Big Freaking Enterprises which, by dint of doing business globally, have theoretically designed their systems to allow all names to work in them.  I have never seen a computer system which handles names properly and doubt one exists, anywhere.
+So, as a public service, I’m going to list assumptions your systems probably make about names.  All of these assumptions are wrong.  Try to make less of them next time you write a system which touches names.
+
+People have exactly one canonical full name.
+People have exactly one full name which they go by.
+People have, at this point in time, exactly one canonical full name.
+People have, at this point in time, one full name which they go by.
+People have exactly N names, for any value of N.
+People’s names fit within a certain defined amount of space.
+People’s names do not change.
+People’s names change, but only at a certain enumerated set of events.
+People’s names are written in ASCII.
+People’s names are written in any single character set.
+People’s names are all mapped in Unicode code points.
+People’s names are case sensitive.
+People’s names are case insensitive.
+People’s names sometimes have prefixes or suffixes, but you can safely ignore those.
+People’s names do not contain numbers.
+People’s names are not written in ALL CAPS.
+People’s names are not written in all lower case letters.
+People’s names have an order to them.  Picking any ordering scheme will automatically result in consistent ordering among all systems, as long as both use the same ordering scheme for the same name.
+People’s first names and last names are, by necessity, different.
+People have last names, family names, or anything else which is shared by folks recognized as their relatives.
+People’s names are globally unique.
+People’s names are almost globally unique.
+Alright alright but surely people’s names are diverse enough such that no million people share the same name.
+My system will never have to deal with names from China.
+Or Japan.
+Or Korea.
+Or Ireland, the United Kingdom, the United States, Spain, Mexico, Brazil, Peru, Russia, Sweden, Botswana, South Africa, Trinidad, Haiti, France, or the Klingon Empire, all of which have “weird” naming schemes in common use.
+That Klingon Empire thing was a joke, right?
+Confound your cultural relativism!  People in my society, at least, agree on one commonly accepted standard for names.
+There exists an algorithm which transforms names and can be reversed losslessly.  (Yes, yes, you can do it if your algorithm returns the input.  You get a gold star.)
+I can safely assume that this dictionary of bad words contains no people’s names in it.
+People’s names are assigned at birth.
+OK, maybe not at birth, but at least pretty close to birth.
+Alright, alright, within a year or so of birth.
+Five years?
+You’re kidding me, right?
+Two different systems containing data about the same person will use the same name for that person.
+Two different data entry operators, given a person’s name, will by necessity enter bitwise equivalent strings on any single system, if the system is well-designed.
+People whose names break my system are weird outliers.  They should have had solid, acceptable names, like 田中太郎.
+People have names.
+
+This list is by no means exhaustive.  If you need examples of real names which disprove any of the above commonly held misconceptions, I will happily introduce you to several.  Feel free to add other misconceptions in the comments, and refer people to this post the next time they suggest a genius idea like a database table with a first_name and last_name column.
+
+
+Originally written: June 17, 2010
+
+
+    About the author
+  
+
+
+
+    Patrick McKenzie (patio11) ran four small software businesses. He writes about software, marketing, sales, and general business topics. Opinions here are his own.
+    
+
+
+
+
+
+
+
+              Older
+               · 
+View Archive (574)
+
+Detecting Bots with Javascript for Better A/B Test Results
+I am a big believer in not spending time creating features until you know customers actually need them.  This goes the same for OSS projects: there is no point in overly complicating things until “customers” tell you they need to be a little more complicated.  (Helpfully, here some customers are actually capable of helping themselves… well, OK, it is theoretically possible at any rate.)
+
+
+
+              Newer
+              
+            
+Running Apache On A Memory-Constrained VPS
+Yesterday about a hundred thousand people visited this blog due to my post on names, and the server it was on died several fiery deaths. This has been a persistent issue for me in dealing with Apache (the site dies nearly every time I get Reddited — with only about 10,000 visitors each time, which shouldn’t be a big number on the Internet), but no amount of enabling WordPress cache plugins, tweaking my Apache settings, upgrading the VPS’ RAM, or Googling lead me to a solution.
+
+
+
+
+
+
+
+    Who am I?
+  
+
+    My name is Patrick McKenzie (better known as patio11 on the Internets.)
+  
+
+   Twitter: @patio11 HN: patio11
+
+
+      Bits about Money
+    
+I also write a Bits about Money, a weekly newsletter on the intersection of tech and finance.
+
+
+
+
+
+
+© Patrick McKenzie (Kalzumeus Software, LLC) 2006 - 2023.
+
+Shoutout to Elle Kasai for the Shiori Theme.
+
+
+
+
+
+
+
+
+
+
+
+########
+https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/
