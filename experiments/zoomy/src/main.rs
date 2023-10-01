@@ -1,21 +1,37 @@
 extern crate minifb;
 extern crate rsautogui;
+extern crate winit;
 
+use image::RgbaImage;
 use minifb::{Key, Scale, ScaleMode, Window, WindowOptions};
-use rsautogui::screen;
+use screenshots::Screen;
+use std::convert::TryInto;
 use std::thread::sleep;
 use std::time::Duration;
+use winit::event_loop::EventLoop;
+use mouse_rs::{Mouse};
+use anyhow::{Result};
 
 const CAPTURE_SIZE: usize = 100;
-const ZOOM_FACTOR: usize = 4;
 
+struct Region {
+    x: i32,
+    y: i32,
+    width: u32,
+    height: u32,
+}
+impl Region {
+    fn capture(&self, screen: Screen) -> Result<RgbaImage> {
+        screen.capture_area(self.x, self.y, self.width, self.height)
+    }
+}
 fn main() {
     let mut buffer: Vec<u32> = vec![0; CAPTURE_SIZE * CAPTURE_SIZE];
 
     let mut window = Window::new(
         "Zoom Window",
-        100,
-        100,
+        CAPTURE_SIZE,
+        CAPTURE_SIZE,
         WindowOptions {
             resize: true,
             scale: Scale::X4,
@@ -25,44 +41,42 @@ fn main() {
     )
     .unwrap();
 
+    let mouse = Mouse::new();
     while window.is_open() && !window.is_key_down(Key::Escape) {
-        let (x, y) = rsautogui::mouse::position(); // Replace this with your actual mouse position fetching code
+        let mouse_pos = mouse.get_position().unwrap();
+        let capture_region_world = Region { x: mouse_pos.x-50, y: mouse_pos.y-50, width: 100, height: 100 };
+        println!("mouse_pos: {:?}", mouse_pos);
+        
+        // clear buffer
+        for i in 0..buffer.len() {
+            buffer[i] = 0;
+        }
 
-        // Capture the frame centered around mouse cursor
-        let x_u16 = x as u16;
-        let y_u16 = y as u16;
-        let capture_size_u16 = CAPTURE_SIZE as u16;
-
-        let (screen_width, screen_height) = screen::size();
-
-        let x_left = (x_u16 as i32 - (capture_size_u16 / 2) as i32).max(0) as u16;
-        let y_top = (y_u16 as i32 - (capture_size_u16 / 2) as i32).max(0) as u16;
-
-        let x_right = (x_left as u32 + capture_size_u16 as u32).min(screen_width as u32) as u16;
-        let y_bottom = (y_top as u32 + capture_size_u16 as u32).min(screen_height as u32) as u16;
-
-        let adjusted_width = (x_right - x_left).max(1);
-        let adjusted_height = (y_bottom - y_top).max(1);
-
-        let region = screen::screenshot(x_left, y_top, adjusted_width, adjusted_height);
-
-        // Convert the frame data to a buffer compatible with minifb
-        if let image::DynamicImage::ImageRgba8(image) = region {
-            for (x, y, pixel) in image.enumerate_pixels() {
-                let index = y as usize * CAPTURE_SIZE + x as usize;
-                buffer[index] = ((pixel[0] as u32) << 16) | // R
-                    ((pixel[1] as u32) << 8) | // G
-                    ((pixel[2] as u32) << 0); // B
-                // discard alpha
+        for screen in Screen::all().unwrap() {
+            let capture_region_screen = Region {
+                x: capture_region_world.x - screen.display_info.x,
+                y: capture_region_world.y - screen.display_info.y,
+                width: capture_region_world.width,
+                height: capture_region_world.height,
+            };
+            match capture_region_screen.capture(screen) {
+                Ok(image) => {
+                    for (x, y, pixel) in image.enumerate_pixels() {
+                        let index = y as usize * CAPTURE_SIZE + x as usize;
+                        buffer[index] =
+                            ((pixel[0] as u32) << 16) | ((pixel[1] as u32) << 8) | ((pixel[2] as u32) << 0);
+                    }
+                }
+                Err(e) => {
+                    println!("Error: {}", e);
+                }
             }
         }
 
-        // Update the window
         window
             .update_with_buffer(&buffer, CAPTURE_SIZE, CAPTURE_SIZE)
             .unwrap();
 
-        // Sleep to prevent high CPU usage
         sleep(Duration::from_millis(16));
     }
 }

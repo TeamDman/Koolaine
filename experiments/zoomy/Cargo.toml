@@ -12,3 +12,7 @@ minifb = "0.25.0"
 rsautogui = "0.2.2"
 scrap = "0.5.0"
 winit = "0.28.7"
+winapi = { version = "0.3", features = ["wingdi", "windef", "winuser"] }
+screenshots = "0.8.4"
+mouse-rs = "0.4.2"
+anyhow = "1.0.75"
