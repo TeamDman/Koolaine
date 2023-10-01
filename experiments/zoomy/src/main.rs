@@ -59,10 +59,21 @@ fn main() {
                 width: capture_region_world.width,
                 height: capture_region_world.height,
             };
+            
+            // Step 1: Calculate how much of the capture box is outside the monitor
+            let left_overflow = std::cmp::max(0, screen.display_info.x - capture_region_screen.x);
+            let top_overflow = std::cmp::max(0, screen.display_info.y - capture_region_screen.y);
+
+            // Step 2: Use the overflow to calculate the offset for writing into the buffer
+            let buffer_x_offset = left_overflow as usize;
+            let buffer_y_offset = top_overflow as usize;
+            
             match capture_region_screen.capture(screen) {
                 Ok(image) => {
                     for (x, y, pixel) in image.enumerate_pixels() {
-                        let index = y as usize * CAPTURE_SIZE + x as usize;
+                        // Apply the offset when calculating the index
+                        let index = (y as usize + buffer_y_offset) * CAPTURE_SIZE + (x as usize + buffer_x_offset);
+                        
                         buffer[index] =
                             ((pixel[0] as u32) << 16) | ((pixel[1] as u32) << 8) | ((pixel[2] as u32) << 0);
                     }
