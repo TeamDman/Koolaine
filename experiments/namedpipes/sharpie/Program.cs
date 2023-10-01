@@ -1,24 +1,38 @@
 ﻿using System;
+using System.IO;
 using System.IO.Pipes;
 
-using (NamedPipeServerStream pipeServer = new NamedPipeServerStream("testpipe"))
+class Program
 {
-    Console.WriteLine("NamedPipeServerStream object created.");
-
-    // Wait for a client to connect
-    Console.Write("Waiting for client connection...");
-    pipeServer.WaitForConnection();
-
-    Console.WriteLine("Client connected.");
-    
-    // Read user input and send that to client process.
-    using (StreamReader sr = new StreamReader(pipeServer))
+    static void Main()
     {
-        string temp;
-        // Read the stream until end
-        while ((temp = sr.ReadLine()) != null)
+        using (NamedPipeServerStream pipeServer = new NamedPipeServerStream("testpipe"))
         {
-            Console.WriteLine("Received from client: {0}", temp);
+            Console.WriteLine("NamedPipeServerStream object created.");
+
+            // Wait for a client to connect
+            Console.Write("Waiting for client connection...");
+            pipeServer.WaitForConnection();
+
+            Console.WriteLine("Client connected.");
+
+            // Write Fibonacci sequence to client
+            using (StreamWriter sw = new StreamWriter(pipeServer))
+            {
+                sw.AutoFlush = true;
+                long a = 0;
+                long b = 1;
+                while (true)
+                {
+                    long temp = a;
+                    a = b;
+                    b = temp + b;
+
+                    sw.WriteLine(a);
+                    Console.WriteLine("Sent to client: {0}", a);
+                    System.Threading.Thread.Sleep(100);
+                }
+            }
         }
     }
 }
