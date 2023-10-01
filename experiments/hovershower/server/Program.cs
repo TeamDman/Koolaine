@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Automation;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using System.ComponentModel;
 
 public static class RectExtensions
 {
@@ -41,7 +42,7 @@ class Program
                 while (true)
                 {
                     PrintUnderMouse(sw);
-                    Thread.Sleep(1000);
+                    Thread.Sleep(100);
                 }
             }
         }
@@ -51,7 +52,16 @@ class Program
     {
         int cursorX = Cursor.Position.X;
         int cursorY = Cursor.Position.Y;
-        AutomationElement element = AutomationElement.FromPoint(new Point(cursorX, cursorY));
+        AutomationElement element = null;
+        try{
+            element = AutomationElement.FromPoint(new Point(cursorX, cursorY));
+        } catch (Win32Exception e) {
+            if (e.NativeErrorCode == 5) { // access denied, do nothing
+                return;
+            } else {
+                Console.WriteLine(e);
+            }
+        }
         if (element == null) return;
         var outputData = new
         {
