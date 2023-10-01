@@ -23,6 +23,9 @@
     <TargetFramework>net5.0-windows</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App.WindowsForms" />
+  </ItemGroup>  
+  <ItemGroup>
     <FrameworkReference Include="Microsoft.WindowsDesktop.App.WPF"/>
   </ItemGroup>
 </Project>
