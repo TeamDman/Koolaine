@@ -925,6 +925,7 @@ dependencies = [
  "structopt",
  "tokio 1.32.0",
  "tokio-named-pipes",
+ "winapi 0.3.9",
  "windows-sys",
 ]
 

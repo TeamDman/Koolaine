@@ -1,15 +1,21 @@
+use scrap::{Capturer, Display, Frame};
 use sdl2::event::Event;
 use sdl2::keyboard::Keycode;
 use sdl2::pixels::Color;
 use sdl2::rect::Rect;
 use serde::Deserialize;
-use std::sync::{mpsc, Arc, Mutex};
+use std::io::ErrorKind::WouldBlock;
+use std::sync::{Arc, Mutex};
 use std::thread;
 use std::time::Duration;
 use tokio::io::{AsyncBufReadExt, BufReader};
 use tokio::net::windows::named_pipe::ClientOptions;
-use tokio::sync::mpsc as async_mpsc;
-use tokio::time;
+
+use std::ptr;
+use winapi::shared::windef::{HDC, HWND};
+use winapi::um::wingdi::{BitBlt, CreateCompatibleBitmap, CreateCompatibleDC, DeleteDC, DeleteObject, SelectObject, SRCCOPY};
+use winapi::um::winuser::{GetDC, GetDesktopWindow, ReleaseDC};
+use winapi::ctypes::c_void;
 
 #[derive(Debug, Deserialize)]
 struct ElementDetails {
@@ -56,7 +62,7 @@ fn main() {
                     }
                 }
 
-                time::sleep(Duration::from_millis(100)).await;
+                tokio::time::sleep(Duration::from_millis(100)).await;
             };
 
             let mut reader = BufReader::new(client); // Pass ownership
@@ -79,7 +85,7 @@ fn main() {
                     }
                     Err(e) => {
                         println!("Couldn't deserialize data: {}", e);
-                        if (line == "") {
+                        if line == "" {
                             println!("Pipe closed");
                             break;
                         }
@@ -91,7 +97,63 @@ fn main() {
         });
     });
 
+    let frame_data: Arc<Mutex<Option<(usize, usize, Vec<u8>)>>> = Arc::new(Mutex::new(None));
+    let frame_data_clone = frame_data.clone();
+    thread::spawn(move || {
+        loop {
+            unsafe {
+                let hwnd: HWND = GetDesktopWindow();
+                let hdc: HDC = GetDC(hwnd);
+                let mem_dc: HDC = CreateCompatibleDC(hdc);
+                
+                let width: i32 = 800;  // Set these values to the width and height of the area you want to capture
+                let height: i32 = 600;
+
+                let hbitmap = CreateCompatibleBitmap(hdc, width, height);
+                let old_bitmap = SelectObject(mem_dc, hbitmap as *mut c_void);
+
+                BitBlt(mem_dc, 0, 0, width, height, hdc, 0, 0, SRCCOPY);
+
+                // At this point, `hbitmap` contains the captured screen data.
+                // You can save it to a file or process it further.
+
+                // Cleanup
+                SelectObject(mem_dc, old_bitmap);
+                DeleteObject(hbitmap as *mut c_void);
+                DeleteDC(mem_dc);
+                ReleaseDC(hwnd, hdc);
+            }
+            // let displays = Display::all().unwrap();
+            // for (index, display) in displays.into_iter().enumerate() {
+            //     let mut capturer = Capturer::new(display).expect("Couldn't begin capture");
+            //     let (w, h) = (capturer.width(), capturer.height());
+
+            //     // Local scope to end mutable borrow quickly
+            //     {
+            //         let frame = loop {
+            //             if let Ok(frame) = capturer.frame() {
+            //                 break frame;
+            //             }
+            //             if let Err(err) = capturer.frame() {
+            //                 if err.kind() == WouldBlock {
+            //                     thread::sleep(Duration::from_millis(100));
+            //                     continue;
+            //                 } else {
+            //                     panic!("Error capturing frame: {}", err);
+            //                 }
+            //             }
+            //         };
+            //         let frame_vec = frame.to_vec(); // Convert the frame to Vec<u8>
+
+            //         let mut frame_data = frame_data_clone.lock().unwrap();
+            //         *frame_data = Some((w, h, frame_vec));
+            //     } // End of local scope, mutable borrow ends here
+            // }
+        }
+    });
+
     let data_clone = data.clone();
+    let frame_data_clone = frame_data.clone();
     // SDL2 thread
     thread::spawn(move || {
         let sdl_context = sdl2::init().expect("SDL initialization failed");
@@ -100,7 +162,7 @@ fn main() {
             .expect("Couldn't get SDL video subsystem");
 
         let window = video_subsystem
-            .window("Screen Capture", 800, 600)
+            .window("Screeby Jeebie", 800, 600)
             .position_centered()
             .build()
             .map_err(|e| e.to_string())
@@ -111,20 +173,31 @@ fn main() {
             .build()
             .map_err(|e| e.to_string())
             .expect("Couldn't build SDL canvas");
+        let texture_creator = canvas.texture_creator();
+
         let mut event_pump = sdl_context.event_pump().unwrap();
 
         'running: loop {
+            canvas.set_draw_color(Color::RGB(0, 0, 0));
             canvas.clear();
-            canvas.set_draw_color(Color::RGB(255, 0, 0));
 
-            // Lock once and use throughout the loop
+            let lock = frame_data_clone.lock().unwrap();
+            if let Some(ref frame) = *lock {
+                let (w, h, frame) = frame; // rgba image
+                let mut texture = texture_creator
+                    .create_texture_static(
+                        sdl2::pixels::PixelFormatEnum::RGBA8888, // Corresponds to the RgbaImage format
+                        (*w).try_into().unwrap(),
+                        (*h).try_into().unwrap(),
+                    )
+                    .expect("Failed to create texture");
+
+                let _ = texture.update(None, frame, w * 4);
+                canvas.copy(&texture, None, None).unwrap();
+            }
+
             let lock = data_clone.lock().unwrap();
             if let Some(ref data) = *lock {
-                // Now `data` is a reference to the inner data, and the lock is held until the end of this block
-                // println!("Received: {:?}", data);
-
-                canvas.set_draw_color(Color::RGB(0, 0, 0));
-                canvas.clear();
                 canvas.set_draw_color(Color::RGB(255, 0, 0));
                 canvas
                     .fill_rect(Rect::new(
