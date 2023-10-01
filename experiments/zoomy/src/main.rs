@@ -2,15 +2,13 @@ extern crate minifb;
 extern crate rsautogui;
 extern crate winit;
 
+use anyhow::Result;
 use image::RgbaImage;
 use minifb::{Key, Scale, ScaleMode, Window, WindowOptions};
+use mouse_rs::Mouse;
 use screenshots::Screen;
-use std::convert::TryInto;
 use std::thread::sleep;
 use std::time::Duration;
-use winit::event_loop::EventLoop;
-use mouse_rs::{Mouse};
-use anyhow::{Result};
 
 const CAPTURE_SIZE: usize = 100;
 
@@ -44,9 +42,14 @@ fn main() {
     let mouse = Mouse::new();
     while window.is_open() && !window.is_key_down(Key::Escape) {
         let mouse_pos = mouse.get_position().unwrap();
-        let capture_region_world = Region { x: mouse_pos.x-50, y: mouse_pos.y-50, width: 100, height: 100 };
+        let capture_region_world = Region {
+            x: mouse_pos.x - 50,
+            y: mouse_pos.y - 50,
+            width: 100,
+            height: 100,
+        };
         println!("mouse_pos: {:?}", mouse_pos);
-        
+
         // clear buffer
         for i in 0..buffer.len() {
             buffer[i] = 0;
@@ -59,7 +62,7 @@ fn main() {
                 width: capture_region_world.width,
                 height: capture_region_world.height,
             };
-            
+
             // Step 1: Calculate how much of the capture box is outside the monitor
             let left_overflow = std::cmp::max(0, screen.display_info.x - capture_region_screen.x);
             let top_overflow = std::cmp::max(0, screen.display_info.y - capture_region_screen.y);
@@ -67,15 +70,17 @@ fn main() {
             // Step 2: Use the overflow to calculate the offset for writing into the buffer
             let buffer_x_offset = left_overflow as usize;
             let buffer_y_offset = top_overflow as usize;
-            
+
             match capture_region_screen.capture(screen) {
                 Ok(image) => {
                     for (x, y, pixel) in image.enumerate_pixels() {
                         // Apply the offset when calculating the index
-                        let index = (y as usize + buffer_y_offset) * CAPTURE_SIZE + (x as usize + buffer_x_offset);
-                        
-                        buffer[index] =
-                            ((pixel[0] as u32) << 16) | ((pixel[1] as u32) << 8) | ((pixel[2] as u32) << 0);
+                        let index = (y as usize + buffer_y_offset) * CAPTURE_SIZE
+                            + (x as usize + buffer_x_offset);
+
+                        buffer[index] = ((pixel[0] as u32) << 16)
+                            | ((pixel[1] as u32) << 8)
+                            | ((pixel[2] as u32) << 0);
                     }
                 }
                 Err(e) => {
