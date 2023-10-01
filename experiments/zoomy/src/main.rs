@@ -52,9 +52,8 @@ fn main() {
                 let index = y as usize * CAPTURE_SIZE + x as usize;
                 buffer[index] = ((pixel[0] as u32) << 16) | // R
                     ((pixel[1] as u32) << 8) | // G
-                    ((pixel[2] as u32) << 0);
-                //   | // B
-                // (pixel[3] as u32); // A
+                    ((pixel[2] as u32) << 0); // B
+                // discard alpha
             }
         }
 
