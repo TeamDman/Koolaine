@@ -3,7 +3,7 @@ extern crate rsautogui;
 extern crate winit;
 
 use anyhow::Result;
-use image::RgbaImage;
+use image::{ImageBuffer, Rgba, RgbaImage};
 use minifb::{Key, Scale, ScaleMode, Window, WindowOptions};
 use mouse_rs::Mouse;
 use screenshots::Screen;
@@ -11,7 +11,6 @@ use std::thread::sleep;
 use std::time::Duration;
 
 const CAPTURE_SIZE: usize = 100;
-
 
 #[derive(Debug)]
 struct Region {
@@ -22,11 +21,17 @@ struct Region {
 }
 impl Region {
     fn capture(&self, screen: Screen) -> Result<RgbaImage> {
-        screen.capture_area(self.x1, self.y1, (self.x2 - self.x1) as u32, (self.y2 - self.y1) as u32)
+        screen.capture_area(
+            self.x1,
+            self.y1,
+            (self.x2 - self.x1) as u32,
+            (self.y2 - self.y1) as u32,
+        )
     }
 }
 fn main() {
-    let mut buffer: Vec<u32> = vec![0; CAPTURE_SIZE * CAPTURE_SIZE];
+    let mut img_buffer: ImageBuffer<Rgba<u8>, Vec<u8>> =
+        ImageBuffer::new(CAPTURE_SIZE as u32, CAPTURE_SIZE as u32);
 
     let mut window = Window::new(
         "Zoom Window",
@@ -43,6 +48,12 @@ fn main() {
 
     let mouse = Mouse::new();
     while window.is_open() && !window.is_key_down(Key::Escape) {
+        if window.is_key_down(Key::Space) {
+            // println!("pausing!");
+            window.update();
+            sleep(Duration::from_millis(100));
+            continue;
+        }
         let mouse_pos = mouse.get_position().unwrap();
         print!("mouse_pos: {:?}\n", mouse_pos);
 
@@ -54,8 +65,10 @@ fn main() {
         };
 
         // clear buffer
-        for i in 0..buffer.len() {
-            buffer[i] = 0x153399;
+        for x in 0..CAPTURE_SIZE as u32 {
+            for y in 0..CAPTURE_SIZE as u32 {
+                img_buffer.put_pixel(x, y, Rgba([21, 51, 153, 255]));
+            }
         }
 
         for screen in Screen::all().unwrap() {
@@ -66,48 +79,51 @@ fn main() {
                 y2: world_capture_region.y2 - screen.display_info.y,
             };
             // // Step 1: Calculate how much of the capture box is outside the monitor
-            let left_overflow = std::cmp::max(0, screen.display_info.x - screen_capture_region.x1);
-            let top_overflow = std::cmp::max(0, screen.display_info.y - screen_capture_region.y1);
+            let right_overflow =
+                std::cmp::max(0, screen.display_info.x - screen_capture_region.x1) as u32;
+            let bottom_overflow =
+                std::cmp::max(0, screen.display_info.y - screen_capture_region.y1) as u32;
 
             // // Step 2: Use the overflow to calculate the offset for writing into the buffer
-            let buffer_x_offset = left_overflow as usize;
-            let buffer_y_offset = top_overflow as usize;
+            let buffer_x_offset = right_overflow as usize;
+            let buffer_y_offset = bottom_overflow as usize;
 
             print!("{:?}\t", screen.display_info.id);
             print!("scr: {:?}\t", screen_capture_region);
-            print!("leftover: {:?}\t", left_overflow);
-            print!("topover: {:?}\t", top_overflow);
+            print!("rightover: {:?}\t", right_overflow);
+            print!("botover: {:?}\t", bottom_overflow);
             print!("bxo: {:?}\t", buffer_x_offset);
             print!("byo: {:?}\t", buffer_y_offset);
-            print!("\n");
-
-
 
             match screen_capture_region.capture(screen) {
                 Ok(image) => {
                     for (x, y, pixel) in image.enumerate_pixels() {
-                        // Apply the offset when calculating the index
-                        let index = (y as usize + buffer_y_offset) * CAPTURE_SIZE
-                            + (x as usize + buffer_x_offset);
-                        if index < buffer.len() {
-                            buffer[index] = ((pixel[0] as u32) << 16)
-                                | ((pixel[1] as u32) << 8)
-                                | ((pixel[2] as u32) << 0);
-                        } else {
-                            // not sure why we get here, but it happens
-                            // println!("Index out of bounds: {}", index);
+                        let mut x_img = x  as u32;// + (CAPTURE_SIZE as i32 - image.width() as i32) as u32;
+                        let mut y_img = y  + (CAPTURE_SIZE as i32 - image.height() as i32) as u32;
+                        fn clamp<T: Ord>(value: T, min: T, max: T) -> T {
+                            std::cmp::max(min, std::cmp::min(value, max))
                         }
+                        x_img = clamp(x_img, 0, CAPTURE_SIZE as u32 - 1);
+                        y_img = clamp(y_img, 0, CAPTURE_SIZE as u32 - 1);
+                        img_buffer.put_pixel(x_img, y_img, Rgba([pixel[0], pixel[1], pixel[2], 255]), );
                     }
                 }
                 Err(e) => {
-                    // region is outside of the screen, do nothing
-                    // println!("Error: {}", e);
+                    print!("Error: {}\t", e);
                 }
             }
-        }
 
+            print!("\n");
+        }
+        let flat_buffer: Vec<u32> = img_buffer
+            .pixels()
+            .map(|p| {
+                let Rgba([r, g, b, _]) = *p;
+                ((r as u32) << 16) | ((g as u32) << 8) | (b as u32)
+            })
+            .collect();
         window
-            .update_with_buffer(&buffer, CAPTURE_SIZE, CAPTURE_SIZE)
+            .update_with_buffer(&flat_buffer, CAPTURE_SIZE, CAPTURE_SIZE)
             .unwrap();
 
         sleep(Duration::from_millis(16));
