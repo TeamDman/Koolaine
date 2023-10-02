@@ -55,7 +55,7 @@ fn main() {
             continue;
         }
         let mouse_pos = mouse.get_position().unwrap();
-        print!("mouse_pos: {:?}\n", mouse_pos);
+        // print!("mouse_pos: {:?}\n", mouse_pos);
 
         let mut world_capture_region = Region {
             x1: mouse_pos.x - (CAPTURE_SIZE as i32) / 2,
@@ -85,10 +85,10 @@ fn main() {
                 y2: (screen.display_info.height as i32).min(screen_capture_region.y2),
             };
 
-            print!(
-                "ID {:<10} sx {:<10} sy {:<10} ",
-                screen.display_info.id, screen.display_info.x, screen.display_info.y,
-            );
+            // print!(
+            //     "ID {:<10} sx {:<10} sy {:<10} ",
+            //     screen.display_info.id, screen.display_info.x, screen.display_info.y,
+            // );
 
             match screen_capture_region.capture(screen) {
                 Ok(image) => {
@@ -111,11 +111,11 @@ fn main() {
                     }
                 }
                 Err(e) => {
-                    print!("Error: {} ", e);
+                    // print!("Error: {} ", e);
                 }
             }
 
-            print!("\n");
+            // print!("\n");
         }
         let flat_buffer: Vec<u32> = img_buffer
             .pixels()
