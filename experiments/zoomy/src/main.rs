@@ -1,7 +1,5 @@
 #![windows_subsystem = "windows"]
 extern crate minifb;
-extern crate rsautogui;
-extern crate winit;
 
 use anyhow::Result;
 use image::{ImageBuffer, Rgba, RgbaImage};
@@ -73,13 +71,13 @@ fn main() {
         }
 
         for screen in Screen::all().unwrap() {
-            let mut screen_capture_region = Region {
+            let screen_capture_region = Region {
                 x1: world_capture_region.x1 - screen.display_info.x,
                 y1: world_capture_region.y1 - screen.display_info.y,
                 x2: world_capture_region.x2 - screen.display_info.x,
                 y2: world_capture_region.y2 - screen.display_info.y,
             };
-            let mut screen_capture_region_inbounds = Region {
+            let screen_capture_region_inbounds = Region {
                 x1: 0.max(screen_capture_region.x1),
                 y1: 0.max(screen_capture_region.y1),
                 x2: (screen.display_info.width as i32).min(screen_capture_region.x2),
