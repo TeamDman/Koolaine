@@ -12,6 +12,8 @@ use std::time::Duration;
 
 const CAPTURE_SIZE: usize = 100;
 
+
+#[derive(Debug)]
 struct Region {
     x1: i32,
     y1: i32,
@@ -42,7 +44,7 @@ fn main() {
     let mouse = Mouse::new();
     while window.is_open() && !window.is_key_down(Key::Escape) {
         let mouse_pos = mouse.get_position().unwrap();
-        println!("mouse_pos: {:?}", mouse_pos);
+        print!("mouse_pos: {:?}\n", mouse_pos);
 
         let mut world_capture_region = Region {
             x1: mouse_pos.x - (CAPTURE_SIZE as i32) / 2,
@@ -70,6 +72,16 @@ fn main() {
             // // Step 2: Use the overflow to calculate the offset for writing into the buffer
             let buffer_x_offset = left_overflow as usize;
             let buffer_y_offset = top_overflow as usize;
+
+            print!("{:?}\t", screen.display_info.id);
+            print!("scr: {:?}\t", screen_capture_region);
+            print!("leftover: {:?}\t", left_overflow);
+            print!("topover: {:?}\t", top_overflow);
+            print!("bxo: {:?}\t", buffer_x_offset);
+            print!("byo: {:?}\t", buffer_y_offset);
+            print!("\n");
+
+
 
             match screen_capture_region.capture(screen) {
                 Ok(image) => {
