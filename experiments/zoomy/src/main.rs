@@ -42,17 +42,18 @@ fn main() {
     let mouse = Mouse::new();
     while window.is_open() && !window.is_key_down(Key::Escape) {
         let mouse_pos = mouse.get_position().unwrap();
-        let world_capture_region = Region {
-            x1: mouse_pos.x - 50,
-            y1: mouse_pos.y - 50,
-            x2: mouse_pos.x + 50,
-            y2: mouse_pos.y + 50,
-        };
         println!("mouse_pos: {:?}", mouse_pos);
+
+        let mut world_capture_region = Region {
+            x1: mouse_pos.x - (CAPTURE_SIZE as i32) / 2,
+            y1: mouse_pos.y - (CAPTURE_SIZE as i32) / 2,
+            x2: mouse_pos.x + (CAPTURE_SIZE as i32) / 2,
+            y2: mouse_pos.y + (CAPTURE_SIZE as i32) / 2,
+        };
 
         // clear buffer
         for i in 0..buffer.len() {
-            buffer[i] = 0;
+            buffer[i] = 0x153399;
         }
 
         for screen in Screen::all().unwrap() {
