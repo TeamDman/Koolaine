@@ -13,14 +13,14 @@ use std::time::Duration;
 const CAPTURE_SIZE: usize = 100;
 
 struct Region {
-    x: i32,
-    y: i32,
-    width: u32,
-    height: u32,
+    x1: i32,
+    y1: i32,
+    x2: i32,
+    y2: i32,
 }
 impl Region {
     fn capture(&self, screen: Screen) -> Result<RgbaImage> {
-        screen.capture_area(self.x, self.y, self.width, self.height)
+        screen.capture_area(self.x1, self.y1, (self.x2 - self.x1) as u32, (self.y2 - self.y1) as u32)
     }
 }
 fn main() {
@@ -42,11 +42,11 @@ fn main() {
     let mouse = Mouse::new();
     while window.is_open() && !window.is_key_down(Key::Escape) {
         let mouse_pos = mouse.get_position().unwrap();
-        let capture_region_world = Region {
-            x: mouse_pos.x - 50,
-            y: mouse_pos.y - 50,
-            width: 100,
-            height: 100,
+        let world_capture_region = Region {
+            x1: mouse_pos.x - 50,
+            y1: mouse_pos.y - 50,
+            x2: mouse_pos.x + 50,
+            y2: mouse_pos.y + 50,
         };
         println!("mouse_pos: {:?}", mouse_pos);
 
@@ -56,35 +56,39 @@ fn main() {
         }
 
         for screen in Screen::all().unwrap() {
-            let capture_region_screen = Region {
-                x: capture_region_world.x - screen.display_info.x,
-                y: capture_region_world.y - screen.display_info.y,
-                width: capture_region_world.width,
-                height: capture_region_world.height,
+            let mut screen_capture_region = Region {
+                x1: world_capture_region.x1 - screen.display_info.x,
+                y1: world_capture_region.y1 - screen.display_info.y,
+                x2: world_capture_region.x2 - screen.display_info.x,
+                y2: world_capture_region.y2 - screen.display_info.y,
             };
+            // // Step 1: Calculate how much of the capture box is outside the monitor
+            let left_overflow = std::cmp::max(0, screen.display_info.x - screen_capture_region.x1);
+            let top_overflow = std::cmp::max(0, screen.display_info.y - screen_capture_region.y1);
 
-            // Step 1: Calculate how much of the capture box is outside the monitor
-            let left_overflow = std::cmp::max(0, screen.display_info.x - capture_region_screen.x);
-            let top_overflow = std::cmp::max(0, screen.display_info.y - capture_region_screen.y);
-
-            // Step 2: Use the overflow to calculate the offset for writing into the buffer
+            // // Step 2: Use the overflow to calculate the offset for writing into the buffer
             let buffer_x_offset = left_overflow as usize;
             let buffer_y_offset = top_overflow as usize;
 
-            match capture_region_screen.capture(screen) {
+            match screen_capture_region.capture(screen) {
                 Ok(image) => {
                     for (x, y, pixel) in image.enumerate_pixels() {
                         // Apply the offset when calculating the index
                         let index = (y as usize + buffer_y_offset) * CAPTURE_SIZE
                             + (x as usize + buffer_x_offset);
-
-                        buffer[index] = ((pixel[0] as u32) << 16)
-                            | ((pixel[1] as u32) << 8)
-                            | ((pixel[2] as u32) << 0);
+                        if index < buffer.len() {
+                            buffer[index] = ((pixel[0] as u32) << 16)
+                                | ((pixel[1] as u32) << 8)
+                                | ((pixel[2] as u32) << 0);
+                        } else {
+                            // not sure why we get here, but it happens
+                            // println!("Index out of bounds: {}", index);
+                        }
                     }
                 }
                 Err(e) => {
-                    println!("Error: {}", e);
+                    // region is outside of the screen, do nothing
+                    // println!("Error: {}", e);
                 }
             }
         }
