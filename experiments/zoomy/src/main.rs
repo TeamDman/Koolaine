@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 extern crate minifb;
 extern crate rsautogui;
 extern crate winit;

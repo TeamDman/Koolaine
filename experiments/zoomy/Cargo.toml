@@ -16,3 +16,13 @@ winapi = { version = "0.3", features = ["wingdi", "windef", "winuser"] }
 screenshots = "0.8.4"
 mouse-rs = "0.4.2"
 anyhow = "1.0.75"
+
+
+[[bin]]
+name = "zoomy"
+path = "src/main.rs"
+[profile.release]
+lto = true
+codegen-units = 1
+[package.metadata]
+windows_subsystem = "windows"
