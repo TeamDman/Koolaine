@@ -8,7 +8,8 @@ use winit::{
     window::WindowBuilder,
 };
 
-use winapi::um::winuser::{ReleaseCapture, SendMessageW, WM_NCLBUTTONDOWN};
+use winapi::um::winuser::{BeginPaint, EndPaint, ReleaseCapture, SendMessageW, PAINTSTRUCT, WM_NCLBUTTONDOWN, WM_PAINT, FillRect};
+use winapi::um::wingdi::{CreateSolidBrush, RGB};
 
 fn main() {
     let event_loop = EventLoop::new();
@@ -26,6 +27,16 @@ fn main() {
         *control_flow = ControlFlow::Wait;
 
         match event {
+            Event::RedrawRequested(_) => {
+                unsafe {
+                    let hwnd = window.hwnd() as *mut _;
+                    let mut ps: PAINTSTRUCT = std::mem::zeroed();
+                    let hdc = BeginPaint(hwnd, &mut ps);
+                    let brush = CreateSolidBrush(RGB(21, 51, 153));
+                    FillRect(hdc, &ps.rcPaint, brush);
+                    EndPaint(hwnd, &ps);
+                }
+            }
             Event::WindowEvent { event, window_id } if window_id == window.id() => match event {
                 WindowEvent::CloseRequested => {
                     *control_flow = ControlFlow::Exit;
