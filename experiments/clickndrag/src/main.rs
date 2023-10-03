@@ -1,14 +1,16 @@
 extern crate winit;
 extern crate winapi;
 
+use std::{thread::sleep, time::Duration};
+
 use winit::{
-    event::{Event, WindowEvent},
+    event::{Event, WindowEvent, MouseButton},
     event_loop::{ControlFlow, EventLoop},
-    platform::windows::{WindowBuilderExtWindows, WindowExtWindows},
+    platform::windows::{WindowExtWindows},
     window::WindowBuilder,
 };
 
-use winapi::um::winuser::{BeginPaint, EndPaint, ReleaseCapture, SendMessageW, PAINTSTRUCT, WM_NCLBUTTONDOWN, WM_PAINT, FillRect};
+use winapi::um::winuser::{BeginPaint, EndPaint, ReleaseCapture, SendMessageW, PAINTSTRUCT, WM_NCLBUTTONDOWN, FillRect};
 use winapi::um::wingdi::{CreateSolidBrush, RGB};
 
 fn main() {
@@ -22,7 +24,6 @@ fn main() {
 
     window.set_outer_position(winit::dpi::PhysicalPosition::new(500, 500));
     
-
     event_loop.run(move |event, _, control_flow| {
         *control_flow = ControlFlow::Wait;
 
@@ -41,7 +42,12 @@ fn main() {
                 WindowEvent::CloseRequested => {
                     *control_flow = ControlFlow::Exit;
                 }
-                WindowEvent::MouseInput { state, .. } => {
+                WindowEvent::MouseInput { button, state, .. } => {
+                    if button == MouseButton::Right && state == winit::event::ElementState::Pressed {
+                        sleep(Duration::from_millis(100)); // prevent click event from going to window below
+                        *control_flow = ControlFlow::Exit;
+                        return;
+                    }
                     if state == winit::event::ElementState::Pressed {
                         unsafe {
                             let hwnd = window.hwnd() as *mut _;
