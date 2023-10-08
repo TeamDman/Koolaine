@@ -99,58 +99,11 @@ fn main() {
 
     let frame_data: Arc<Mutex<Option<(usize, usize, Vec<u8>)>>> = Arc::new(Mutex::new(None));
     let frame_data_clone = frame_data.clone();
-    thread::spawn(move || {
-        loop {
-            unsafe {
-                let hwnd: HWND = GetDesktopWindow();
-                let hdc: HDC = GetDC(hwnd);
-                let mem_dc: HDC = CreateCompatibleDC(hdc);
-                
-                let width: i32 = 800;  // Set these values to the width and height of the area you want to capture
-                let height: i32 = 600;
-
-                let hbitmap = CreateCompatibleBitmap(hdc, width, height);
-                let old_bitmap = SelectObject(mem_dc, hbitmap as *mut c_void);
-
-                BitBlt(mem_dc, 0, 0, width, height, hdc, 0, 0, SRCCOPY);
-
-                // At this point, `hbitmap` contains the captured screen data.
-                // You can save it to a file or process it further.
-
-                // Cleanup
-                SelectObject(mem_dc, old_bitmap);
-                DeleteObject(hbitmap as *mut c_void);
-                DeleteDC(mem_dc);
-                ReleaseDC(hwnd, hdc);
-            }
-            // let displays = Display::all().unwrap();
-            // for (index, display) in displays.into_iter().enumerate() {
-            //     let mut capturer = Capturer::new(display).expect("Couldn't begin capture");
-            //     let (w, h) = (capturer.width(), capturer.height());
-
-            //     // Local scope to end mutable borrow quickly
-            //     {
-            //         let frame = loop {
-            //             if let Ok(frame) = capturer.frame() {
-            //                 break frame;
-            //             }
-            //             if let Err(err) = capturer.frame() {
-            //                 if err.kind() == WouldBlock {
-            //                     thread::sleep(Duration::from_millis(100));
-            //                     continue;
-            //                 } else {
-            //                     panic!("Error capturing frame: {}", err);
-            //                 }
-            //             }
-            //         };
-            //         let frame_vec = frame.to_vec(); // Convert the frame to Vec<u8>
-
-            //         let mut frame_data = frame_data_clone.lock().unwrap();
-            //         *frame_data = Some((w, h, frame_vec));
-            //     } // End of local scope, mutable borrow ends here
-            // }
-        }
-    });
+    // thread::spawn(move || {
+    //     loop {
+    //         capture frame data
+    //     }
+    // });
 
     let data_clone = data.clone();
     let frame_data_clone = frame_data.clone();
