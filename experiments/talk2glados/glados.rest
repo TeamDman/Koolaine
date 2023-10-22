@@ -1,0 +1,5 @@
+GET http://0.0.0.0:8000
+###
+POST http://0.0.0.0:8000/say
+
+hi there

@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "G:/ml/glados-tts-upstream"
+		},
+		{
+			"path": "C:/Users/TeamD/OneDrive/Documents/Sound Design/steal their voice/voices/Titan Voicelines/cropped"
+		},
+		{
+			"path": "../../../ml/voice2text"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../rust/ratatui"
+		},
+		{
+			"path": "../pipes"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
