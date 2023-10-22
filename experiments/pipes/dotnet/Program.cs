@@ -16,7 +16,9 @@ using (NamedPipeServerStream pipeServer = new NamedPipeServerStream("testpipe"))
     {
         while (true)
         {
-            sw.Write("Hello World!");
+            sw.Write("Hello World write!");
+            sw.Flush();
+            sw.WriteLine("Hello World line!");
             sw.Flush();
             Thread.Sleep(100);
         }

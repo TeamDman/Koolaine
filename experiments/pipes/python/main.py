@@ -1,3 +1,4 @@
+# https://stackoverflow.com/questions/48542644/python-and-windows-named-pipes 
 import time
 import sys
 import win32pipe, win32file, pywintypes
@@ -46,12 +47,19 @@ def pipe_client():
                 0,
                 None
             )
-            res = win32pipe.SetNamedPipeHandleState(handle, win32pipe.PIPE_READMODE_MESSAGE, None, None)
-            if res == 0:
-                print(f"SetNamedPipeHandleState return code: {res}")
+            # res = win32pipe.SetNamedPipeHandleState(handle, win32pipe.PIPE_READMODE_MESSAGE, None, None)
+            # if res == 0:
+            #     print(f"SetNamedPipeHandleState return code: {res}")
             while True:
-                resp = win32file.ReadFile(handle, 64*1024)
-                print(f"message: {resp}")
+                status,byte_data = win32file.ReadFile(handle, 64*1024)
+                if status != 0:
+                    print(f"ReadFile return code: {status}, data len: {len(byte_data)}")
+                    break
+                # Decode from bytes to string
+                message = byte_data.decode('utf-8').strip('\x00')
+                
+                print(f"Received {len(byte_data)} bytes: [[{message}]]")
+
         except pywintypes.error as e:
             if e.args[0] == 2:
                 print("no pipe, trying again in a sec")
@@ -59,6 +67,10 @@ def pipe_client():
             elif e.args[0] == 109:
                 print("broken pipe, bye bye")
                 quit = True
+            else:
+                print("encountered unknown pipe error: " + str(e))
+                quit = True
+                raise e
 
 
 if __name__ == '__main__':
