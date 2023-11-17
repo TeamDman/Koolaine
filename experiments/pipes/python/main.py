@@ -7,8 +7,9 @@ import win32pipe, win32file, pywintypes
 def pipe_server():
     print("pipe server")
     count = 0
+    name =  "\\\\.\\pipe\\" + input("Pipe name: \\\\.\\pipe\\")
     pipe = win32pipe.CreateNamedPipe(
-        r'\\.\pipe\testpipe',
+        name,
         win32pipe.PIPE_ACCESS_DUPLEX,
         win32pipe.PIPE_TYPE_MESSAGE | win32pipe.PIPE_READMODE_MESSAGE | win32pipe.PIPE_WAIT,
         1, 65536, 65536,
@@ -19,13 +20,22 @@ def pipe_server():
         win32pipe.ConnectNamedPipe(pipe, None)
         print("got client")
 
-        while count < 10:
-            print(f"writing message {count}")
-            # convert to bytes
-            some_data = str.encode(f"{count}")
-            win32file.WriteFile(pipe, some_data)
-            time.sleep(1)
-            count += 1
+        # while count < 10:
+        #     print(f"writing message {count}")
+        #     # convert to bytes
+        #     some_data = str.encode(f"{count}")
+        #     win32file.WriteFile(pipe, some_data)
+        #     time.sleep(1)
+        #     count += 1
+        while True:
+            user_input = input("Enter your input: ")
+            if user_input == "":
+                break
+            else:
+                # convert to bytes
+                some_data = str.encode(f"{user_input}")
+                win32file.WriteFile(pipe, some_data)
+                time.sleep(1)
 
         print("finished now")
     finally:
@@ -33,13 +43,13 @@ def pipe_server():
 
 
 def pipe_client():
-    print("pipe client")
+    print("Running as client")
+    name =  "\\\\.\\pipe\\" + input("Pipe name: \\\\.\\pipe\\")
     quit = False
-
     while not quit:
         try:
             handle = win32file.CreateFile(
-                r'\\.\pipe\testpipe',
+                name,
                 win32file.GENERIC_READ | win32file.GENERIC_WRITE,
                 0,
                 None,
