@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://neal.fun/space-elevator/\nNotes: Space elevator\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://neal.fun/space-elevator/",
-    "_notes": "Space elevator"
-}

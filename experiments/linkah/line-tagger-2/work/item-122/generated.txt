@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: https://www.baka-tsuki.org/project/index.php?title=Baka-Tsuki:About
-Notes: Baka tsuki, LN translations
-
-### Response:
-{"tags":["bank", "filters", "user", "interests"]}

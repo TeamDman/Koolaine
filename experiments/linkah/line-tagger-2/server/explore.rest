@@ -1,5 +1,0 @@
-POST http://127.0.0.1:8000/echo
-
-howdy
-
-there's some new lines here

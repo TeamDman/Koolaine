@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276\nNotes: https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276",
-    "_notes": "https://docs.oracle.com/javase/1.5.0/docs/guide/jni/spec/types.html#wp276"
-}

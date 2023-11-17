@@ -1,5 +1,0 @@
-### Instruction:
-Make the following valid JSON by fixing any errors and removing all keys except for "tags":
-{"tags":["Python", "Programming", "Code", "Software Development", "Web Development", "Coding", "JavaScript", "HTML", "CSS", "Design"}
-### Response:
-{"tags":["Python", "Programming", "Code", "Software Development", "Web Development", "Coding", "JavaScript", "HTML", "CSS"]}

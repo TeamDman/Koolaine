@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: http://www.freeonlinegames.com/racing-games/planet-racer.html
-Notes: Planet Racer
-
-### Response:
-{"tags":["planet racer", "racing games", "free online games", "free download", "downloadable game", "game download", "download link", "game free", "free download"]}

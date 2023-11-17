@@ -1,5 +1,0 @@
-### Instruction:
-Make the following valid JSON by fixing any errors and removing all keys except for "tags":
-
-### Response:
-{"tags":["apple", "banana", "orange"]}

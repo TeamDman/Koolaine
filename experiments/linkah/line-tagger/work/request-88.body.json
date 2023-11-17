@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://dood.al/pinktrombone/\nNotes: Mouth sound pink trombone\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://dood.al/pinktrombone/",
-    "_notes": "Mouth sound pink trombone"
-}

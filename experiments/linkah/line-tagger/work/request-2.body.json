@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.conventionalcommits.org/en/v1.0.0-beta.2/\nNotes: Conventional commits\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://www.conventionalcommits.org/en/v1.0.0-beta.2/",
-    "_notes": "Conventional commits"
-}

@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/\nNotes: Cloud adoption will fail because of the skills gap\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://cloudpundit.com/2022/09/12/cloud-adoption-will-fail-because-of-the-skills-gap/",
-    "_notes": "Cloud adoption will fail because of the skills gap"
-}

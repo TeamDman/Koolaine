@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: http://genki.japantimes.co.jp/about_en
-Notes: http://genki.japantimes.co.jp/about_en
-
-### Response:
-{"tags":["

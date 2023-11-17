@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: https://yourmom.zip/
-Notes: Your mom
-
-### Response:
-{"tags":["interest", "moms", "family", "love", "care", "support", "adore", "hugging", "treasure"]}

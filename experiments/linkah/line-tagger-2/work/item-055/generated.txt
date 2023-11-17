@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZCRwoyGxvQkqVrZgDQi4m-5&index=26
-Notes: David Silver DeepMind - Reinforcement Learning
-
-### Response:
-{"tags":["reinforcement_learning", "deep_learning", "neural_networks", "machine_learning", "artificial_intelligence", "data_science", "statistics", "pattern_recognition", "computer_vision"]}

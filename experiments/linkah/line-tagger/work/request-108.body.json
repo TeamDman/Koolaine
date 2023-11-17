@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://typst.app/\nNotes: Typst - markdown ish for academic papers\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://typst.app/",
-    "_notes": "Typst - markdown ish for academic papers"
-}

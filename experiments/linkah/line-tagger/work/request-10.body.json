@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/\nNotes: https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/",
-    "_notes": "https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/"
-}

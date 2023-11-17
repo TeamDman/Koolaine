@@ -1,1 +1,0 @@
-Invoke-WebRequest https://marketplace.visualstudio.com/items?itemName=humao.rest-client | % { $_.Content } > asd.html

@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.emilydamstra.com/please-enough-dead-butterflies/\nNotes: Dead butterflies\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://www.emilydamstra.com/please-enough-dead-butterflies/",
-    "_notes": "Dead butterflies"
-}

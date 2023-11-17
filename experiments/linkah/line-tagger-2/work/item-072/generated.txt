@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: https://draculadaily.substack.com/about
-Notes: Dracula daily
-
-### Response:
-{"tags":["about", "daily"]}

@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: http://genki.japantimes.co.jp/about_en\nNotes: http://genki.japantimes.co.jp/about_en\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "http://genki.japantimes.co.jp/about_en",
-    "_notes": "http://genki.japantimes.co.jp/about_en"
-}

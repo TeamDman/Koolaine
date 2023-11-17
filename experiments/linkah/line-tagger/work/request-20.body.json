@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js\nNotes: https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js",
-    "_notes": "https://pixijs.io/examples/#/plugin-dragonbones/eyetracking.js"
-}

@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects\nNotes: https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects",
-    "_notes": "https://docs.microsoft.com/en-us/windows/win32/winauto/inspect-objects"
-}

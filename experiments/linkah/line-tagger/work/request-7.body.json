@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://caf-shib2ops.ca/CoreServices/\nNotes: Canarie CAF Shibboleth institution XML\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://caf-shib2ops.ca/CoreServices/",
-    "_notes": "Canarie CAF Shibboleth institution XML"
-}

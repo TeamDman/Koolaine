@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://elements-demo.stoplight.io/#/operations/get-todos\nNotes: OpenAPI Elements demo\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://elements-demo.stoplight.io/#/operations/get-todos",
-    "_notes": "OpenAPI Elements demo"
-}

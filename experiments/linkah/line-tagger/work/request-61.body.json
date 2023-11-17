@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.reddit.com/r/norulesmusic2/\nNotes: https://www.reddit.com/r/norulesmusic2/\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://www.reddit.com/r/norulesmusic2/",
-    "_notes": "https://www.reddit.com/r/norulesmusic2/"
-}

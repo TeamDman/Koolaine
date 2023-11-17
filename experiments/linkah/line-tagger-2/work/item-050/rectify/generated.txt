@@ -1,5 +1,0 @@
-### Instruction:
-Make the following valid JSON by fixing any errors and removing all keys except for "tags":
-{"tags":["interest", "bank"], keywords:["financial","investment"]}
-### Response:
-{"tags":["interest", "bank"]}

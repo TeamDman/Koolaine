@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A\nNotes: CS285 Fall 2019 Berkeley University - Reinforcement Learning\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A",
-    "_notes": "CS285 Fall 2019 Berkeley University - Reinforcement Learning"
-}

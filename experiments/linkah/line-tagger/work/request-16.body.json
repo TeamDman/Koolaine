@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://twitter.com/Oracle/status/658433772904423424?s=19&fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q\nNotes: https://twitter.com/Oracle/status/658433772904423424?s=19&amp;fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://twitter.com/Oracle/status/658433772904423424?s=19&fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q",
-    "_notes": "https://twitter.com/Oracle/status/658433772904423424?s=19&amp;fbclid=IwAR1zWeg7eEcJduDGPdRUNymrRgdZVqHI0T7Bo1wc7P9Do4oybx0j7Ve7P9Q"
-}

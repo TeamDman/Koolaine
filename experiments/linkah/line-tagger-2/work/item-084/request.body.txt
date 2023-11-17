@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: http://www.gamesfreak.net/games/Planet-Racer_3084.html
-Notes: Planet Racer
-
-### Response:
-{"tags":["

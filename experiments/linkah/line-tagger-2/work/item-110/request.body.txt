@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: https://www.deviantart.com/rhads/art/Forest-Spirit-548894017
-Notes: rhads
-
-### Response:
-{"tags":["

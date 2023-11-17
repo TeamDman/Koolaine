@@ -1,6 +1,0 @@
-{
-    "prompt": "### Instruction:\nProvide a list of 10 tags for users to filter the following from a bank of interesting links.\nURL: https://www.baka-tsuki.org/project/index.php?title=Baka-Tsuki:About\nNotes: Baka tsuki, LN translations\n### Response:\n{tags:[\"",
-    "max_new_tokens": 50,
-    "_url": "https://www.baka-tsuki.org/project/index.php?title=Baka-Tsuki:About",
-    "_notes": "Baka tsuki, LN translations"
-}

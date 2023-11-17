@@ -1,6 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: https://gitlab.com/robowaifudev/TalkToGPT2
-Notes: https://gitlab.com/robowaifudev/TalkToGPT2
-### Response:
-{tags:["

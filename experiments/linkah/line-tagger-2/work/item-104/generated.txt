@@ -1,7 +1,0 @@
-### Instruction:
-Provide a list of 10 tags for users to filter the following from a bank of interesting links.
-URL: https://steamosaic.com/
-Notes: Steam mosaic
-
-### Response:
-{"tags":["mosaic", "streaming", "game", "games", "streaming-mosaic", "streaming-game", "streaming-streamers", "streaming-streaming-game", "streaming-streamers
