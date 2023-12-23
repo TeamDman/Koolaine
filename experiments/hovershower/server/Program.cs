@@ -27,6 +27,15 @@ class Program
 {
     static void Main(string[] args)
     {
+        // // diagnostic mode
+        // using (StreamWriter sw = new StreamWriter(Console.OpenStandardOutput()))
+        // {
+        //     while (true)
+        //     {
+        //         PrintUnderMouse(sw);
+        //         Thread.Sleep(100);
+        //     }
+        // }
         using (NamedPipeServerStream pipeServer = new NamedPipeServerStream("testpipe"))
         {
             Console.WriteLine("NamedPipeServerStream object created.");
@@ -53,24 +62,32 @@ class Program
         int cursorX = Cursor.Position.X;
         int cursorY = Cursor.Position.Y;
         AutomationElement element = null;
-        try{
+        try
+        {
             element = AutomationElement.FromPoint(new Point(cursorX, cursorY));
-        } catch (Win32Exception e) {
-            if (e.NativeErrorCode == 5) { // access denied, do nothing
+        }
+        catch (Win32Exception e)
+        {
+            if (e.NativeErrorCode == 5)
+            { // access denied, do nothing
                 return;
-            } else {
+            }
+            else
+            {
                 Console.WriteLine(e);
             }
         }
         if (element == null) return;
         var outputData = new
         {
-            cursorPosition = new int[] {cursorX, cursorY},
+            cursorPosition = new int[] { cursorX, cursorY },
             elementDetails = DetailsFor(element),
-            interestingElements = GatherInteresting(element).Select(e => {
+            interestingElements = GatherInteresting(element).Select(e =>
+            {
                 (var elem, var depth, var relationship) = e;
                 var details = DetailsFor(elem);
-                return new {
+                return new
+                {
                     details,
                     depth,
                     relationship,
@@ -91,7 +108,8 @@ class Program
         string className = elem.Current.ClassName;
         string automationId = elem.Current.AutomationId;
         string value = GetValue(elem);  // Extracted value fetching to a separate method
-        return new {
+        return new
+        {
             name,
             boundingRect,
             controlType,
